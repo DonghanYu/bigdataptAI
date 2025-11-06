@@ -1,0 +1,427 @@
+#!/usr/bin/env python3
+"""
+SOLAR-10.7B LoRA 학습 - 최적화 버전
+bitsandbytes 완전 우회 + 검증된 설정
+"""
+
+import sys
+import os
+import json
+from pathlib import Path
+
+import importlib.util
+import transformers
+from transformers.utils import import_utils
+
+
+def disable_bitsandbytes():
+    """Force Transformers to behave as if bitsandbytes is unavailable."""
+
+    def _return_false(*args, **kwargs):  # noqa: D401 - small helper
+        return False
+
+    os.environ.setdefault("BITSANDBYTES_NOWELCOME", "1")
+
+    # Ensure module discovery fails before Transformers performs availability checks.
+    original_find_spec = importlib.util.find_spec
+
+    def _patched_find_spec(name, package=None):
+        if name == "bitsandbytes" or name.startswith("bitsandbytes."):
+            return None
+        return original_find_spec(name, package)
+
+    importlib.util.find_spec = _patched_find_spec
+
+    import_utils.is_bitsandbytes_available = _return_false
+    # Older versions also consult the private helper below.
+    if hasattr(import_utils, "_is_bitsandbytes_available"):
+        import_utils._is_bitsandbytes_available = _return_false
+
+    # Remove any eager-imported modules so future lookups fail fast.
+    for module_name in list(sys.modules):
+        if module_name == "bitsandbytes" or module_name.startswith("bitsandbytes."):
+            sys.modules.pop(module_name, None)
+
+    # Prevent optional dependency checks from trying to import it again.
+    import_utils.BACKENDS_MAPPING["bitsandbytes"] = (None, None, None)
+
+
+disable_bitsandbytes()
+
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
+from peft import LoraConfig, get_peft_model, TaskType
+from torch.utils.data import Dataset, DataLoader
+from tqdm import tqdm
+from datetime import datetime
+
+# 환경 설정
+os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:512'
+torch.backends.cuda.matmul.allow_tf32 = True
+torch.backends.cudnn.allow_tf32 = True
+
+print("=" * 60)
+print("SOLAR-10.7B LoRA 학습 - 최적화 버전")
+print("=" * 60)
+
+# 경로 설정
+BASE_PATH = Path("./workspace")
+MODEL_PATH = BASE_PATH / "../solar_10.7b_package/model"  # SOLAR 모델 경로
+DATA_PATH = BASE_PATH / "data/hira"
+OUTPUT_PATH = BASE_PATH / "models/solar_hira"
+OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
+
+# GPU 확인
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"\n[환경]")
+print(f"Device: {device}")
+print(f"PyTorch: {torch.__version__}")
+if torch.cuda.is_available():
+    print(f"GPU: {torch.cuda.get_device_name(0)}")
+    print(f"VRAM: {torch.cuda.get_device_properties(0).total_memory / 1024**3:.1f} GB")
+    print(f"CUDA: {torch.version.cuda}")
+
+
+class HIRADataset(Dataset):
+    """HIRA 건강보험 데이터셋"""
+
+    def __init__(self, data_file, tokenizer, max_length=512):
+        self.tokenizer = tokenizer
+        self.max_length = max_length
+        self.data = []
+
+        # JSONL 파일 로드
+        with open(data_file, 'r', encoding='utf-8') as f:
+            for line in f:
+                if line.strip():
+                    self.data.append(json.loads(line))
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        sample = self.data[idx]
+
+        # SOLAR 프롬프트 형식
+        text = f"""### Instruction:
+{sample.get('instruction', '')}
+
+### Input:
+{sample.get('input', '')}
+
+### Response:
+{sample.get('output', '')}"""
+
+        encoding = self.tokenizer(
+            text,
+            truncation=True,
+            max_length=self.max_length,
+            padding="max_length",
+            return_tensors="pt"
+        )
+
+        input_ids = encoding["input_ids"].squeeze()
+        attention_mask = encoding["attention_mask"].squeeze()
+        labels = input_ids.clone()
+        labels[attention_mask == 0] = -100
+
+        # Response 부분만 학습 (선택사항)
+        response_token_ids = self.tokenizer.encode("### Response:", add_special_tokens=False)
+        response_start_idx = None
+        search_limit = len(input_ids) - len(response_token_ids) + 1
+        if search_limit > 0:
+            for i in range(search_limit):
+                if input_ids[i:i + len(response_token_ids)].tolist() == response_token_ids:
+                    response_start_idx = i + len(response_token_ids)
+                    break
+
+        if response_start_idx is not None:
+            labels[:response_start_idx] = -100  # 프롬프트 부분 무시
+
+        return {
+            "input_ids": input_ids,
+            "attention_mask": attention_mask,
+            "labels": labels
+        }
+
+
+def load_model_and_tokenizer(model_path):
+    """모델과 토크나이저 로드"""
+    print(f"\n[1/3] 모델 로드 중...")
+
+    # 토크나이저 로드
+    tokenizer = AutoTokenizer.from_pretrained(
+        str(model_path),
+        trust_remote_code=True,
+        local_files_only=True
+    )
+
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.padding_side = "right"
+
+    # 모델 로드 - bfloat16 사용 (A100 최적)
+    model = AutoModelForCausalLM.from_pretrained(
+        str(model_path),
+        torch_dtype=torch.bfloat16,  # A100에서 최적
+        device_map="auto",
+        trust_remote_code=True,
+        local_files_only=True,
+        use_cache=False  # 학습 시 필수
+    )
+
+    # Gradient checkpointing (메모리 절약)
+    model.gradient_checkpointing_enable()
+    model.enable_input_require_grads()
+
+    print(f"✅ 모델 로드 완료: {model.num_parameters() / 1e9:.2f}B parameters")
+    return model, tokenizer
+
+
+def apply_lora(model):
+    """LoRA 적용"""
+    print(f"\n[2/3] LoRA 설정 중...")
+
+    # SOLAR/Llama 아키텍처용 LoRA 설정
+    lora_config = LoraConfig(
+        task_type=TaskType.CAUSAL_LM,
+        r=16,
+        lora_alpha=32,
+        lora_dropout=0.05,
+        target_modules=[
+            "q_proj", "k_proj", "v_proj", "o_proj",
+            "gate_proj", "up_proj", "down_proj"
+        ],
+        bias="none",
+        modules_to_save=["embed_tokens", "lm_head"]  # 임베딩도 학습
+    )
+
+    model = get_peft_model(model, lora_config)
+    model.print_trainable_parameters()
+    return model
+
+
+def train(model, tokenizer, train_loader, val_loader, config):
+    """학습 실행"""
+    print(f"\n[3/3] 학습 시작!")
+    print(f"Config: {config}")
+    print("=" * 60)
+
+    # 옵티마이저 설정
+    optimizer = torch.optim.AdamW(
+        model.parameters(),
+        lr=config["learning_rate"],
+        betas=(0.9, 0.999),
+        eps=1e-8,
+        weight_decay=config.get("weight_decay", 0.01)
+    )
+
+    # Learning rate scheduler
+    from torch.optim.lr_scheduler import CosineAnnealingLR
+    scheduler = CosineAnnealingLR(
+        optimizer,
+        T_max=config["num_epochs"] * len(train_loader),
+        eta_min=config["learning_rate"] * 0.1
+    )
+
+    model.train()
+    best_val_loss = float('inf')
+    training_history = []
+
+    for epoch in range(config["num_epochs"]):
+        print(f"\n[Epoch {epoch + 1}/{config['num_epochs']}]")
+        epoch_loss = 0
+        optimizer.zero_grad()
+        steps_since_opt_step = 0
+
+        progress_bar = tqdm(train_loader, desc=f"Training")
+        for step, batch in enumerate(progress_bar):
+            # 데이터 이동
+            input_ids = batch["input_ids"].to(device)
+            attention_mask = batch["attention_mask"].to(device)
+            labels = batch["labels"].to(device)
+
+            # Forward pass
+            outputs = model(
+                input_ids=input_ids,
+                attention_mask=attention_mask,
+                labels=labels
+            )
+
+            loss = outputs.loss / config["gradient_accumulation_steps"]
+            loss.backward()
+            epoch_loss += loss.item() * config["gradient_accumulation_steps"]
+            steps_since_opt_step += 1
+
+            # Gradient accumulation
+            if steps_since_opt_step == config["gradient_accumulation_steps"]:
+                torch.nn.utils.clip_grad_norm_(model.parameters(), config.get("max_grad_norm", 1.0))
+                optimizer.step()
+                scheduler.step()
+                optimizer.zero_grad()
+                steps_since_opt_step = 0
+
+                current_lr = scheduler.get_last_lr()[0]
+                progress_bar.set_postfix({
+                    "loss": f"{loss.item() * config['gradient_accumulation_steps']:.4f}",
+                    "lr": f"{current_lr:.2e}"
+                })
+
+        if steps_since_opt_step != 0:
+            torch.nn.utils.clip_grad_norm_(model.parameters(), config.get("max_grad_norm", 1.0))
+            optimizer.step()
+            scheduler.step()
+            optimizer.zero_grad()
+
+        avg_train_loss = epoch_loss / len(train_loader)
+
+        # Validation
+        model.eval()
+        val_loss = 0
+        with torch.no_grad():
+            for batch in tqdm(val_loader, desc="Validation"):
+                input_ids = batch["input_ids"].to(device)
+                attention_mask = batch["attention_mask"].to(device)
+                labels = batch["labels"].to(device)
+
+                outputs = model(
+                    input_ids=input_ids,
+                    attention_mask=attention_mask,
+                    labels=labels
+                )
+                val_loss += outputs.loss.item()
+
+        avg_val_loss = val_loss / len(val_loader)
+        print(f"Train Loss: {avg_train_loss:.4f}, Val Loss: {avg_val_loss:.4f}")
+
+        # 히스토리 저장
+        training_history.append({
+            "epoch": epoch + 1,
+            "train_loss": avg_train_loss,
+            "val_loss": avg_val_loss,
+            "learning_rate": scheduler.get_last_lr()[0]
+        })
+
+        # Best model 저장
+        if avg_val_loss < best_val_loss:
+            best_val_loss = avg_val_loss
+            checkpoint_path = OUTPUT_PATH / "best_model"
+            model.save_pretrained(checkpoint_path)
+            tokenizer.save_pretrained(checkpoint_path)
+            print(f"✨ Best model saved: {checkpoint_path}")
+
+        # 주기적 체크포인트
+        if (epoch + 1) % config.get("save_epochs", 5) == 0:
+            checkpoint_path = OUTPUT_PATH / f"checkpoint-epoch-{epoch+1}"
+            model.save_pretrained(checkpoint_path)
+            print(f"💾 Checkpoint saved: {checkpoint_path}")
+
+        model.train()
+
+    # 최종 모델 저장
+    final_path = OUTPUT_PATH / "final_model"
+    model.save_pretrained(final_path)
+    tokenizer.save_pretrained(final_path)
+
+    # 학습 히스토리 저장
+    history_file = OUTPUT_PATH / "training_history.json"
+    with open(history_file, 'w') as f:
+        json.dump(training_history, f, indent=2)
+
+    return best_val_loss, training_history
+
+
+def main():
+    """메인 실행 함수"""
+
+    # 학습 설정
+    config = {
+        "batch_size": 2,
+        "gradient_accumulation_steps": 4,  # 실효 배치 = 8
+        "learning_rate": 2e-4,
+        "num_epochs": 5,
+        "max_length": 512,
+        "weight_decay": 0.01,
+        "max_grad_norm": 1.0,
+        "save_epochs": 2,
+        "warmup_ratio": 0.1
+    }
+
+    # 1. 모델과 토크나이저 로드
+    model, tokenizer = load_model_and_tokenizer(MODEL_PATH)
+
+    # 2. LoRA 적용
+    model = apply_lora(model)
+
+    # 3. 데이터셋 준비
+    print("\n데이터셋 로드 중...")
+
+    # HIRA 데이터 사용 (없으면 테스트 데이터 생성)
+    train_file = DATA_PATH / "train.jsonl"
+    val_file = DATA_PATH / "validation.jsonl"
+
+    if not train_file.exists():
+        print("⚠️ HIRA 데이터 없음. 테스트 데이터 생성 중...")
+        # 테스트 데이터 생성
+        test_data = [
+            {
+                "instruction": "건강보험 빅데이터 전문가로서 답변하세요.",
+                "input": "MRI 검사 건수는?",
+                "output": "2024년 MRI 검사는 총 420만건 시행되었습니다."
+            },
+            {
+                "instruction": "의료비 통계를 분석하세요.",
+                "input": "연간 총 진료비는?",
+                "output": "2024년 총 진료비는 125조 2,450억원입니다."
+            }
+        ] * 50  # 100개
+
+        # 임시 파일 생성
+        train_file = OUTPUT_PATH / "temp_train.jsonl"
+        val_file = OUTPUT_PATH / "temp_val.jsonl"
+
+        with open(train_file, 'w') as f:
+            for item in test_data[:90]:
+                f.write(json.dumps(item, ensure_ascii=False) + '\n')
+
+        with open(val_file, 'w') as f:
+            for item in test_data[90:]:
+                f.write(json.dumps(item, ensure_ascii=False) + '\n')
+
+    train_dataset = HIRADataset(train_file, tokenizer, config["max_length"])
+    val_dataset = HIRADataset(val_file, tokenizer, config["max_length"])
+
+    print(f"Train: {len(train_dataset)}, Val: {len(val_dataset)}")
+
+    # 4. DataLoader 생성
+    train_loader = DataLoader(
+        train_dataset,
+        batch_size=config["batch_size"],
+        shuffle=True,
+        num_workers=2,
+        pin_memory=True
+    )
+
+    val_loader = DataLoader(
+        val_dataset,
+        batch_size=config["batch_size"],
+        num_workers=2,
+        pin_memory=True
+    )
+
+    # 5. 학습 실행
+    start_time = datetime.now()
+    best_val_loss, history = train(model, tokenizer, train_loader, val_loader, config)
+    end_time = datetime.now()
+
+    # 6. 결과 출력
+    print("\n" + "=" * 60)
+    print("학습 완료!")
+    print(f"Best Val Loss: {best_val_loss:.4f}")
+    print(f"소요 시간: {end_time - start_time}")
+    print(f"모델 저장: {OUTPUT_PATH}")
+    print("=" * 60)
+
+
+if __name__ == "__main__":
+    main()
