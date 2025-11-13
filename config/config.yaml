@@ -1,0 +1,274 @@
+# HIRA 빅데이터 상담 챗봇 모델 - 설정 파일
+# 이 파일을 수정하여 환경에 맞게 경로와 파라미터를 조정하세요
+
+# ===========================================
+# 경로 설정
+# ===========================================
+paths:
+  # 프로젝트 루트 (자동 설정됨)
+  project_root: "."
+
+  # SOLAR-10.7B 모델 경로
+  # 폐쇄망 환경에서는 로컬 경로를 사용하세요
+  model_path: "solar_10.7b_package/model"
+  # 예시: "/home/work/LLM_Meditron/bigdataAI/solar_10.7b_package/model"
+
+  # 데이터 경로
+  data:
+    raw: "workspace/data/hira/raw"
+    processed: "workspace/data/hira/processed"
+    cleaned: "workspace/data/hira/cleaned"
+
+  # 출력 경로
+  output:
+    models: "workspace/models/solar_hira_lora"
+    logs: "workspace/logs"
+    checkpoints: "workspace/checkpoints"
+
+# ===========================================
+# 모델 설정
+# ===========================================
+model:
+  # 모델 타입
+  type: "SOLAR-10.7B-v1.0"
+
+  # 데이터 타입 (A100에서는 bfloat16 권장)
+  dtype: "bfloat16"
+
+  # 디바이스 맵 (자동 분산)
+  device_map: "auto"
+
+  # Gradient checkpointing (메모리 절약)
+  gradient_checkpointing: true
+
+  # 캐시 사용 여부 (학습 시 false)
+  use_cache: false
+
+# ===========================================
+# LoRA 설정
+# ===========================================
+lora:
+  # LoRA rank (낮을수록 파라미터 적음, 8-32 권장)
+  r: 16
+
+  # LoRA alpha (일반적으로 r의 2배)
+  lora_alpha: 32
+
+  # Dropout
+  lora_dropout: 0.05
+
+  # 타겟 모듈
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+  # Bias 설정
+  bias: "none"
+
+  # 추가 학습 모듈 (임베딩 레이어)
+  modules_to_save:
+    - "embed_tokens"
+    - "lm_head"
+
+# ===========================================
+# 학습 설정
+# ===========================================
+training:
+  # 배치 크기 (GPU 메모리에 따라 조정)
+  # A100 80G: 2-4, A100 40G: 1-2
+  batch_size: 2
+
+  # Gradient accumulation (실효 배치 크기 = batch_size * gradient_accumulation_steps)
+  gradient_accumulation_steps: 4
+
+  # 학습률 (LoRA는 2e-4 ~ 5e-4 권장)
+  learning_rate: 2.0e-4
+
+  # 에폭 수
+  num_epochs: 10
+
+  # 최대 시퀀스 길이
+  max_length: 512
+
+  # Weight decay (정규화)
+  weight_decay: 0.01
+
+  # Gradient clipping
+  max_grad_norm: 1.0
+
+  # Warmup ratio
+  warmup_ratio: 0.1
+
+  # 로깅 주기
+  logging_steps: 10
+
+  # 평가 주기
+  eval_steps: 50
+
+  # 체크포인트 저장 주기 (에폭 단위)
+  save_epochs: 2
+
+  # Early stopping patience
+  patience: 5
+
+  # 학습률 스케줄러
+  scheduler:
+    type: "cosine"  # cosine, linear, constant
+    eta_min_ratio: 0.1  # 최소 학습률 = learning_rate * eta_min_ratio
+
+# ===========================================
+# 데이터 설정
+# ===========================================
+data:
+  # 학습 데이터 파일명
+  train_file: "train.jsonl"
+
+  # 검증 데이터 파일명
+  val_file: "val.jsonl"
+
+  # 테스트 데이터 파일명
+  test_file: "test.jsonl"
+
+  # 데이터 분할 비율
+  split_ratio:
+    train: 0.8
+    val: 0.1
+    test: 0.1
+
+  # 데이터 포맷
+  format: "jsonl"
+
+  # 필수 키
+  required_keys:
+    - "instruction"
+    - "output"
+
+  # 선택 키
+  optional_keys:
+    - "input"
+    - "metadata"
+
+# ===========================================
+# 추론 설정
+# ===========================================
+inference:
+  # 생성 최대 토큰 수
+  max_new_tokens: 256
+
+  # Temperature (낮을수록 결정론적)
+  temperature: 0.3
+
+  # Top-p (nucleus sampling)
+  top_p: 0.85
+
+  # Top-k sampling
+  top_k: 40
+
+  # Repetition penalty (반복 억제)
+  repetition_penalty: 1.15
+
+  # N-gram 반복 금지 크기
+  no_repeat_ngram_size: 3
+
+  # Sampling 사용 여부
+  do_sample: true
+
+  # Length penalty
+  length_penalty: 1.0
+
+  # Early stopping
+  early_stopping: true
+
+# ===========================================
+# 하드웨어 설정
+# ===========================================
+hardware:
+  # GPU 개수 (자동 감지)
+  num_gpus: "auto"
+
+  # CUDA 메모리 할당 설정
+  cuda_alloc_conf:
+    max_split_size_mb: 512
+
+  # TF32 사용 (A100에서 권장)
+  allow_tf32: true
+
+  # DataLoader workers
+  num_workers: 2
+
+  # Pin memory
+  pin_memory: true
+
+# ===========================================
+# 로깅 및 모니터링
+# ===========================================
+logging:
+  # 로그 레벨
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+
+  # 로그 파일
+  file: "workspace/logs/training.log"
+
+  # TensorBoard 사용 여부
+  use_tensorboard: false
+
+  # TensorBoard 로그 디렉토리
+  tensorboard_dir: "workspace/logs/tensorboard"
+
+# ===========================================
+# 평가 설정
+# ===========================================
+evaluation:
+  # 평가 메트릭
+  metrics:
+    - "loss"
+    - "perplexity"
+    - "bleu"
+    - "rouge"
+
+  # 테스트 질문 (샘플)
+  test_questions:
+    - "2023년 MRI 검사 건수는 얼마나 되나요?"
+    - "DRG가 무엇인가요?"
+    - "고혈압 환자 수는?"
+    - "건강보험 총 진료비는 얼마인가요?"
+
+# ===========================================
+# 웹 인터페이스 설정
+# ===========================================
+interface:
+  # Flask 서버 포트
+  port: 8888
+
+  # 호스트
+  host: "0.0.0.0"
+
+  # 디버그 모드
+  debug: false
+
+  # CORS 허용
+  enable_cors: true
+
+  # 최대 요청 크기 (MB)
+  max_request_size: 10
+
+# ===========================================
+# 기타 설정
+# ===========================================
+misc:
+  # 랜덤 시드
+  seed: 42
+
+  # 재현성 보장
+  deterministic: false
+
+  # 프로젝트 이름
+  project_name: "HIRA_Chatbot"
+
+  # 버전
+  version: "1.0.0"
