@@ -1,0 +1,561 @@
+# 빅데이터개방포털 메뉴별 주제 구조
+# 8개 메뉴, 170개 세부 주제
+
+menus:
+  # 1. 데이터 검색/조회 (25개 주제)
+  data_search:
+    name: "데이터 검색/조회"
+    weight: 1500  # 생성할 데이터 수
+    topics:
+      - id: "search_basic"
+        name: "기본 검색 방법"
+        keywords: ["검색", "찾기", "조회", "찾는법"]
+      - id: "search_advanced"
+        name: "고급 검색 기능"
+        keywords: ["고급검색", "필터", "상세검색", "조건검색"]
+      - id: "search_keyword"
+        name: "키워드 검색 팁"
+        keywords: ["키워드", "검색어", "단어", "용어"]
+      - id: "search_category"
+        name: "카테고리별 검색"
+        keywords: ["카테고리", "분류", "유형", "종류"]
+      - id: "search_organization"
+        name: "기관별 데이터 찾기"
+        keywords: ["기관", "부처", "공공기관", "제공기관"]
+      - id: "search_domain_traffic"
+        name: "교통 데이터 검색"
+        keywords: ["교통", "버스", "지하철", "택시", "도로"]
+      - id: "search_domain_health"
+        name: "보건/의료 데이터 검색"
+        keywords: ["보건", "의료", "건강", "병원", "약국"]
+      - id: "search_domain_environment"
+        name: "환경 데이터 검색"
+        keywords: ["환경", "대기", "수질", "미세먼지", "날씨"]
+      - id: "search_domain_welfare"
+        name: "복지 데이터 검색"
+        keywords: ["복지", "사회복지", "어린이집", "노인", "장애인"]
+      - id: "search_domain_education"
+        name: "교육 데이터 검색"
+        keywords: ["교육", "학교", "학생", "교사", "학원"]
+      - id: "search_domain_finance"
+        name: "재정/경제 데이터 검색"
+        keywords: ["재정", "경제", "예산", "GDP", "금융"]
+      - id: "search_domain_safety"
+        name: "안전 데이터 검색"
+        keywords: ["안전", "재난", "소방", "범죄", "사고"]
+      - id: "search_domain_culture"
+        name: "문화/관광 데이터 검색"
+        keywords: ["문화", "관광", "축제", "공연", "박물관"]
+      - id: "search_domain_agriculture"
+        name: "농림/수산 데이터 검색"
+        keywords: ["농업", "수산", "축산", "농산물", "어업"]
+      - id: "search_domain_employment"
+        name: "고용/노동 데이터 검색"
+        keywords: ["고용", "취업", "일자리", "채용", "실업"]
+      - id: "search_region"
+        name: "지역별 데이터 검색"
+        keywords: ["지역", "서울", "부산", "경기", "시도"]
+      - id: "search_period"
+        name: "기간별 데이터 검색"
+        keywords: ["기간", "날짜", "연도", "월", "최신"]
+      - id: "search_format"
+        name: "파일 형식별 검색"
+        keywords: ["CSV", "JSON", "XML", "Excel", "PDF"]
+      - id: "search_update"
+        name: "갱신 주기별 검색"
+        keywords: ["갱신", "업데이트", "실시간", "일별", "월별"]
+      - id: "search_popular"
+        name: "인기 데이터셋 찾기"
+        keywords: ["인기", "많이", "추천", "베스트", "TOP"]
+      - id: "search_new"
+        name: "신규 데이터셋 찾기"
+        keywords: ["신규", "새로운", "최신", "new"]
+      - id: "search_mypage"
+        name: "관심 데이터 관리"
+        keywords: ["관심", "즐겨찾기", "북마크", "저장"]
+      - id: "search_history"
+        name: "검색 이력 관리"
+        keywords: ["이력", "기록", "히스토리", "최근"]
+      - id: "search_result"
+        name: "검색 결과 활용"
+        keywords: ["결과", "정렬", "필터링", "엑셀다운로드"]
+      - id: "search_tips"
+        name: "효율적 검색 노하우"
+        keywords: ["팁", "노하우", "효율", "빠르게"]
+
+  # 2. 데이터 카탈로그 (20개 주제)
+  data_catalog:
+    name: "데이터 카탈로그"
+    weight: 1200
+    topics:
+      - id: "catalog_metadata"
+        name: "메타데이터 이해"
+        keywords: ["메타데이터", "정보", "설명", "항목"]
+      - id: "catalog_detail"
+        name: "데이터셋 상세정보"
+        keywords: ["상세", "세부", "자세히", "정보"]
+      - id: "catalog_preview"
+        name: "데이터 미리보기"
+        keywords: ["미리보기", "샘플", "예시", "preview"]
+      - id: "catalog_column"
+        name: "컬럼/필드 정보"
+        keywords: ["컬럼", "필드", "항목", "열"]
+      - id: "catalog_format"
+        name: "파일 형식 정보"
+        keywords: ["형식", "포맷", "파일타입", "확장자"]
+      - id: "catalog_size"
+        name: "데이터 용량/규모"
+        keywords: ["용량", "크기", "규모", "건수"]
+      - id: "catalog_update_cycle"
+        name: "갱신 주기 확인"
+        keywords: ["갱신주기", "업데이트주기", "주기", "빈도"]
+      - id: "catalog_update_date"
+        name: "최종 갱신일 확인"
+        keywords: ["갱신일", "업데이트일", "수정일", "최신화"]
+      - id: "catalog_period"
+        name: "제공 기간 정보"
+        keywords: ["제공기간", "기간", "범위", "시작일"]
+      - id: "catalog_organization"
+        name: "제공 기관 정보"
+        keywords: ["제공기관", "담당기관", "기관명", "부처"]
+      - id: "catalog_contact"
+        name: "담당자 연락처"
+        keywords: ["담당자", "연락처", "전화", "이메일"]
+      - id: "catalog_license"
+        name: "라이센스 정보"
+        keywords: ["라이센스", "이용허락", "저작권", "조건"]
+      - id: "catalog_quality"
+        name: "데이터 품질 등급"
+        keywords: ["품질", "등급", "신뢰도", "정확도"]
+      - id: "catalog_schema"
+        name: "데이터 스키마"
+        keywords: ["스키마", "구조", "체계", "형태"]
+      - id: "catalog_encoding"
+        name: "인코딩 정보"
+        keywords: ["인코딩", "문자셋", "UTF-8", "EUC-KR"]
+      - id: "catalog_download_count"
+        name: "다운로드 통계"
+        keywords: ["다운로드수", "이용횟수", "통계", "활용수"]
+      - id: "catalog_related"
+        name: "연관 데이터셋"
+        keywords: ["연관", "관련", "유사", "비슷한"]
+      - id: "catalog_version"
+        name: "데이터 버전 관리"
+        keywords: ["버전", "이력", "변경사항", "개정"]
+      - id: "catalog_tag"
+        name: "태그/분류 체계"
+        keywords: ["태그", "라벨", "분류", "카테고리"]
+      - id: "catalog_compare"
+        name: "데이터셋 비교"
+        keywords: ["비교", "차이", "대조", "vs"]
+
+  # 3. 데이터 활용 (20개 주제)
+  data_usage:
+    name: "데이터 활용"
+    weight: 1200
+    topics:
+      - id: "usage_download"
+        name: "데이터 다운로드"
+        keywords: ["다운로드", "내려받기", "저장", "받기"]
+      - id: "usage_download_bulk"
+        name: "대용량 다운로드"
+        keywords: ["대용량", "여러개", "일괄", "bulk"]
+      - id: "usage_download_partial"
+        name: "부분 다운로드"
+        keywords: ["부분", "일부", "선택", "특정"]
+      - id: "usage_download_format"
+        name: "형식 변환 다운로드"
+        keywords: ["변환", "형식변경", "컨버트", "포맷변경"]
+      - id: "usage_license_commercial"
+        name: "상업적 이용 가능 여부"
+        keywords: ["상업적", "영리", "비즈니스", "수익"]
+      - id: "usage_license_attribution"
+        name: "출처 표시 방법"
+        keywords: ["출처", "표시", "인용", "크레딧"]
+      - id: "usage_license_modification"
+        name: "2차 저작물 허용 여부"
+        keywords: ["2차저작물", "수정", "변형", "가공"]
+      - id: "usage_terms"
+        name: "이용 약관"
+        keywords: ["약관", "이용조건", "규정", "정책"]
+      - id: "usage_restriction"
+        name: "이용 제한 사항"
+        keywords: ["제한", "금지", "불가", "주의사항"]
+      - id: "usage_analysis"
+        name: "데이터 분석 방법"
+        keywords: ["분석", "통계", "처리", "활용"]
+      - id: "usage_visualization"
+        name: "데이터 시각화"
+        keywords: ["시각화", "차트", "그래프", "대시보드"]
+      - id: "usage_integration"
+        name: "시스템 연동"
+        keywords: ["연동", "통합", "결합", "융합"]
+      - id: "usage_processing"
+        name: "데이터 전처리"
+        keywords: ["전처리", "정제", "클리닝", "가공"]
+      - id: "usage_case_research"
+        name: "연구 목적 활용"
+        keywords: ["연구", "학술", "논문", "분석"]
+      - id: "usage_case_service"
+        name: "서비스 개발 활용"
+        keywords: ["서비스", "앱", "웹", "개발"]
+      - id: "usage_case_education"
+        name: "교육 목적 활용"
+        keywords: ["교육", "학습", "수업", "강의"]
+      - id: "usage_case_policy"
+        name: "정책 수립 활용"
+        keywords: ["정책", "의사결정", "기획", "계획"]
+      - id: "usage_sharing"
+        name: "데이터 공유"
+        keywords: ["공유", "배포", "전달", "제공"]
+      - id: "usage_citation"
+        name: "데이터 인용 방법"
+        keywords: ["인용", "참고", "레퍼런스", "citation"]
+      - id: "usage_best_practice"
+        name: "활용 우수 사례"
+        keywords: ["우수사례", "성공사례", "예시", "example"]
+
+  # 4. 분석 도구 (15개 주제)
+  analysis_tools:
+    name: "분석 도구"
+    weight: 750
+    topics:
+      - id: "tool_portal"
+        name: "포털 제공 분석 도구"
+        keywords: ["도구", "툴", "기능", "제공"]
+      - id: "tool_statistics"
+        name: "통계 분석 도구"
+        keywords: ["통계", "분석", "계산", "수치"]
+      - id: "tool_chart"
+        name: "차트 생성 도구"
+        keywords: ["차트", "그래프", "막대", "원형"]
+      - id: "tool_map"
+        name: "지도 시각화 도구"
+        keywords: ["지도", "맵", "위치", "GIS"]
+      - id: "tool_dashboard"
+        name: "대시보드 구성"
+        keywords: ["대시보드", "모니터링", "현황", "종합"]
+      - id: "tool_filter"
+        name: "데이터 필터링 도구"
+        keywords: ["필터", "조건", "선택", "추출"]
+      - id: "tool_pivot"
+        name: "피벗 테이블"
+        keywords: ["피벗", "교차", "집계", "요약"]
+      - id: "tool_export"
+        name: "결과 내보내기"
+        keywords: ["내보내기", "export", "저장", "출력"]
+      - id: "tool_sql"
+        name: "SQL 쿼리 도구"
+        keywords: ["SQL", "쿼리", "조회", "질의"]
+      - id: "tool_jupyter"
+        name: "Jupyter 연동"
+        keywords: ["Jupyter", "노트북", "Python", "분석환경"]
+      - id: "tool_excel"
+        name: "Excel 연동"
+        keywords: ["Excel", "엑셀", "스프레드시트", "표"]
+      - id: "tool_api_test"
+        name: "API 테스트 도구"
+        keywords: ["API테스트", "호출", "요청", "응답"]
+      - id: "tool_schedule"
+        name: "스케줄링 기능"
+        keywords: ["스케줄", "예약", "자동", "정기"]
+      - id: "tool_collaboration"
+        name: "협업 도구"
+        keywords: ["협업", "공유", "팀", "그룹"]
+      - id: "tool_tutorial"
+        name: "도구 사용 가이드"
+        keywords: ["가이드", "튜토리얼", "매뉴얼", "설명서"]
+
+  # 5. 통계/시각화 (15개 주제)
+  statistics_visualization:
+    name: "통계/시각화"
+    weight: 900
+    topics:
+      - id: "stat_basic"
+        name: "기본 통계량"
+        keywords: ["평균", "합계", "최대", "최소", "중앙값"]
+      - id: "stat_trend"
+        name: "추세 분석"
+        keywords: ["추세", "트렌드", "변화", "흐름"]
+      - id: "stat_comparison"
+        name: "비교 통계"
+        keywords: ["비교", "대비", "차이", "증감"]
+      - id: "stat_distribution"
+        name: "분포 분석"
+        keywords: ["분포", "분산", "편차", "범위"]
+      - id: "stat_correlation"
+        name: "상관관계 분석"
+        keywords: ["상관", "관계", "연관", "correlation"]
+      - id: "viz_line"
+        name: "선 그래프"
+        keywords: ["선그래프", "꺾은선", "추이", "line"]
+      - id: "viz_bar"
+        name: "막대 그래프"
+        keywords: ["막대그래프", "bar", "비교", "항목별"]
+      - id: "viz_pie"
+        name: "원형 그래프"
+        keywords: ["원형그래프", "파이", "비율", "pie"]
+      - id: "viz_scatter"
+        name: "산점도"
+        keywords: ["산점도", "scatter", "분포", "점"]
+      - id: "viz_heatmap"
+        name: "히트맵"
+        keywords: ["히트맵", "열지도", "밀도", "heatmap"]
+      - id: "viz_geo"
+        name: "지리 시각화"
+        keywords: ["지도", "지리", "지역별", "위치"]
+      - id: "viz_timeline"
+        name: "타임라인 시각화"
+        keywords: ["타임라인", "시간대", "연대기", "timeline"]
+      - id: "viz_custom"
+        name: "사용자 정의 차트"
+        keywords: ["커스텀", "맞춤", "사용자정의", "설정"]
+      - id: "viz_interactive"
+        name: "인터랙티브 시각화"
+        keywords: ["인터랙티브", "동적", "interactive", "반응형"]
+      - id: "viz_report"
+        name: "리포트 생성"
+        keywords: ["리포트", "보고서", "report", "문서"]
+
+  # 6. API 서비스 (25개 주제)
+  api_service:
+    name: "API 서비스"
+    weight: 1500
+    topics:
+      - id: "api_intro"
+        name: "Open API 소개"
+        keywords: ["API", "OpenAPI", "소개", "개요"]
+      - id: "api_key_issue"
+        name: "API 키 발급"
+        keywords: ["API키", "발급", "신청", "등록"]
+      - id: "api_key_manage"
+        name: "API 키 관리"
+        keywords: ["키관리", "변경", "재발급", "삭제"]
+      - id: "api_auth"
+        name: "API 인증 방법"
+        keywords: ["인증", "authentication", "권한", "토큰"]
+      - id: "api_endpoint"
+        name: "API 엔드포인트"
+        keywords: ["엔드포인트", "URL", "주소", "endpoint"]
+      - id: "api_request"
+        name: "API 요청 방법"
+        keywords: ["요청", "request", "호출", "call"]
+      - id: "api_response"
+        name: "API 응답 형식"
+        keywords: ["응답", "response", "결과", "리턴"]
+      - id: "api_parameter"
+        name: "API 파라미터"
+        keywords: ["파라미터", "매개변수", "옵션", "parameter"]
+      - id: "api_pagination"
+        name: "페이징 처리"
+        keywords: ["페이징", "pagination", "페이지", "분할"]
+      - id: "api_filtering"
+        name: "필터링 조건"
+        keywords: ["필터", "조건", "검색", "where"]
+      - id: "api_sorting"
+        name: "정렬 기능"
+        keywords: ["정렬", "sort", "순서", "order"]
+      - id: "api_error"
+        name: "에러 처리"
+        keywords: ["에러", "오류", "error", "예외"]
+      - id: "api_rate_limit"
+        name: "호출 제한"
+        keywords: ["호출제한", "rate limit", "트래픽", "제약"]
+      - id: "api_quota"
+        name: "사용량 할당"
+        keywords: ["할당량", "quota", "사용량", "limit"]
+      - id: "api_rest"
+        name: "REST API"
+        keywords: ["REST", "RESTful", "GET", "POST"]
+      - id: "api_soap"
+        name: "SOAP API"
+        keywords: ["SOAP", "WSDL", "XML"]
+      - id: "api_json"
+        name: "JSON 형식"
+        keywords: ["JSON", "형식", "포맷", "데이터"]
+      - id: "api_xml"
+        name: "XML 형식"
+        keywords: ["XML", "형식", "태그", "마크업"]
+      - id: "api_test"
+        name: "API 테스트"
+        keywords: ["테스트", "시험", "확인", "검증"]
+      - id: "api_sample"
+        name: "API 샘플 코드"
+        keywords: ["샘플", "예제", "코드", "example"]
+      - id: "api_python"
+        name: "Python API 활용"
+        keywords: ["Python", "파이썬", "requests", "코드"]
+      - id: "api_java"
+        name: "Java API 활용"
+        keywords: ["Java", "자바", "코드", "예제"]
+      - id: "api_javascript"
+        name: "JavaScript API 활용"
+        keywords: ["JavaScript", "JS", "fetch", "axios"]
+      - id: "api_documentation"
+        name: "API 문서"
+        keywords: ["문서", "매뉴얼", "스펙", "명세"]
+      - id: "api_version"
+        name: "API 버전 관리"
+        keywords: ["버전", "version", "업그레이드", "변경"]
+
+  # 7. 우수 활용 사례 (20개 주제)
+  use_cases:
+    name: "우수 활용 사례"
+    weight: 1280
+    topics:
+      - id: "case_list"
+        name: "활용 사례 목록"
+        keywords: ["사례", "목록", "리스트", "모음"]
+      - id: "case_search"
+        name: "사례 검색"
+        keywords: ["사례검색", "찾기", "조회", "검색"]
+      - id: "case_category"
+        name: "분야별 사례"
+        keywords: ["분야별", "카테고리", "유형", "분류"]
+      - id: "case_award"
+        name: "수상 사례"
+        keywords: ["수상", "상", "award", "우수"]
+      - id: "case_app"
+        name: "앱 개발 사례"
+        keywords: ["앱", "모바일", "어플", "application"]
+      - id: "case_web"
+        name: "웹서비스 개발 사례"
+        keywords: ["웹", "사이트", "홈페이지", "web"]
+      - id: "case_startup"
+        name: "스타트업 활용 사례"
+        keywords: ["스타트업", "창업", "벤처", "startup"]
+      - id: "case_enterprise"
+        name: "기업 활용 사례"
+        keywords: ["기업", "회사", "비즈니스", "enterprise"]
+      - id: "case_government"
+        name: "정부/공공 활용 사례"
+        keywords: ["정부", "공공", "행정", "정책"]
+      - id: "case_research"
+        name: "연구 활용 사례"
+        keywords: ["연구", "학술", "논문", "study"]
+      - id: "case_education"
+        name: "교육 활용 사례"
+        keywords: ["교육", "학교", "강의", "학습"]
+      - id: "case_civic"
+        name: "시민참여 사례"
+        keywords: ["시민", "참여", "커뮤니티", "civic"]
+      - id: "case_media"
+        name: "언론/미디어 활용"
+        keywords: ["언론", "미디어", "뉴스", "방송"]
+      - id: "case_analysis"
+        name: "데이터 분석 사례"
+        keywords: ["분석", "인사이트", "통계", "리서치"]
+      - id: "case_visualization"
+        name: "시각화 우수 사례"
+        keywords: ["시각화", "인포그래픽", "차트", "viz"]
+      - id: "case_ai"
+        name: "AI/머신러닝 활용"
+        keywords: ["AI", "머신러닝", "인공지능", "ML"]
+      - id: "case_iot"
+        name: "IoT 활용 사례"
+        keywords: ["IoT", "사물인터넷", "센서", "스마트"]
+      - id: "case_bigdata"
+        name: "빅데이터 분석 사례"
+        keywords: ["빅데이터", "대용량", "분석", "처리"]
+      - id: "case_competition"
+        name: "공모전 수상작"
+        keywords: ["공모전", "대회", "경진대회", "contest"]
+      - id: "case_detail"
+        name: "사례 상세 정보"
+        keywords: ["상세", "자세히", "내용", "설명"]
+
+  # 8. 고객 지원 (30개 주제)
+  customer_support:
+    name: "고객 지원"
+    weight: 1800
+    topics:
+      - id: "support_faq"
+        name: "자주 묻는 질문"
+        keywords: ["FAQ", "자주", "질문", "답변"]
+      - id: "support_account_join"
+        name: "회원가입"
+        keywords: ["회원가입", "가입", "등록", "sign up"]
+      - id: "support_account_login"
+        name: "로그인"
+        keywords: ["로그인", "접속", "login", "sign in"]
+      - id: "support_account_password"
+        name: "비밀번호 찾기/변경"
+        keywords: ["비밀번호", "패스워드", "password", "찾기"]
+      - id: "support_account_info"
+        name: "회원정보 수정"
+        keywords: ["회원정보", "정보수정", "프로필", "profile"]
+      - id: "support_account_withdrawal"
+        name: "회원 탈퇴"
+        keywords: ["탈퇴", "withdrawal", "삭제", "해지"]
+      - id: "support_notice"
+        name: "공지사항"
+        keywords: ["공지", "알림", "notice", "announcement"]
+      - id: "support_news"
+        name: "새소식/뉴스"
+        keywords: ["새소식", "뉴스", "소식", "news"]
+      - id: "support_event"
+        name: "이벤트"
+        keywords: ["이벤트", "행사", "event", "프로모션"]
+      - id: "support_inquiry"
+        name: "1:1 문의"
+        keywords: ["문의", "질문", "inquiry", "contact"]
+      - id: "support_request_data"
+        name: "데이터 제공 요청"
+        keywords: ["제공요청", "신청", "요청", "request"]
+      - id: "support_request_error"
+        name: "오류 신고"
+        keywords: ["오류", "에러", "버그", "문제"]
+      - id: "support_suggestion"
+        name: "개선 제안"
+        keywords: ["제안", "건의", "suggestion", "개선"]
+      - id: "support_download_issue"
+        name: "다운로드 문제"
+        keywords: ["다운로드안됨", "다운로드오류", "다운로드실패"]
+      - id: "support_file_issue"
+        name: "파일 열기 문제"
+        keywords: ["파일안열림", "깨짐", "인코딩", "오류"]
+      - id: "support_api_issue"
+        name: "API 오류"
+        keywords: ["API오류", "API안됨", "호출실패", "연결안됨"]
+      - id: "support_browser"
+        name: "브라우저 호환성"
+        keywords: ["브라우저", "크롬", "IE", "호환"]
+      - id: "support_mobile"
+        name: "모바일 이용"
+        keywords: ["모바일", "스마트폰", "태블릿", "앱"]
+      - id: "support_accessibility"
+        name: "웹 접근성"
+        keywords: ["접근성", "장애인", "스크린리더", "accessibility"]
+      - id: "support_tutorial"
+        name: "이용 가이드"
+        keywords: ["가이드", "튜토리얼", "매뉴얼", "안내"]
+      - id: "support_video"
+        name: "동영상 도움말"
+        keywords: ["동영상", "비디오", "영상", "tutorial"]
+      - id: "support_policy_privacy"
+        name: "개인정보처리방침"
+        keywords: ["개인정보", "프라이버시", "privacy", "정책"]
+      - id: "support_policy_terms"
+        name: "이용약관"
+        keywords: ["이용약관", "약관", "terms", "규정"]
+      - id: "support_policy_copyright"
+        name: "저작권 정책"
+        keywords: ["저작권", "copyright", "라이센스", "권리"]
+      - id: "support_hours"
+        name: "운영 시간"
+        keywords: ["운영시간", "시간", "hours", "영업"]
+      - id: "support_contact"
+        name: "연락처 안내"
+        keywords: ["연락처", "전화", "이메일", "contact"]
+      - id: "support_location"
+        name: "오시는 길"
+        keywords: ["오시는길", "위치", "주소", "찾아오기"]
+      - id: "support_training"
+        name: "교육 프로그램"
+        keywords: ["교육", "프로그램", "강좌", "training"]
+      - id: "support_community"
+        name: "커뮤니티/포럼"
+        keywords: ["커뮤니티", "포럼", "게시판", "community"]
+      - id: "support_newsletter"
+        name: "뉴스레터 구독"
+        keywords: ["뉴스레터", "구독", "newsletter", "메일링"]
