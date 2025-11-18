@@ -1,0 +1,77 @@
+{
+  "inspection_time": "2025-11-18T07:11:58.132016",
+  "files_processed": [
+    {
+      "file": "hira_training_datasets/output/v1.0/full/train.json",
+      "split": "train",
+      "count": 1136,
+      "size_kb": 720.78125
+    },
+    {
+      "file": "hira_training_datasets/output/v1.0/full/val.json",
+      "split": "val",
+      "count": 140,
+      "size_kb": 88.1279296875
+    },
+    {
+      "file": "hira_training_datasets/output/v1.0/full/test.json",
+      "split": "test",
+      "count": 147,
+      "size_kb": 93.181640625
+    }
+  ],
+  "total_count": 1423,
+  "duplicates_found": 0,
+  "quality_issues": [],
+  "statistics": {
+    "menu_distribution": {
+      "medical_statistics": 314,
+      "customer_support": 290,
+      "healthcare_bigdata": 347,
+      "public_data": 196,
+      "service_intro": 276
+    },
+    "generation_method_distribution": {
+      "template_topic_how_to": 132,
+      "template_topic_where": 119,
+      "combo": 131,
+      "template_topic_confirmation": 71,
+      "template_topic_what_is": 328,
+      "original": 174,
+      "template_combination": 123,
+      "template_keyword_based": 45,
+      "particle": 79,
+      "ending": 108,
+      "synonym": 46,
+      "question_format": 17,
+      "interrogative": 33,
+      "abbreviation": 14,
+      "word_order": 3
+    },
+    "quality_scores": {
+      "min": 0.6,
+      "max": 0.9,
+      "avg": 0.6587139845397074,
+      "count_high": 430,
+      "count_medium": 993,
+      "count_low": 0
+    },
+    "question_length": {
+      "min": 7,
+      "max": 32,
+      "avg": 16.334504567814477
+    },
+    "answer_length": {
+      "min": 29,
+      "max": 184,
+      "avg": 87.92199578355587
+    },
+    "split_distribution": {
+      "train": 1136,
+      "val": 140,
+      "test": 147,
+      "total": 1423
+    }
+  },
+  "merged_output": ""
+}
