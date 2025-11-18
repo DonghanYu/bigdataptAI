@@ -1,0 +1,329 @@
+[
+  {
+    "id": "hira_public_data_01055",
+    "instruction": "병원정보 API 신청은 어디서 하나요?",
+    "input": "",
+    "output": "실시간 조회가 필요하면 API, 대량 데이터 분석이 필요하면 데이터셋 다운로드를 권장합니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.295245",
+      "question_length": 21,
+      "answer_length": 51,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_public_data_00505",
+    "instruction": "API 샘플 코드는 어느 곳에서 받나요?",
+    "input": "",
+    "output": "공공데이터포털의 각 API 상세 페이지에서 Java, Python, JavaScript 등 언어별 샘플 코드를 제공합니다. 복사하여 바로 사용할 수 있습니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "interrogative",
+      "source_id": "public_data_230",
+      "created_at": "2025-11-18T05:58:18.455785",
+      "question_length": 22,
+      "answer_length": 88,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_public_data_01088",
+    "instruction": "통계간행물 신청 가능한가요?",
+    "input": "",
+    "output": "공공데이터포털에서 해당 API의 '트래픽 증량 신청' 메뉴를 이용하세요. 사용 목적과 필요 트래픽을 기재하면 심사 후 승인됩니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "template_topic_confirmation",
+      "created_at": "2025-11-18T06:00:07.296318",
+      "question_length": 15,
+      "answer_length": 72,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_public_data_01095",
+    "instruction": "보고서가 뭔가요?",
+    "input": "",
+    "output": "공공데이터포털 API 상세 페이지에서 변경 이력을 확인하거나 이메일 알림을 받을 수 있습니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.296449",
+      "question_length": 9,
+      "answer_length": 52,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_public_data_00510",
+    "instruction": "API 버전 업데이트는 어떻게 알 수 있어요?",
+    "input": "",
+    "output": "공공데이터포털 API 상세 페이지에서 변경 이력을 확인하거나 이메일 알림을 받을 수 있습니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "ending",
+      "source_id": "public_data_240",
+      "created_at": "2025-11-18T05:58:18.456969",
+      "question_length": 25,
+      "answer_length": 52,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_public_data_00474",
+    "instruction": "데가터셋 다운로드란?",
+    "input": "",
+    "output": "'공공데이터 > 데이터셋 다운로드' 메뉴에서 CSV, Excel 형식의 정형 데이터를 파일로 다운로드할 수 있습니다. API 개발 없이 데이터를 직접 활용할 수 있습니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "particle",
+      "source_id": "public_data_210",
+      "created_at": "2025-11-18T05:58:18.453125",
+      "question_length": 11,
+      "answer_length": 95,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_public_data_00127",
+    "instruction": "과거 간행물도 볼 수 있나요?",
+    "input": "",
+    "output": "네, 통계간행물 메뉴에서 연도별로 과거 간행물을 모두 확인할 수 있습니다. 시계열 비교 연구에 유용합니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "original",
+      "source_id": "public_data_227",
+      "created_at": "2025-11-18T05:58:18.423971",
+      "question_length": 16,
+      "answer_length": 59,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_public_data_00130",
+    "instruction": "CORS 오류가 발생해요",
+    "input": "",
+    "output": "웹 브라우저에서 직접 API를 호출하면 CORS 오류가 발생할 수 있습니다. 서버 사이드에서 호출하거나, 프록시 서버를 경유하는 방법을 사용하세요.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "original",
+      "source_id": "public_data_232",
+      "created_at": "2025-11-18T05:58:18.423983",
+      "question_length": 13,
+      "answer_length": 82,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_public_data_00468",
+    "instruction": "수치간행물은 어디서 다운로드하나요?",
+    "input": "",
+    "output": "'공공데이터 > 통계간행물' 메뉴에서 HIRA가 발간한 각종 통계집을 PDF 파일로 다운로드할 수 있습니다. 연도별 진료비 통계, 질병 통계, 약품 사용 통계 등 다양한 간행물이 제공됩니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "synonym",
+      "source_id": "public_data_204",
+      "created_at": "2025-11-18T05:58:18.452312",
+      "question_length": 19,
+      "answer_length": 106,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_public_data_00500",
+    "instruction": "과거 간행물도 볼 수 있습니까?",
+    "input": "",
+    "output": "네, 통계간행물 메뉴에서 연도별로 과거 간행물을 모두 확인할 수 있습니다. 시계열 비교 연구에 유용합니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "combo",
+      "source_id": "public_data_227",
+      "created_at": "2025-11-18T05:58:18.455472",
+      "question_length": 17,
+      "answer_length": 59,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_public_data_00470",
+    "instruction": "통계간행물은 어디서 다운로드할까요?",
+    "input": "",
+    "output": "'공공데이터 > 통계간행물' 메뉴에서 HIRA가 발간한 각종 통계집을 PDF 파일로 다운로드할 수 있습니다. 연도별 진료비 통계, 질병 통계, 약품 사용 통계 등 다양한 간행물이 제공됩니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "ending",
+      "source_id": "public_data_204",
+      "created_at": "2025-11-18T05:58:18.452317",
+      "question_length": 19,
+      "answer_length": 106,
+      "quality_score": 0.7999999999999999
+    }
+  },
+  {
+    "id": "hira_public_data_01108",
+    "instruction": "트래픽이란 무엇인가요?",
+    "input": "",
+    "output": "개발계정은 일일 1,000건, 운영계정은 더 많은 트래픽이 제공됩니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.296726",
+      "question_length": 12,
+      "answer_length": 39,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_public_data_00489",
+    "instruction": "상용 서비스에 API를 활용할 수 있나요?",
+    "input": "",
+    "output": "네, 운영계정으로 전환하고 이용 약관을 준수하면 상용 서비스에 사용 가능합니다. 다만 과도한 트래픽은 사전 협의가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "synonym",
+      "source_id": "public_data_221",
+      "created_at": "2025-11-18T05:58:18.454632",
+      "question_length": 23,
+      "answer_length": 75,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_public_data_01082",
+    "instruction": "Excel이란 무엇인가요?",
+    "input": "",
+    "output": "요양기관명, 주소, 전화번호, 진료과목, 병상수, 응급실 운영 여부, 진료 시간 등을 조회할 수 있습니다. 지역이나 진료과목으로 검색 가능합니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.296142",
+      "question_length": 14,
+      "answer_length": 81,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_public_data_00461",
+    "instruction": "API 사용 제한이 있어요?",
+    "input": "",
+    "output": "개발계정은 일일 1,000건, 운영계정은 더 많은 트래픽이 제공됩니다. 초당 요청 횟수 제한도 있으므로 과도한 호출은 피해야 합니다. 제한 초과 시 일시적으로 차단될 수 있으니 API 문서를 확인하세요.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "ending",
+      "source_id": "public_data_202",
+      "created_at": "2025-11-18T05:58:18.452132",
+      "question_length": 15,
+      "answer_length": 113,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_public_data_01051",
+    "instruction": "API 인증키 발급 절차를 알려주세요",
+    "input": "",
+    "output": "개발계정은 일일 1,000건, 운영계정은 더 많은 트래픽이 제공됩니다. 초당 요청 횟수 제한도 있으므로 과도한 호출은 피해야 합니다. 제한 초과 시 일시적으로 차단될 수 있으니 API 문서를 확인하세요.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.295014",
+      "question_length": 20,
+      "answer_length": 113,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_public_data_00482",
+    "instruction": "페이징 처리는 어떻게 합니까?",
+    "input": "",
+    "output": "numOfRows(한 페이지 결과 수), pageNo(페이지 번호) 파라미터를 사용합니다. 예: numOfRows=10&pageNo=1. 전체 건수는 응답의 totalCount를 참고하세요.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "ending",
+      "source_id": "public_data_216",
+      "created_at": "2025-11-18T05:58:18.453907",
+      "question_length": 16,
+      "answer_length": 106,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_public_data_01112",
+    "instruction": "제한이란 무엇인가요?",
+    "input": "",
+    "output": "병원정보 API는 요양기관명, 주소, 전화번호, 진료과목, 병상수, 응급실 운영 여부 등을 조회할 수 있습니다. 지역별 또는 진료과목별로 의료기관을 검색할 수 있으며, 응답은 XML 또는 JSON 형식으로 제공됩니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.296888",
+      "question_length": 11,
+      "answer_length": 121,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_public_data_01093",
+    "instruction": "통계간행물 신청은 어디서 하나요?",
+    "input": "",
+    "output": "네, 운영계정으로 전환하고 이용 약관을 준수하면 상용 서비스에 사용 가능합니다. 다만 과도한 트래픽은 사전 협의가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.296379",
+      "question_length": 18,
+      "answer_length": 75,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_public_data_01103",
+    "instruction": "API 사용 제한 신청 되나요?",
+    "input": "",
+    "output": "'공공데이터 > 통계간행물' 메뉴에서 HIRA가 발간한 각종 통계집을 PDF 파일로 다운로드할 수 있습니다. 연도별 진료비 통계, 질병 통계, 약품 사용 통계 등 다양한 간행물이 제공됩니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "template_topic_confirmation",
+      "created_at": "2025-11-18T06:00:07.296666",
+      "question_length": 17,
+      "answer_length": 106,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_public_data_00499",
+    "instruction": "과거 간행물도 볼 수 있을까요?",
+    "input": "",
+    "output": "네, 통계간행물 메뉴에서 연도별로 과거 간행물을 모두 확인할 수 있습니다. 시계열 비교 연구에 유용합니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "ending",
+      "source_id": "public_data_227",
+      "created_at": "2025-11-18T05:58:18.455470",
+      "question_length": 17,
+      "answer_length": 59,
+      "quality_score": 0.7
+    }
+  }
+]

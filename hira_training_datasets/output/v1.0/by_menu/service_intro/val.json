@@ -1,0 +1,424 @@
+[
+  {
+    "id": "hira_service_intro_00638",
+    "instruction": "빅데이터분석센터 신청 어느 메뉴에서 하나요?",
+    "input": "",
+    "output": "환자표본은 연 1회 갱신되며, 통계정보는 분기별 또는 월별로 업데이트됩니다. 맞춤형 빅데이터분석센터는 신청 시점 기준 최신 데이터를 제공합니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.286199",
+      "question_length": 24,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_service_intro_00690",
+    "instruction": "코드조회 조회은 어디서 하나요?",
+    "input": "",
+    "output": "처방일수는 의사가 처방한 일수이고, 투여일수는 실제 약을 복용하는 일수입니다. 대부분 같지만, 일부 약은 다를 수 있습니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.287236",
+      "question_length": 17,
+      "answer_length": 69,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_service_intro_00213",
+    "instruction": "연령 변수는 어떤 방법으로 되어 있나요?",
+    "input": "",
+    "output": "명세서일반내역에 연령 변수가 5세 단위로 제공됩니다. 예: 0-4세, 5-9세, 10-14세 등. 개인 식별 방지를 위해 정확한 나이는 제공되지 않습니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "interrogative",
+      "source_id": "service_intro_21",
+      "created_at": "2025-11-18T05:58:18.430689",
+      "question_length": 22,
+      "answer_length": 86,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_service_intro_00619",
+    "instruction": "데이터 소개 신청은 어디에서 가능한가요?",
+    "input": "",
+    "output": "명세서일반내역에 연령 변수가 5세 단위로 제공됩니다. 예: 0-4세, 5-9세, 10-14세 등. 개인 식별 방지를 위해 정확한 나이는 제공되지 않습니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.285862",
+      "question_length": 22,
+      "answer_length": 86,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_service_intro_00020",
+    "instruction": "수술 데이터는 어떻게 확인하나요?",
+    "input": "",
+    "output": "수술은 행위코드 중 수술 관련 코드(Q코드, S코드 등)로 식별할 수 있습니다. 수술명, 수술일자, 수술비용 등을 분석할 수 있습니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "original",
+      "source_id": "service_intro_39",
+      "created_at": "2025-11-18T05:58:18.423007",
+      "question_length": 18,
+      "answer_length": 75,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_service_intro_00234",
+    "instruction": "수술 데이터는 확인하나요?",
+    "input": "",
+    "output": "수술은 행위코드 중 수술 관련 코드(Q코드, S코드 등)로 식별할 수 있습니다. 수술명, 수술일자, 수술비용 등을 분석할 수 있습니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "abbreviation",
+      "source_id": "service_intro_39",
+      "created_at": "2025-11-18T05:58:18.432735",
+      "question_length": 14,
+      "answer_length": 75,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_service_intro_00031",
+    "instruction": "암 환자 데이터는 어떻게 얻나요?",
+    "input": "",
+    "output": "C코드 상병코드 또는 산정특례 암 코드로 암 환자를 식별하여 분석할 수 있습니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "original",
+      "source_id": "service_intro_62",
+      "created_at": "2025-11-18T05:58:18.423058",
+      "question_length": 18,
+      "answer_length": 45,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_service_intro_00615",
+    "instruction": "3조건가 뭔가요?",
+    "input": "",
+    "output": "총진료비, 질병별 통계, 연령/성별/지역별 통계, 요양기관 통계 등 다양한 의료통계를 조회할 수 있습니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.285831",
+      "question_length": 9,
+      "answer_length": 59,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_service_intro_00255",
+    "instruction": "약물 부작용 연구가 할 수 있나요?",
+    "input": "",
+    "output": "약품코드와 진단 정보를 연계하여 약물 안전성 연구가 가능합니다. 다만 직접적인 부작용 기록은 없습니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "ending",
+      "source_id": "service_intro_60",
+      "created_at": "2025-11-18T05:58:18.435093",
+      "question_length": 19,
+      "answer_length": 57,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_service_intro_00664",
+    "instruction": "설명이란 무엇인가요?",
+    "input": "",
+    "output": "용어사전에는 의료 전문 용어, 행위코드, 약품코드, 상병코드, 통계 용어 등이 수록되어 있습니다. 검색 기능으로 빠르게 용어를 찾을 수 있으며, 용어 설명과 영문명도 함께 제공됩니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.286655",
+      "question_length": 11,
+      "answer_length": 102,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_service_intro_00011",
+    "instruction": "데이터 테이블 관계는 어떻게 되나요?",
+    "input": "",
+    "output": "명세서일반내역(KEY)을 중심으로 원내진료내역, 전체상병내역, 원외처방내역이 연결됩니다. 요양기관정보는 요양기관기호로 조인할 수 있습니다. 교육자료에서 ERD 다이어그램을 제공합니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "original",
+      "source_id": "service_intro_17",
+      "created_at": "2025-11-18T05:58:18.422956",
+      "question_length": 20,
+      "answer_length": 102,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_service_intro_00728",
+    "instruction": "연도가 뭔가요?",
+    "input": "",
+    "output": "'서비스 소개 > 용어설명 > 코드조회' 메뉴에서 EDI(전자문서교환) 코드를 조회할 수 있습니다. EDI 코드는 의약품, 치료재료 등의 표준 코드로 사용됩니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.288048",
+      "question_length": 8,
+      "answer_length": 90,
+      "quality_score": 0.7000000000000001
+    }
+  },
+  {
+    "id": "hira_service_intro_00205",
+    "instruction": "데이터 테이블 관계는 어떻게 될까요?",
+    "input": "",
+    "output": "명세서일반내역(KEY)을 중심으로 원내진료내역, 전체상병내역, 원외처방내역이 연결됩니다. 요양기관정보는 요양기관기호로 조인할 수 있습니다. 교육자료에서 ERD 다이어그램을 제공합니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "combo",
+      "source_id": "service_intro_17",
+      "created_at": "2025-11-18T05:58:18.430176",
+      "question_length": 20,
+      "answer_length": 102,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_service_intro_00632",
+    "instruction": "빅데이터분석센터 신청은 어디에서 가능한가요?",
+    "input": "",
+    "output": "상병코드(KCD 코드)는 '서비스 소개 > 용어설명 > 코드조회' 메뉴에서 확인할 수 있습니다. 질병명이나 코드로 검색 가능하며, 4단 상병코드까지 조회됩니다. 예: A00.0 콜레라 균에 의한 콜레라.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.286154",
+      "question_length": 24,
+      "answer_length": 113,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_service_intro_00226",
+    "instruction": "명세서 번호의 의미은?",
+    "input": "",
+    "output": "명세서 번호는 각 청구 건을 식별하는 고유 번호입니다. 같은 환자가 다른 날짜에 진료받으면 다른 명세서 번호가 부여됩니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "combo",
+      "source_id": "service_intro_32",
+      "created_at": "2025-11-18T05:58:18.432017",
+      "question_length": 12,
+      "answer_length": 68,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_service_intro_01306",
+    "instruction": "데이터 소개와 코드조회의 차이는?",
+    "input": "",
+    "output": "데이터 소개와 코드조회(KCD 코드)는 '서비스 소개 > 용어설명 > 코드조회' 메뉴에서 확인할 수 있습니다. 질병명이나 코드로 검색 가능하며, 4단 상병코드까지 조회됩니다. 예: A00.0 콜레라 균에 의한 콜레라.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.302794",
+      "question_length": 18,
+      "answer_length": 121,
+      "quality_score": 0.8499999999999999
+    }
+  },
+  {
+    "id": "hira_service_intro_00229",
+    "instruction": "재원일수는 어떻게 계산하죠?",
+    "input": "",
+    "output": "재원일수는 입원 환자가 병원에 머문 기간입니다. 퇴원일자 - 입원일자 + 1로 계산하며, 당일 퇴원은 1일로 계산됩니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "ending",
+      "source_id": "service_intro_34",
+      "created_at": "2025-11-18T05:58:18.432184",
+      "question_length": 15,
+      "answer_length": 67,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_service_intro_00024",
+    "instruction": "빅데이터분석센터 위치는?",
+    "input": "",
+    "output": "HIRA 빅데이터분석센터는 강원도 원주시 HIRA 본원 내에 있습니다. 현장분석을 원하면 사전 예약 후 방문하시기 바랍니다. 문의: 033-739-1018",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "original",
+      "source_id": "service_intro_46",
+      "created_at": "2025-11-18T05:58:18.423022",
+      "question_length": 13,
+      "answer_length": 86,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_service_intro_00235",
+    "instruction": "비식별 처리는 어떻게 되죠?",
+    "input": "",
+    "output": "HIRA 데이터는 법적 기준에 따라 비식별 처리되어 제공됩니다. 이름, 주민번호, 상세 주소 등 개인 식별 정보는 제거되고, 연령은 범주화, 지역은 광역시도 단위로 제공됩니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "combo",
+      "source_id": "service_intro_41",
+      "created_at": "2025-11-18T05:58:18.432914",
+      "question_length": 15,
+      "answer_length": 98,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_service_intro_00023",
+    "instruction": "데이터 활용 사례는?",
+    "input": "",
+    "output": "HIRA 데이터는 질병 역학 연구, 약물 안전성 연구, 의료이용 패턴 분석, 의료비 추이 분석, 정책 평가 등 다양한 분야에 활용됩니다. 고객지원 메뉴에서 우수 사례를 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "original",
+      "source_id": "service_intro_44",
+      "created_at": "2025-11-18T05:58:18.423016",
+      "question_length": 11,
+      "answer_length": 105,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_service_intro_00026",
+    "instruction": "데이터 갱신 주기는?",
+    "input": "",
+    "output": "환자표본은 연 1회 갱신되며, 통계정보는 분기별 또는 월별로 업데이트됩니다. 맞춤형 데이터는 신청 시점 기준 최신 데이터를 제공합니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "original",
+      "source_id": "service_intro_50",
+      "created_at": "2025-11-18T05:58:18.423029",
+      "question_length": 11,
+      "answer_length": 75,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_service_intro_00224",
+    "instruction": "청구명세서는 무엇이에요?",
+    "input": "",
+    "output": "청구명세서는 의료기관이 진료 후 건강보험공단에 진료비를 청구하기 위해 제출하는 서류입니다. HIRA 데이터는 이 청구명세서를 기반으로 구축됩니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "ending",
+      "source_id": "service_intro_31",
+      "created_at": "2025-11-18T05:58:18.431926",
+      "question_length": 13,
+      "answer_length": 81,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_service_intro_00673",
+    "instruction": "용어사전 어떻게 하나요?",
+    "input": "",
+    "output": "약품코드와 진단 정보를 연계하여 약물 안전성 연구가 가능합니다. 다만 직접적인 부작용 기록은 없습니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.286881",
+      "question_length": 13,
+      "answer_length": 57,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_service_intro_00193",
+    "instruction": "HIRA 데이터 규모는 얼마나 됩니까?",
+    "input": "",
+    "output": "HIRA 데이터는 약 3조 건, 200TB 규모입니다. 건강보험, 의료급여, 자동차보험의 진료 내역이 모두 포함되어 있으며, 우리나라 전 국민의 의료이용 정보를 담고 있습니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "ending",
+      "source_id": "service_intro_9",
+      "created_at": "2025-11-18T05:58:18.429116",
+      "question_length": 21,
+      "answer_length": 98,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_service_intro_00177",
+    "instruction": "상병코드는 어떻게 조회하죠?",
+    "input": "",
+    "output": "상병코드(KCD 코드)는 '서비스 소개 > 용어설명 > 코드조회' 메뉴에서 확인할 수 있습니다. 질병명이나 코드로 검색 가능하며, 4단 상병코드까지 조회됩니다. 예: A00.0 콜레라 균에 의한 콜레라.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "combo",
+      "source_id": "service_intro_0",
+      "created_at": "2025-11-18T05:58:18.427601",
+      "question_length": 15,
+      "answer_length": 113,
+      "quality_score": 0.85
+    }
+  },
+  {
+    "id": "hira_service_intro_01309",
+    "instruction": "빅데이터분석센터와 용어사전의 차이는?",
+    "input": "",
+    "output": "성별 변수는 남(M), 여(F)로 구분되어 있습니다. 명세서일반내역에 포함되어 있으며, 성별 통계 분석에 활용할 수 있습니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.302824",
+      "question_length": 20,
+      "answer_length": 70,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_service_intro_00225",
+    "instruction": "청구명세서는 뭔가요?",
+    "input": "",
+    "output": "청구명세서는 의료기관이 진료 후 건강보험공단에 진료비를 청구하기 위해 제출하는 서류입니다. HIRA 데이터는 이 청구명세서를 기반으로 구축됩니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "interrogative",
+      "source_id": "service_intro_31",
+      "created_at": "2025-11-18T05:58:18.431928",
+      "question_length": 11,
+      "answer_length": 81,
+      "quality_score": 0.7
+    }
+  }
+]

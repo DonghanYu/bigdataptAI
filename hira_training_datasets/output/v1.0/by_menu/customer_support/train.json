@@ -1,0 +1,3584 @@
+[
+  {
+    "id": "hira_customer_support_01213",
+    "instruction": "전화이란 무엇인가요?",
+    "input": "",
+    "output": "1:1 문의는 비공개로 처리되며, 본인만 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299624",
+      "question_length": 11,
+      "answer_length": 34,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01179",
+    "instruction": "사례연구의 의미는?",
+    "input": "",
+    "output": "시스템 점검 일정은 '고객지원 > 공지사항'에 사전 공지됩니다. 정기 점검은 통상 매월 마지막 주 일요일에 진행되며, 긴급 점검 시에도 공지사항에 안내됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298782",
+      "question_length": 10,
+      "answer_length": 88,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00160",
+    "instruction": "아이디를 잊어버렸어요",
+    "input": "",
+    "output": "로그인 화면에서 '아이디 찾기'를 클릭하고, 가입 시 등록한 이메일 또는 휴대폰 번호로 인증하면 아이디를 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_291",
+      "created_at": "2025-11-18T05:58:18.424208",
+      "question_length": 11,
+      "answer_length": 70,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01223",
+    "instruction": "시스템 오류 어떻게 해요?",
+    "input": "",
+    "output": "HIRA 데이터는 공공 목적의 연구, 통계, 교육용으로만 사용 가능하며, 상업적 이용은 금지됩니다. 영리 목적 사용 시 별도 협의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.299841",
+      "question_length": 14,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01183",
+    "instruction": "분석설계가 뭔가요?",
+    "input": "",
+    "output": "'고객지원 > HIRA 빅데이터 브리프'와 '자료실'에서 우수 연구 사례, 분석 방법, 활용 사례를 확인할 수 있습니다. 실제 논문 사례도 소개되어 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298836",
+      "question_length": 10,
+      "answer_length": 88,
+      "quality_score": 0.7999999999999999
+    }
+  },
+  {
+    "id": "hira_customer_support_01198",
+    "instruction": "1:1 문의 절차를 알려주세요",
+    "input": "",
+    "output": "'고객지원 > 공지사항' 메뉴에서 시스템 점검, 서비스 변경, 중요 안내 등을 확인할 수 있습니다. 자료신청 전 공지사항을 반드시 확인하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.299279",
+      "question_length": 16,
+      "answer_length": 84,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01174",
+    "instruction": "사례연구이란 무엇인가요?",
+    "input": "",
+    "output": "HIRA 데이터는 공공 목적의 연구, 통계, 교육용으로만 사용 가능하며, 상업적 이용은 금지됩니다. 영리 목적 사용 시 별도 협의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298744",
+      "question_length": 13,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01146",
+    "instruction": "교육자료 (초급) 신청 할 수 있나요?",
+    "input": "",
+    "output": "승인 거부 사유를 확인하고, 연구계획서를 보완하여 재신청할 수 있습니다. IRB 승인서 누락, 연구 목적 불명확, 개인정보 보호 대책 미흡 등이 주요 거부 사유입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_confirmation",
+      "created_at": "2025-11-18T06:00:07.298304",
+      "question_length": 21,
+      "answer_length": 93,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00577",
+    "instruction": "승인 거부된 경우 절차를 알려주세요",
+    "input": "",
+    "output": "승인 거부 사유를 확인하고, 연구계획서를 보완하여 재신청할 수 있습니다. IRB 승인서 누락, 연구 목적 불명확, 개인정보 보호 대책 미흡 등이 주요 거부 사유입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "question_format",
+      "source_id": "customer_support_285",
+      "created_at": "2025-11-18T05:58:18.462572",
+      "question_length": 19,
+      "answer_length": 93,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00167",
+    "instruction": "해외 연구자도 신청 가능한가요?",
+    "input": "",
+    "output": "한국 소속 기관이 있는 경우 신청 가능하며, IRB 승인과 재직증명서가 필요합니다. 순수 해외 연구자는 국내 공동연구자와 함께 신청해야 합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_307",
+      "created_at": "2025-11-18T05:58:18.424242",
+      "question_length": 17,
+      "answer_length": 80,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01200",
+    "instruction": "1:1 문의 신청 어느 메뉴에서 하나요?",
+    "input": "",
+    "output": "회원가입 및 자료신청 시 이메일 인증, 휴대폰 인증, 또는 공동인증서 인증으로 본인 확인을 진행합니다. 재직증명서 등 추가 서류가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.299291",
+      "question_length": 22,
+      "answer_length": 84,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00599",
+    "instruction": "게시판에 올린 질문은 언제 답변될까요?",
+    "input": "",
+    "output": "보통 1-3일 내에 답변되며, 복잡한 문의는 더 걸릴 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_317",
+      "created_at": "2025-11-18T05:58:18.466295",
+      "question_length": 21,
+      "answer_length": 37,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01207",
+    "instruction": "이메일이란 무엇인가요?",
+    "input": "",
+    "output": "HIRA 데이터는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299568",
+      "question_length": 12,
+      "answer_length": 103,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00161",
+    "instruction": "본인 확인 절차는?",
+    "input": "",
+    "output": "회원가입 및 자료신청 시 이메일 인증, 휴대폰 인증, 또는 공동인증서 인증으로 본인 확인을 진행합니다. 재직증명서 등 추가 서류가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_292",
+      "created_at": "2025-11-18T05:58:18.424209",
+      "question_length": 10,
+      "answer_length": 84,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01125",
+    "instruction": "공지사항 신청 가능한가요?",
+    "input": "",
+    "output": "'고객지원 > 교육자료'에서 SAS 기초 교육자료를 다운로드하여 학습하세요. 또한 SAS 공식 문서와 HIRA 브리프에서 사용 팁을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_confirmation",
+      "created_at": "2025-11-18T06:00:07.297442",
+      "question_length": 14,
+      "answer_length": 85,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01242",
+    "instruction": "데이터 다운로드 문제 신청 어느 메뉴에서 하나요?",
+    "input": "",
+    "output": "필요한 변수와 조건만 선택하여 데이터 다운로드 문제를 추출하세요. WHERE 절로 기간, 연령, 질병 등을 제한하고, KEEP 옵션으로 필요한 변수만 유지하면 용량을 줄일 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.300315",
+      "question_length": 27,
+      "answer_length": 103,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01205",
+    "instruction": "상담이란 무엇인가요?",
+    "input": "",
+    "output": "초급 과정은 SAS 기본 문법, 데이터 읽기/쓰기, 기본 통계, HIRA 데이터 구조 이해 등이 포함됩니다. HIRA 데이터를 처음 다루는 연구자에게 적합합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299534",
+      "question_length": 11,
+      "answer_length": 90,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01251",
+    "instruction": "파일오류가 뭔가요?",
+    "input": "",
+    "output": "HIRA 빅데이터 다운로드 문제 브리프는 보건의료 빅데이터 활용 방법을 소개하는 정기 소식지입니다. 분석 사례, 활용 팁, 새로운 기능, 우수 연구 소개 등이 담겨 있으며, '고객지원 > HIRA 빅데이터 브리프' 메뉴에서 무료로 열람할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.300453",
+      "question_length": 10,
+      "answer_length": 140,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01130",
+    "instruction": "자료실 어떻게 하나요?",
+    "input": "",
+    "output": "MY분석과제 목록에서 연장을 원하는 과제를 선택하고 '연장 신청' 버튼을 클릭하세요. 연장 사유를 작성하여 제출하면 심사 후 승인됩니다. 연장은 통상 1회 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.297705",
+      "question_length": 12,
+      "answer_length": 93,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00581",
+    "instruction": "본인 검색 절차는?",
+    "input": "",
+    "output": "회원가입 및 자료신청 시 이메일 인증, 휴대폰 인증, 또는 공동인증서 인증으로 본인 확인을 진행합니다. 재직증명서 등 추가 서류가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "synonym",
+      "source_id": "customer_support_292",
+      "created_at": "2025-11-18T05:58:18.463344",
+      "question_length": 10,
+      "answer_length": 84,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01161",
+    "instruction": "교육자료 (중급) 신청은 어디에서 가능한가요?",
+    "input": "",
+    "output": "시스템 점검 일정은 '고객지원 > 공지사항'에 사전 공지됩니다. 정기 점검은 통상 매월 마지막 주 일요일에 진행되며, 긴급 점검 시에도 공지사항에 안내됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.298515",
+      "question_length": 25,
+      "answer_length": 88,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01246",
+    "instruction": "데이터 다운로드 문제 어떻게 해요?",
+    "input": "",
+    "output": "크롬 기준: 설정 > 개인정보 및 보안 > 인터넷 사용 기록 삭제 > 쿠키 및 캐시 항목 선택 후 삭제. 또는 Ctrl+Shift+Delete를 눌러 빠르게 삭제할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.300373",
+      "question_length": 19,
+      "answer_length": 99,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_00561",
+    "instruction": "데이터 보안은 관리되나요?",
+    "input": "",
+    "output": "HIRA 데이터는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "abbreviation",
+      "source_id": "customer_support_277",
+      "created_at": "2025-11-18T05:58:18.461877",
+      "question_length": 14,
+      "answer_length": 103,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01134",
+    "instruction": "자료실 신청은 어디서 하나요?",
+    "input": "",
+    "output": "HIRA 데이터는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.297770",
+      "question_length": 16,
+      "answer_length": 103,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00531",
+    "instruction": "공지사항은 어디서 확인합니까?",
+    "input": "",
+    "output": "'고객지원 > 공지사항' 메뉴에서 시스템 점검, 서비스 변경, 중요 안내 등을 확인할 수 있습니다. 자료신청 전 공지사항을 반드시 확인하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_260",
+      "created_at": "2025-11-18T05:58:18.459550",
+      "question_length": 16,
+      "answer_length": 84,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01153",
+    "instruction": "기초가 뭔가요?",
+    "input": "",
+    "output": "고객센터는 평일 09:00-18:00 운영되며, 점심시간(12:00-13:00)에는 상담이 제한될 수 있습니다. 긴급하지 않은 문의는 게시판을 이용해주세요. 전화: 033-739-1018",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298373",
+      "question_length": 8,
+      "answer_length": 104,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00516",
+    "instruction": "회원가입는 어떻게 하나요?",
+    "input": "",
+    "output": "opendata.hira.or.kr 메인 화면에서 '회원가입' 버튼을 클릭하고, 이메일 또는 공동인증서로 가입할 수 있습니다. 기본 정보 입력 후 이메일 인증을 완료하면 회원가입이 완료됩니다. 가입 후 자료신청 및 SAS Studio 등의 서비스를 이용할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "particle",
+      "source_id": "customer_support_252",
+      "created_at": "2025-11-18T05:58:18.458621",
+      "question_length": 14,
+      "answer_length": 150,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00584",
+    "instruction": "SAS 프로그램 사용법를 모르겠어요",
+    "input": "",
+    "output": "'고객지원 > 교육자료'에서 SAS 기초 교육자료를 다운로드하여 학습하세요. 또한 SAS 공식 문서와 HIRA 브리프에서 사용 팁을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_298",
+      "created_at": "2025-11-18T05:58:18.464058",
+      "question_length": 19,
+      "answer_length": 85,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01175",
+    "instruction": "교육자료 (고급) 어떻게 해요?",
+    "input": "",
+    "output": "승인 거부 사유를 확인하고, 연구계획서를 보완하여 재신청할 수 있습니다. IRB 승인서 누락, 연구 목적 불명확, 개인정보 보호 대책 미흡 등이 주요 거부 사유입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.298750",
+      "question_length": 17,
+      "answer_length": 93,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01165",
+    "instruction": "SQL에 대해 설명해주세요",
+    "input": "",
+    "output": "이메일 문의는 고객지원 게시판을 이용하시거나, 1:1 문의 메뉴를 통해 접수할 수 있습니다. 직접 이메일 주소는 공개되지 않으므로 포털 내 문의 시스템을 이용해주세요.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298547",
+      "question_length": 14,
+      "answer_length": 93,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01217",
+    "instruction": "전화가 뭔가요?",
+    "input": "",
+    "output": "초급 과정은 SAS 기본 문법, 데이터 읽기/쓰기, 기본 통계, HIRA 데이터 구조 이해 등이 포함됩니다. HIRA 데이터를 처음 다루는 연구자에게 적합합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299703",
+      "question_length": 8,
+      "answer_length": 90,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00591",
+    "instruction": "해외 연구자도 신청 할 수 있나요?",
+    "input": "",
+    "output": "한국 소속 기관이 있는 경우 신청 가능하며, IRB 승인과 재직증명서가 필요합니다. 순수 해외 연구자는 국내 공동연구자와 함께 신청해야 합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_307",
+      "created_at": "2025-11-18T05:58:18.465181",
+      "question_length": 19,
+      "answer_length": 80,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00157",
+    "instruction": "승인 거부된 경우 어떻게 하나요?",
+    "input": "",
+    "output": "승인 거부 사유를 확인하고, 연구계획서를 보완하여 재신청할 수 있습니다. IRB 승인서 누락, 연구 목적 불명확, 개인정보 보호 대책 미흡 등이 주요 거부 사유입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_285",
+      "created_at": "2025-11-18T05:58:18.424192",
+      "question_length": 18,
+      "answer_length": 93,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01244",
+    "instruction": "파일오류이란 무엇인가요?",
+    "input": "",
+    "output": "네, 온라인 교육과 오프라인 교육이 모두 제공됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.300337",
+      "question_length": 13,
+      "answer_length": 29,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01218",
+    "instruction": "접속불가가 뭔가요?",
+    "input": "",
+    "output": "보통 1-3일 내에 답변되며, 복잡한 문의는 더 걸릴 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299776",
+      "question_length": 10,
+      "answer_length": 37,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00136",
+    "instruction": "데이터 다운로드가 중간에 끊겼어요",
+    "input": "",
+    "output": "네트워크가 불안정하거나 파일이 큰 경우 다운로드가 중단될 수 있습니다. 안정적인 유선 인터넷 환경에서 재시도하거나, 파일을 분할하여 다운로드하세요. 반복되면 고객센터에 파일명과 오류 상황을 알려주시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_253",
+      "created_at": "2025-11-18T05:58:18.424115",
+      "question_length": 18,
+      "answer_length": 117,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01252",
+    "instruction": "받기실패이란 무엇인가요?",
+    "input": "",
+    "output": "'고객지원 > 자료실' 메뉴에서 신청서 양식, 작성 가이드, 교육자료, 분석 사례집 등을 다운로드할 수 있습니다. 로그인 후 이용 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.300458",
+      "question_length": 13,
+      "answer_length": 79,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01145",
+    "instruction": "교육자료 (초급) 어떻게 하나요?",
+    "input": "",
+    "output": "로그인 화면에서 '공동인증서 로그인'을 선택하고, 인증서 종류(금융인증서, 범용인증서 등)를 선택한 후 비밀번호를 입력하면 로그인됩니다. 인증서가 만료된 경우 갱신이 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.298284",
+      "question_length": 18,
+      "answer_length": 99,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00151",
+    "instruction": "개인정보 처리방침은 어디서 확인하나요?",
+    "input": "",
+    "output": "메인 화면 하단의 '개인정보 처리방침' 링크를 클릭하면 HIRA의 개인정보 수집, 이용, 보관, 파기 정책을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_274",
+      "created_at": "2025-11-18T05:58:18.424169",
+      "question_length": 21,
+      "answer_length": 72,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_00169",
+    "instruction": "교육 프로그램은 언제 진행되나요?",
+    "input": "",
+    "output": "정기적으로 진행되며, 공지사항에서 일정을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_311",
+      "created_at": "2025-11-18T05:58:18.424250",
+      "question_length": 18,
+      "answer_length": 34,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00543",
+    "instruction": "시스템 점검 일정 확인 과정",
+    "input": "",
+    "output": "시스템 점검 일정은 '고객지원 > 공지사항'에 사전 공지됩니다. 정기 점검은 통상 매월 마지막 주 일요일에 진행되며, 긴급 점검 시에도 공지사항에 안내됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_268",
+      "created_at": "2025-11-18T05:58:18.460663",
+      "question_length": 15,
+      "answer_length": 88,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00549",
+    "instruction": "모바일에서도 이용 할 수 있나요?",
+    "input": "",
+    "output": "HIRA 보건의료빅데이터개방시스템은 PC 웹 환경에 최적화되어 있습니다. 모바일에서는 공지사항, 통계 조회 등 일부 기능만 이용 가능하며, 자료신청과 분석은 PC 사용을 권장합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_272",
+      "created_at": "2025-11-18T05:58:18.461285",
+      "question_length": 18,
+      "answer_length": 101,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00576",
+    "instruction": "승인 거부된 경우 어떻게 하죠?",
+    "input": "",
+    "output": "승인 거부 사유를 확인하고, 연구계획서를 보완하여 재신청할 수 있습니다. IRB 승인서 누락, 연구 목적 불명확, 개인정보 보호 대책 미흡 등이 주요 거부 사유입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_285",
+      "created_at": "2025-11-18T05:58:18.462570",
+      "question_length": 17,
+      "answer_length": 93,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_00135",
+    "instruction": "회원가입은 어떻게 하나요?",
+    "input": "",
+    "output": "opendata.hira.or.kr 메인 화면에서 '회원가입' 버튼을 클릭하고, 이메일 또는 공동인증서로 가입할 수 있습니다. 기본 정보 입력 후 이메일 인증을 완료하면 회원가입이 완료됩니다. 가입 후 자료신청 및 SAS Studio 등의 서비스를 이용할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_252",
+      "created_at": "2025-11-18T05:58:18.424113",
+      "question_length": 14,
+      "answer_length": 150,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00592",
+    "instruction": "해외 연구자도 신청 할 수 있나요한가요?",
+    "input": "",
+    "output": "한국 소속 기관이 있는 경우 신청 가능하며, IRB 승인과 재직증명서가 필요합니다. 순수 해외 연구자는 국내 공동연구자와 함께 신청해야 합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "synonym",
+      "source_id": "customer_support_307",
+      "created_at": "2025-11-18T05:58:18.465184",
+      "question_length": 22,
+      "answer_length": 80,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00144",
+    "instruction": "고급 교육자료는 무엇을 다루나요?",
+    "input": "",
+    "output": "고급 과정은 연구 설계, 분석 계획 수립, 고급 통계기법, 실제 연구 사례, 논문 작성 팁 등을 다룹니다. 학술 논문 작성을 목표로 하는 연구자에게 유용합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_264",
+      "created_at": "2025-11-18T05:58:18.424146",
+      "question_length": 18,
+      "answer_length": 89,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01202",
+    "instruction": "상담에 대해 설명해주세요",
+    "input": "",
+    "output": "'고객지원 > 자주 묻는 질문(FAQ)' 메뉴에서 자료신청, 데이터 활용, 시스템 사용 등에 대한 자주 묻는 질문과 답변을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299328",
+      "question_length": 13,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00580",
+    "instruction": "분석작업 사례를 참고하고 싶어요",
+    "input": "",
+    "output": "'고객지원 > HIRA 빅데이터 브리프'와 '자료실'에서 우수 연구 사례, 분석 방법, 활용 사례를 확인할 수 있습니다. 실제 논문 사례도 소개되어 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "synonym",
+      "source_id": "customer_support_288",
+      "created_at": "2025-11-18T05:58:18.462854",
+      "question_length": 17,
+      "answer_length": 88,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01137",
+    "instruction": "HIRA 빅데이터 브리프 신청 어느 메뉴에서 하나요?",
+    "input": "",
+    "output": "회원가입 및 자료신청 시 이메일 인증, 휴대폰 인증, 또는 공동인증서 인증으로 본인 확인을 진행합니다. 재직증명서 등 추가 서류가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.298060",
+      "question_length": 29,
+      "answer_length": 84,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00172",
+    "instruction": "비밀번호를 잊어버렸는데 어떻게 하나요?",
+    "input": "",
+    "output": "로그인 화면에서 비밀번호 찾기를 클릭하면 이메일로 재설정 링크가 전송됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_321",
+      "created_at": "2025-11-18T05:58:18.424283",
+      "question_length": 21,
+      "answer_length": 42,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00532",
+    "instruction": "공지사항은 어느 곳에서 확인하나요?",
+    "input": "",
+    "output": "'고객지원 > 공지사항' 메뉴에서 시스템 점검, 서비스 변경, 중요 안내 등을 확인할 수 있습니다. 자료신청 전 공지사항을 반드시 확인하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "interrogative",
+      "source_id": "customer_support_260",
+      "created_at": "2025-11-18T05:58:18.459553",
+      "question_length": 19,
+      "answer_length": 84,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01182",
+    "instruction": "분석설계에 대해 설명해주세요",
+    "input": "",
+    "output": "'고객지원 > 자주 묻는 질문(FAQ)' 메뉴에서 자료신청, 데이터 활용, 시스템 사용 등에 대한 자주 묻는 질문과 답변을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298831",
+      "question_length": 15,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01176",
+    "instruction": "교육자료 (고급) 신청 가능한가요?",
+    "input": "",
+    "output": "회원가입 및 자료신청 시 이메일 인증, 휴대폰 인증, 또는 공동인증서 인증으로 본인 확인을 진행합니다. 재직증명서 등 추가 서류가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_confirmation",
+      "created_at": "2025-11-18T06:00:07.298755",
+      "question_length": 19,
+      "answer_length": 84,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01128",
+    "instruction": "공지사항 어떻게 해요?",
+    "input": "",
+    "output": "'고객지원 > 1:1 문의' 메뉴를 이용하거나, 빅데이터정보부(033-739-1018)로 전화 문의 가능합니다. 이메일 문의도 받고 있으며, 평일 09:00-18:00에 상담 가능합니다. 긴급하지 않은 경우 게시판 문의를 권장합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.297577",
+      "question_length": 12,
+      "answer_length": 130,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01230",
+    "instruction": "오류의 의미는?",
+    "input": "",
+    "output": "HIRA 빅데이터 브리프는 보건의료 빅데이터 활용 방법을 소개하는 정기 소식지입니다. 분석 사례, 활용 팁, 새로운 기능, 우수 연구 소개 등이 담겨 있으며, '고객지원 > HIRA 빅데이터 브리프' 메뉴에서 무료로 열람할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.300030",
+      "question_length": 8,
+      "answer_length": 132,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00148",
+    "instruction": "쿠키 및 캐시 삭제 방법",
+    "input": "",
+    "output": "크롬 기준: 설정 > 개인정보 및 보안 > 인터넷 사용 기록 삭제 > 쿠키 및 캐시 항목 선택 후 삭제. 또는 Ctrl+Shift+Delete를 눌러 빠르게 삭제할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_271",
+      "created_at": "2025-11-18T05:58:18.424159",
+      "question_length": 13,
+      "answer_length": 99,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01189",
+    "instruction": "자주 묻는 질문 어떻게 해요?",
+    "input": "",
+    "output": "네, 온라인 교육과 오프라인 교육이 모두 제공됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.299052",
+      "question_length": 16,
+      "answer_length": 29,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01236",
+    "instruction": "로그인 문제 신청 어느 곳에서 할 수 있나요?",
+    "input": "",
+    "output": "MY분석과제 목록에서 연장을 원하는 과제를 선택하고 '연장 신청' 버튼을 클릭하세요. 연장 사유를 작성하여 제출하면 심사 후 승인됩니다. 연장은 통상 1회 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.300111",
+      "question_length": 25,
+      "answer_length": 93,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00598",
+    "instruction": "게시판에 올린 질문은 언제 답변되죠?",
+    "input": "",
+    "output": "보통 1-3일 내에 답변되며, 복잡한 문의는 더 걸릴 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_317",
+      "created_at": "2025-11-18T05:58:18.466293",
+      "question_length": 20,
+      "answer_length": 37,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01127",
+    "instruction": "안내의 의미는?",
+    "input": "",
+    "output": "HIRA 빅데이터 브리프는 보건의료 빅데이터 활용 방법을 소개하는 정기 소식지입니다. 분석 사례, 활용 팁, 새로운 기능, 우수 연구 소개 등이 담겨 있으며, '고객지원 > HIRA 빅데이터 브리프' 메뉴에서 무료로 열람할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.297560",
+      "question_length": 8,
+      "answer_length": 132,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00156",
+    "instruction": "분석 기간 연장은 어떻게 하나요?",
+    "input": "",
+    "output": "MY분석과제 목록에서 연장을 원하는 과제를 선택하고 '연장 신청' 버튼을 클릭하세요. 연장 사유를 작성하여 제출하면 심사 후 승인됩니다. 연장은 통상 1회 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_284",
+      "created_at": "2025-11-18T05:58:18.424190",
+      "question_length": 18,
+      "answer_length": 93,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01191",
+    "instruction": "자주 묻는 질문 어떻게 하나요?",
+    "input": "",
+    "output": "HIRA 데이터는 공공 목적의 연구, 통계, 교육용으로만 사용 가능하며, 상업적 이용은 금지됩니다. 영리 목적 사용 시 별도 협의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.299085",
+      "question_length": 17,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01151",
+    "instruction": "쿼리가 뭔가요?",
+    "input": "",
+    "output": "현재 한국어 서비스만 제공되며, 영문 서비스는 일부 소개 페이지에만 제공됩니다. 외국인 연구자는 한국어 가능한 공동연구자와 함께 이용하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298359",
+      "question_length": 8,
+      "answer_length": 83,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01190",
+    "instruction": "답변이란 무엇인가요?",
+    "input": "",
+    "output": "HIRA 데이터는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299068",
+      "question_length": 11,
+      "answer_length": 103,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00557",
+    "instruction": "영문 서비스도 제공되죠?",
+    "input": "",
+    "output": "현재 한국어 서비스만 제공되며, 영문 서비스는 일부 소개 페이지에만 제공됩니다. 외국인 연구자는 한국어 가능한 공동연구자와 함께 이용하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_276",
+      "created_at": "2025-11-18T05:58:18.461791",
+      "question_length": 13,
+      "answer_length": 83,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00146",
+    "instruction": "이메일 문의 주소는?",
+    "input": "",
+    "output": "이메일 문의는 고객지원 게시판을 이용하시거나, 1:1 문의 메뉴를 통해 접수할 수 있습니다. 직접 이메일 주소는 공개되지 않으므로 포털 내 문의 시스템을 이용해주세요.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_267",
+      "created_at": "2025-11-18T05:58:18.424152",
+      "question_length": 11,
+      "answer_length": 93,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01126",
+    "instruction": "공고가 뭔가요?",
+    "input": "",
+    "output": "크롬(Chrome), 엣지(Edge) 최신 버전 사용을 권장합니다. 인터넷 익스플로러(IE)는 지원 종료되어 사용할 수 없으며, 파이어폭스, 사파리는 일부 기능이 제한될 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.297470",
+      "question_length": 8,
+      "answer_length": 102,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00150",
+    "instruction": "회원 탈퇴는 어떻게 하나요?",
+    "input": "",
+    "output": "로그인 후 '마이페이지 > 회원정보 수정 > 회원 탈퇴' 메뉴에서 탈퇴할 수 있습니다. 진행 중인 분석과제가 있거나 데이터 사용 중이면 탈퇴가 제한될 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_273",
+      "created_at": "2025-11-18T05:58:18.424163",
+      "question_length": 15,
+      "answer_length": 91,
+      "quality_score": 0.7999999999999999
+    }
+  },
+  {
+    "id": "hira_customer_support_01171",
+    "instruction": "교육자료 (중급) 어떻게 하나요?",
+    "input": "",
+    "output": "1:1 문의는 비공개로 처리되며, 본인만 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.298626",
+      "question_length": 18,
+      "answer_length": 34,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01215",
+    "instruction": "연락처 어떻게 하나요?",
+    "input": "",
+    "output": "opendata.hira.or.kr 메인 화면에서 '회원가입' 버튼을 클릭하고, 이메일 또는 공동인증서로 가입할 수 있습니다. 기본 정보 입력 후 이메일 인증을 완료하면 회원가입이 완료됩니다. 가입 후 자료신청 및 SAS Studio 등의 서비스를 이용할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.299672",
+      "question_length": 12,
+      "answer_length": 150,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01206",
+    "instruction": "연락처 신청은 어디서 하나요?",
+    "input": "",
+    "output": "크롬(Chrome), 엣지(Edge) 최신 버전 사용을 권장합니다. 인터넷 익스플로러(IE)는 지원 종료되어 사용할 수 없으며, 파이어폭스, 사파리는 일부 기능이 제한될 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.299555",
+      "question_length": 16,
+      "answer_length": 102,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00142",
+    "instruction": "자료실에서 다운로드할 수 있는 자료는?",
+    "input": "",
+    "output": "'고객지원 > 자료실' 메뉴에서 신청서 양식, 작성 가이드, 교육자료, 분석 사례집 등을 다운로드할 수 있습니다. 로그인 후 이용 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_261",
+      "created_at": "2025-11-18T05:58:18.424133",
+      "question_length": 21,
+      "answer_length": 79,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_00522",
+    "instruction": "교육자료는 어느 메뉴에서 받나요?",
+    "input": "",
+    "output": "'고객지원 > 교육자료' 메뉴에서 다운로드할 수 있습니다. 초급(SAS 기본 쿼리, 데이터 처리), 중급(SQL, 통계분석), 고급(분석 설계, 사례) 과정으로 구성되어 있으며, PDF 파일로 제공됩니다. 로그인 후 이용 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "synonym",
+      "source_id": "customer_support_254",
+      "created_at": "2025-11-18T05:58:18.458869",
+      "question_length": 18,
+      "answer_length": 130,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01135",
+    "instruction": "자료실 신청 어느 메뉴에서 하나요?",
+    "input": "",
+    "output": "로그인 후 '보건의료빅데이터 > MY분석과제 목록' 메뉴에서 신청한 과제의 진행 상황, 승인 여부, 이용 기간을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.297862",
+      "question_length": 19,
+      "answer_length": 74,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01180",
+    "instruction": "교육자료 (고급) 어떻게 하나요?",
+    "input": "",
+    "output": "회원가입 및 자료신청 시 이메일 인증, 휴대폰 인증, 또는 공동인증서 인증으로 본인 확인을 진행합니다. 재직증명서 등 추가 서류가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.298789",
+      "question_length": 18,
+      "answer_length": 84,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00564",
+    "instruction": "이용 약관은 어디서 확인하죠?",
+    "input": "",
+    "output": "메인 화면 하단의 '이용 약관' 링크를 클릭하면 서비스 이용 조건, 금지 행위, 책임 사항 등을 확인할 수 있습니다. 회원가입 시 약관 동의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_278",
+      "created_at": "2025-11-18T05:58:18.461974",
+      "question_length": 16,
+      "answer_length": 86,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01245",
+    "instruction": "데이터 다운로드 문제 어떻게 하나요?",
+    "input": "",
+    "output": "HIRA 빅데이터 다운로드 문제 브리프는 보건의료 빅데이터 활용 방법을 소개하는 정기 소식지입니다. 분석 사례, 활용 팁, 새로운 기능, 우수 연구 소개 등이 담겨 있으며, '고객지원 > HIRA 빅데이터 브리프' 메뉴에서 무료로 열람할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.300365",
+      "question_length": 20,
+      "answer_length": 140,
+      "quality_score": 0.8999999999999999
+    }
+  },
+  {
+    "id": "hira_customer_support_01219",
+    "instruction": "장애이란 무엇인가요?",
+    "input": "",
+    "output": "'고객지원 > HIRA 빅데이터 브리프'와 '자료실'에서 우수 연구 사례, 분석 방법, 활용 사례를 확인할 수 있습니다. 실제 논문 사례도 소개되어 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299788",
+      "question_length": 11,
+      "answer_length": 88,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_00603",
+    "instruction": "비밀번호를 잊어버렸은데 어떻게 하나요?",
+    "input": "",
+    "output": "로그인 화면에서 비밀번호 찾기를 클릭하면 이메일로 재설정 링크가 전송됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "particle",
+      "source_id": "customer_support_321",
+      "created_at": "2025-11-18T05:58:18.466696",
+      "question_length": 21,
+      "answer_length": 42,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01178",
+    "instruction": "교육자료 (고급) 신청은 어디서 하나요?",
+    "input": "",
+    "output": "opendata.hira.or.kr 메인 화면에서 '회원가입' 버튼을 클릭하고, 이메일 또는 공동인증서로 가입할 수 있습니다. 기본 정보 입력 후 이메일 인증을 완료하면 회원가입이 완료됩니다. 가입 후 자료신청 및 SAS Studio 등의 서비스를 이용할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.298774",
+      "question_length": 22,
+      "answer_length": 150,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01124",
+    "instruction": "공지사항 어떻게 하나요?",
+    "input": "",
+    "output": "로그인 화면에서 비밀번호 찾기를 클릭하면 이메일로 재설정 링크가 전송됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.297412",
+      "question_length": 13,
+      "answer_length": 42,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00573",
+    "instruction": "분석 기간 연장은 어떻게 할까요?",
+    "input": "",
+    "output": "MY분석과제 목록에서 연장을 원하는 과제를 선택하고 '연장 신청' 버튼을 클릭하세요. 연장 사유를 작성하여 제출하면 심사 후 승인됩니다. 연장은 통상 1회 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_284",
+      "created_at": "2025-11-18T05:58:18.462485",
+      "question_length": 18,
+      "answer_length": 93,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01155",
+    "instruction": "쿼리에 대해 설명해주세요",
+    "input": "",
+    "output": "'고객지원 > 공지사항' 메뉴에서 시스템 점검, 서비스 변경, 중요 안내 등을 확인할 수 있습니다. 자료신청 전 공지사항을 반드시 확인하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298382",
+      "question_length": 13,
+      "answer_length": 84,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01210",
+    "instruction": "연락처이란 무엇인가요?",
+    "input": "",
+    "output": "'고객지원 > HIRA 빅데이터 브리프'와 '자료실'에서 우수 연구 사례, 분석 방법, 활용 사례를 확인할 수 있습니다. 실제 논문 사례도 소개되어 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299600",
+      "question_length": 12,
+      "answer_length": 88,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_00587",
+    "instruction": "상업적 이용은 할 수 있나요한가요?",
+    "input": "",
+    "output": "HIRA 데이터는 공공 목적의 연구, 통계, 교육용으로만 사용 가능하며, 상업적 이용은 금지됩니다. 영리 목적 사용 시 별도 협의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "synonym",
+      "source_id": "customer_support_306",
+      "created_at": "2025-11-18T05:58:18.465078",
+      "question_length": 19,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00601",
+    "instruction": "게시판에 올린 질문은 언제 답변됩니까?",
+    "input": "",
+    "output": "보통 1-3일 내에 답변되며, 복잡한 문의는 더 걸릴 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_317",
+      "created_at": "2025-11-18T05:58:18.466300",
+      "question_length": 21,
+      "answer_length": 37,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00539",
+    "instruction": "FAQ은 어디에 있나요?",
+    "input": "",
+    "output": "'고객지원 > 자주 묻는 질문(FAQ)' 메뉴에서 자료신청, 데이터 활용, 시스템 사용 등에 대한 자주 묻는 질문과 답변을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "particle",
+      "source_id": "customer_support_265",
+      "created_at": "2025-11-18T05:58:18.460151",
+      "question_length": 13,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00579",
+    "instruction": "분석 사례을 참고하고 싶어요",
+    "input": "",
+    "output": "'고객지원 > HIRA 빅데이터 브리프'와 '자료실'에서 우수 연구 사례, 분석 방법, 활용 사례를 확인할 수 있습니다. 실제 논문 사례도 소개되어 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_288",
+      "created_at": "2025-11-18T05:58:18.462851",
+      "question_length": 15,
+      "answer_length": 88,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_00588",
+    "instruction": "상업적 이용은 가능할까요?",
+    "input": "",
+    "output": "HIRA 데이터는 공공 목적의 연구, 통계, 교육용으로만 사용 가능하며, 상업적 이용은 금지됩니다. 영리 목적 사용 시 별도 협의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_306",
+      "created_at": "2025-11-18T05:58:18.465081",
+      "question_length": 14,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00569",
+    "instruction": "MY분석작업과제 목록은 어디서 확인하나요?",
+    "input": "",
+    "output": "로그인 후 '보건의료빅데이터 > MY분석과제 목록' 메뉴에서 신청한 과제의 진행 상황, 승인 여부, 이용 기간을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_283",
+      "created_at": "2025-11-18T05:58:18.462403",
+      "question_length": 23,
+      "answer_length": 74,
+      "quality_score": 0.7999999999999999
+    }
+  },
+  {
+    "id": "hira_customer_support_01139",
+    "instruction": "HIRA 빅데이터 브리프 방법은?",
+    "input": "",
+    "output": "시스템 점검 일정은 '고객지원 > 공지사항'에 사전 공지됩니다. 정기 점검은 통상 매월 마지막 주 일요일에 진행되며, 긴급 점검 시에도 공지사항에 안내됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.298095",
+      "question_length": 18,
+      "answer_length": 88,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01233",
+    "instruction": "로그인 문제 신청은 어디서 하나요?",
+    "input": "",
+    "output": "메인 화면 하단의 '개인정보 처리방침' 링크를 클릭하면 HIRA의 개인정보 수집, 이용, 보관, 파기 정책을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.300074",
+      "question_length": 19,
+      "answer_length": 72,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00530",
+    "instruction": "연구 관련 통계 상담를 받고 싶어요",
+    "input": "",
+    "output": "HIRA는 빅데이터 활용 상담을 제공합니다. 연구 설계, 변수 선택, 통계 방법 등에 대한 기술적 상담이 필요하면 고객센터(033-739-1018)로 문의하거나, 교육 프로그램에 참여하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "particle",
+      "source_id": "customer_support_259",
+      "created_at": "2025-11-18T05:58:18.459468",
+      "question_length": 19,
+      "answer_length": 111,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01267",
+    "instruction": "문서에 대해 알려주세요",
+    "input": "",
+    "output": "'고객지원 > 자주 묻는 질문(FAQ)' 메뉴에서 자료신청, 데이터 활용, 시스템 사용 등에 대한 자주 묻는 질문과 답변을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.301546",
+      "question_length": 12,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01250",
+    "instruction": "다운로드문제가 뭔가요?",
+    "input": "",
+    "output": "HIRA 데이터 다운로드 문제는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.300446",
+      "question_length": 12,
+      "answer_length": 111,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01279",
+    "instruction": "고급에 대해 알려주세요",
+    "input": "",
+    "output": "로그인 후 '마이페이지 > 회원정보 수정 > 회원 탈퇴' 메뉴에서 탈퇴할 수 있습니다. 진행 중인 분석과제가 있거나 데이터 사용 중이면 탈퇴가 제한될 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.302040",
+      "question_length": 12,
+      "answer_length": 91,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00524",
+    "instruction": "HIRA 빅데이터 브리프는 뭔가요?",
+    "input": "",
+    "output": "HIRA 빅데이터 브리프는 보건의료 빅데이터 활용 방법을 소개하는 정기 소식지입니다. 분석 사례, 활용 팁, 새로운 기능, 우수 연구 소개 등이 담겨 있으며, '고객지원 > HIRA 빅데이터 브리프' 메뉴에서 무료로 열람할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "interrogative",
+      "source_id": "customer_support_255",
+      "created_at": "2025-11-18T05:58:18.458974",
+      "question_length": 19,
+      "answer_length": 132,
+      "quality_score": 0.8999999999999999
+    }
+  },
+  {
+    "id": "hira_customer_support_01181",
+    "instruction": "교육자료 (고급) 신청 어느 메뉴에서 하나요?",
+    "input": "",
+    "output": "'고객지원 > HIRA 빅데이터 브리프'와 '자료실'에서 우수 연구 사례, 분석 방법, 활용 사례를 확인할 수 있습니다. 실제 논문 사례도 소개되어 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.298811",
+      "question_length": 25,
+      "answer_length": 88,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00526",
+    "instruction": "HIRA 빅데이터 브리프는 무엇이에요?",
+    "input": "",
+    "output": "HIRA 빅데이터 브리프는 보건의료 빅데이터 활용 방법을 소개하는 정기 소식지입니다. 분석 사례, 활용 팁, 새로운 기능, 우수 연구 소개 등이 담겨 있으며, '고객지원 > HIRA 빅데이터 브리프' 메뉴에서 무료로 열람할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_255",
+      "created_at": "2025-11-18T05:58:18.458979",
+      "question_length": 21,
+      "answer_length": 132,
+      "quality_score": 0.8999999999999999
+    }
+  },
+  {
+    "id": "hira_customer_support_01211",
+    "instruction": "연락처 어떻게 해요?",
+    "input": "",
+    "output": "네, 온라인 교육과 오프라인 교육이 모두 제공됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.299609",
+      "question_length": 11,
+      "answer_length": 29,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00545",
+    "instruction": "시스템 점검 일정 검색 방법",
+    "input": "",
+    "output": "시스템 점검 일정은 '고객지원 > 공지사항'에 사전 공지됩니다. 정기 점검은 통상 매월 마지막 주 일요일에 진행되며, 긴급 점검 시에도 공지사항에 안내됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "synonym",
+      "source_id": "customer_support_268",
+      "created_at": "2025-11-18T05:58:18.460668",
+      "question_length": 15,
+      "answer_length": 88,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00165",
+    "instruction": "그래프를 그리고 싶어요",
+    "input": "",
+    "output": "SAS의 PROC SGPLOT, PROC GCHART 등을 사용하여 그래프를 생성할 수 있습니다. 교육자료 중급 과정에서 시각화 방법을 다루고 있으니 참고하세요.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_303",
+      "created_at": "2025-11-18T05:58:18.424235",
+      "question_length": 12,
+      "answer_length": 90,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01186",
+    "instruction": "FAQ가 뭔가요?",
+    "input": "",
+    "output": "작업 파일은 서버에 저장되므로 재접속하면 복구됩니다. 다만 세션 만료 전 저장하지 않은 경우 손실될 수 있으니 주기적으로 저장하세요. 문제가 지속되면 고객센터로 문의하세요.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298989",
+      "question_length": 9,
+      "answer_length": 96,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00586",
+    "instruction": "상업적 이용은 가능해요?",
+    "input": "",
+    "output": "HIRA 데이터는 공공 목적의 연구, 통계, 교육용으로만 사용 가능하며, 상업적 이용은 금지됩니다. 영리 목적 사용 시 별도 협의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_306",
+      "created_at": "2025-11-18T05:58:18.465076",
+      "question_length": 13,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00540",
+    "instruction": "FAQ는 어디에 있죠?",
+    "input": "",
+    "output": "'고객지원 > 자주 묻는 질문(FAQ)' 메뉴에서 자료신청, 데이터 활용, 시스템 사용 등에 대한 자주 묻는 질문과 답변을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_265",
+      "created_at": "2025-11-18T05:58:18.460154",
+      "question_length": 12,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01163",
+    "instruction": "교육자료 (중급) 절차를 알려주세요",
+    "input": "",
+    "output": "로그인 후 '마이페이지 > 회원정보 수정 > 회원 탈퇴' 메뉴에서 탈퇴할 수 있습니다. 진행 중인 분석과제가 있거나 데이터 사용 중이면 탈퇴가 제한될 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.298526",
+      "question_length": 19,
+      "answer_length": 91,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00139",
+    "instruction": "1:1 문의는 어떻게 하나요?",
+    "input": "",
+    "output": "'고객지원 > 1:1 문의' 메뉴를 이용하거나, 빅데이터정보부(033-739-1018)로 전화 문의 가능합니다. 이메일 문의도 받고 있으며, 평일 09:00-18:00에 상담 가능합니다. 긴급하지 않은 경우 게시판 문의를 권장합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_256",
+      "created_at": "2025-11-18T05:58:18.424121",
+      "question_length": 16,
+      "answer_length": 130,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01194",
+    "instruction": "질문이란 무엇인가요?",
+    "input": "",
+    "output": "데이터는 승인받은 연구 목적으로만 사용해야 하며, 제3자 제공, 상업적 이용, 개인 식별 시도는 엄격히 금지됩니다. 위반 시 이용 정지 및 법적 책임을 질 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299122",
+      "question_length": 11,
+      "answer_length": 94,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00152",
+    "instruction": "영문 서비스도 제공되나요?",
+    "input": "",
+    "output": "현재 한국어 서비스만 제공되며, 영문 서비스는 일부 소개 페이지에만 제공됩니다. 외국인 연구자는 한국어 가능한 공동연구자와 함께 이용하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_276",
+      "created_at": "2025-11-18T05:58:18.424173",
+      "question_length": 14,
+      "answer_length": 83,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01266",
+    "instruction": "알림가 뭔가요?",
+    "input": "",
+    "output": "HIRA 데이터는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.301520",
+      "question_length": 8,
+      "answer_length": 103,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00529",
+    "instruction": "1:1 문의는 어떻게 해요?",
+    "input": "",
+    "output": "'고객지원 > 1:1 문의' 메뉴를 이용하거나, 빅데이터정보부(033-739-1018)로 전화 문의 가능합니다. 이메일 문의도 받고 있으며, 평일 09:00-18:00에 상담 가능합니다. 긴급하지 않은 경우 게시판 문의를 권장합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "question_format",
+      "source_id": "customer_support_256",
+      "created_at": "2025-11-18T05:58:18.459064",
+      "question_length": 15,
+      "answer_length": 130,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01254",
+    "instruction": "받기실패가 뭔가요?",
+    "input": "",
+    "output": "보통 1-3일 내에 답변되며, 복잡한 문의는 더 걸릴 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.300522",
+      "question_length": 10,
+      "answer_length": 37,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01422",
+    "instruction": "시스템 오류와 데이터 다운로드 문제의 차이는?",
+    "input": "",
+    "output": "시스템 점검 일정은 '고객지원 > 공지사항'에 사전 공지됩니다. 정기 점검은 통상 매월 마지막 주 일요일에 진행되며, 긴급 점검 시에도 공지사항에 안내됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304722",
+      "question_length": 25,
+      "answer_length": 88,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_00566",
+    "instruction": "이용 약관는 어디서 확인하나요?",
+    "input": "",
+    "output": "메인 화면 하단의 '이용 약관' 링크를 클릭하면 서비스 이용 조건, 금지 행위, 책임 사항 등을 확인할 수 있습니다. 회원가입 시 약관 동의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "particle",
+      "source_id": "customer_support_278",
+      "created_at": "2025-11-18T05:58:18.461978",
+      "question_length": 17,
+      "answer_length": 86,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01123",
+    "instruction": "공지사항 신청은 어디서 하나요?",
+    "input": "",
+    "output": "게시판 문의는 24시간 가능하나, 답변은 평일에 제공됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.297404",
+      "question_length": 17,
+      "answer_length": 33,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00582",
+    "instruction": "본인 조회 절차는?",
+    "input": "",
+    "output": "회원가입 및 자료신청 시 이메일 인증, 휴대폰 인증, 또는 공동인증서 인증으로 본인 확인을 진행합니다. 재직증명서 등 추가 서류가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_292",
+      "created_at": "2025-11-18T05:58:18.463346",
+      "question_length": 10,
+      "answer_length": 84,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00558",
+    "instruction": "영문 서비스도 제공돼요?",
+    "input": "",
+    "output": "현재 한국어 서비스만 제공되며, 영문 서비스는 일부 소개 페이지에만 제공됩니다. 외국인 연구자는 한국어 가능한 공동연구자와 함께 이용하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_276",
+      "created_at": "2025-11-18T05:58:18.461795",
+      "question_length": 13,
+      "answer_length": 83,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01172",
+    "instruction": "교육자료 (중급) 어떻게 해요?",
+    "input": "",
+    "output": "1:1 문의는 비공개로 처리되며, 본인만 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.298636",
+      "question_length": 17,
+      "answer_length": 34,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00559",
+    "instruction": "데이터 보안는 어떻게 관리되나요?",
+    "input": "",
+    "output": "HIRA 데이터는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "particle",
+      "source_id": "customer_support_277",
+      "created_at": "2025-11-18T05:58:18.461872",
+      "question_length": 18,
+      "answer_length": 103,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01259",
+    "instruction": "다운로드문제에 대해 알려주세요",
+    "input": "",
+    "output": "HIRA 빅데이터 브리프는 보건의료 빅데이터 활용 방법을 소개하는 정기 소식지입니다. 분석 사례, 활용 팁, 새로운 기능, 우수 연구 소개 등이 담겨 있으며, '고객지원 > HIRA 빅데이터 브리프' 메뉴에서 무료로 열람할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.301315",
+      "question_length": 16,
+      "answer_length": 132,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00555",
+    "instruction": "개인정보 처리방침은 어디서 확인하죠?",
+    "input": "",
+    "output": "메인 화면 하단의 '개인정보 처리방침' 링크를 클릭하면 HIRA의 개인정보 수집, 이용, 보관, 파기 정책을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_274",
+      "created_at": "2025-11-18T05:58:18.461452",
+      "question_length": 20,
+      "answer_length": 72,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01421",
+    "instruction": "연락처와 데이터 다운로드 문제의 차이는?",
+    "input": "",
+    "output": "초급 과정은 SAS 기본 문법, 연락처와 데이터 다운로드 문제 읽기/쓰기, 기본 통계, HIRA 데이터 구조 이해 등이 포함됩니다. HIRA 데이터를 처음 다루는 연구자에게 적합합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304703",
+      "question_length": 22,
+      "answer_length": 103,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01417",
+    "instruction": "자주 묻는 질문와 로그인 문제의 차이는?",
+    "input": "",
+    "output": "로그인 화면에서 '공동인증서 로그인'을 선택하고, 인증서 종류(금융인증서, 범용인증서 등)를 선택한 후 비밀번호를 입력하면 로그인됩니다. 인증서가 만료된 경우 갱신이 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304646",
+      "question_length": 22,
+      "answer_length": 99,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00548",
+    "instruction": "모바일에서도 이용 할 수 있나요한가요?",
+    "input": "",
+    "output": "HIRA 보건의료빅데이터개방시스템은 PC 웹 환경에 최적화되어 있습니다. 모바일에서는 공지사항, 통계 조회 등 일부 기능만 이용 가능하며, 자료신청과 분석은 PC 사용을 권장합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "synonym",
+      "source_id": "customer_support_272",
+      "created_at": "2025-11-18T05:58:18.461282",
+      "question_length": 21,
+      "answer_length": 101,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01148",
+    "instruction": "교육자료 (초급) 신청 되나요?",
+    "input": "",
+    "output": "이메일 문의는 고객지원 게시판을 이용하시거나, 1:1 문의 메뉴를 통해 접수할 수 있습니다. 직접 이메일 주소는 공개되지 않으므로 포털 내 문의 시스템을 이용해주세요.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_confirmation",
+      "created_at": "2025-11-18T06:00:07.298314",
+      "question_length": 17,
+      "answer_length": 93,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01240",
+    "instruction": "로그인 문제 어떻게 해요?",
+    "input": "",
+    "output": "'고객지원 > HIRA 빅데이터 브리프'와 '자료실'에서 우수 연구 사례, 분석 방법, 활용 사례를 확인할 수 있습니다. 실제 논문 사례도 소개되어 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.300266",
+      "question_length": 14,
+      "answer_length": 88,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01225",
+    "instruction": "시스템 오류 신청 어느 곳에서 할 수 있나요?",
+    "input": "",
+    "output": "HIRA는 정기적으로 빅데이터 활용 교육을 진행합니다. '고객지원 > 공지사항'에서 교육 일정, 신청 방법, 대상을 확인할 수 있습니다. 온라인 교육과 오프라인 교육이 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.299870",
+      "question_length": 25,
+      "answer_length": 99,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_00141",
+    "instruction": "공지사항은 어디서 확인하나요?",
+    "input": "",
+    "output": "'고객지원 > 공지사항' 메뉴에서 시스템 점검, 서비스 변경, 중요 안내 등을 확인할 수 있습니다. 자료신청 전 공지사항을 반드시 확인하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_260",
+      "created_at": "2025-11-18T05:58:18.424131",
+      "question_length": 16,
+      "answer_length": 84,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01408",
+    "instruction": "자료실와 로그인 문제의 차이는?",
+    "input": "",
+    "output": "시스템 점검 일정은 '고객지원 > 공지사항'에 사전 공지됩니다. 정기 점검은 통상 매월 마지막 주 일요일에 진행되며, 긴급 점검 시에도 공지사항에 안내됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304428",
+      "question_length": 17,
+      "answer_length": 88,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01231",
+    "instruction": "비밀번호가 뭔가요?",
+    "input": "",
+    "output": "'고객지원 > 교육자료' 메뉴에서 다운로드할 수 있습니다. 초급(SAS 기본 쿼리, 데이터 처리), 중급(SQL, 통계분석), 고급(분석 설계, 사례) 과정으로 구성되어 있으며, PDF 파일로 제공됩니다. 로그인 후 이용 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.300048",
+      "question_length": 10,
+      "answer_length": 130,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01203",
+    "instruction": "1:1 문의 신청은 어디서 하나요?",
+    "input": "",
+    "output": "HIRA 데이터는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.299345",
+      "question_length": 19,
+      "answer_length": 103,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00572",
+    "instruction": "분석 기간 연장은 어떻게 해요?",
+    "input": "",
+    "output": "MY분석과제 목록에서 연장을 원하는 과제를 선택하고 '연장 신청' 버튼을 클릭하세요. 연장 사유를 작성하여 제출하면 심사 후 승인됩니다. 연장은 통상 1회 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_284",
+      "created_at": "2025-11-18T05:58:18.462483",
+      "question_length": 17,
+      "answer_length": 93,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01201",
+    "instruction": "1:1 문의 어떻게 하나요?",
+    "input": "",
+    "output": "HIRA 데이터는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.299313",
+      "question_length": 15,
+      "answer_length": 103,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01131",
+    "instruction": "문서이란 무엇인가요?",
+    "input": "",
+    "output": "HIRA 데이터는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.297748",
+      "question_length": 11,
+      "answer_length": 103,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00571",
+    "instruction": "분석 기간 연장은 하나요?",
+    "input": "",
+    "output": "MY분석과제 목록에서 연장을 원하는 과제를 선택하고 '연장 신청' 버튼을 클릭하세요. 연장 사유를 작성하여 제출하면 심사 후 승인됩니다. 연장은 통상 1회 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "abbreviation",
+      "source_id": "customer_support_284",
+      "created_at": "2025-11-18T05:58:18.462481",
+      "question_length": 14,
+      "answer_length": 93,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01208",
+    "instruction": "연락처 신청 어느 곳에서 할 수 있나요?",
+    "input": "",
+    "output": "'고객지원 > 공지사항' 메뉴에서 시스템 점검, 서비스 변경, 중요 안내 등을 확인할 수 있습니다. 자료신청 전 공지사항을 반드시 확인하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.299571",
+      "question_length": 22,
+      "answer_length": 84,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_00166",
+    "instruction": "상업적 이용은 가능한가요?",
+    "input": "",
+    "output": "HIRA 데이터는 공공 목적의 연구, 통계, 교육용으로만 사용 가능하며, 상업적 이용은 금지됩니다. 영리 목적 사용 시 별도 협의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_306",
+      "created_at": "2025-11-18T05:58:18.424240",
+      "question_length": 14,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00544",
+    "instruction": "시스템 점검 일정 조회 방법",
+    "input": "",
+    "output": "시스템 점검 일정은 '고객지원 > 공지사항'에 사전 공지됩니다. 정기 점검은 통상 매월 마지막 주 일요일에 진행되며, 긴급 점검 시에도 공지사항에 안내됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_268",
+      "created_at": "2025-11-18T05:58:18.460666",
+      "question_length": 15,
+      "answer_length": 88,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00138",
+    "instruction": "HIRA 빅데이터 브리프는 무엇인가요?",
+    "input": "",
+    "output": "HIRA 빅데이터 브리프는 보건의료 빅데이터 활용 방법을 소개하는 정기 소식지입니다. 분석 사례, 활용 팁, 새로운 기능, 우수 연구 소개 등이 담겨 있으며, '고객지원 > HIRA 빅데이터 브리프' 메뉴에서 무료로 열람할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_255",
+      "created_at": "2025-11-18T05:58:18.424119",
+      "question_length": 21,
+      "answer_length": 132,
+      "quality_score": 0.8999999999999999
+    }
+  },
+  {
+    "id": "hira_customer_support_01136",
+    "instruction": "브리프의 의미는?",
+    "input": "",
+    "output": "이메일 문의는 고객지원 게시판을 이용하시거나, 1:1 문의 메뉴를 통해 접수할 수 있습니다. 직접 이메일 주소는 공개되지 않으므로 포털 내 문의 시스템을 이용해주세요.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298051",
+      "question_length": 9,
+      "answer_length": 93,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01158",
+    "instruction": "초급이란 무엇인가요?",
+    "input": "",
+    "output": "초급 과정은 SAS 기본 문법, 데이터 읽기/쓰기, 기본 통계, HIRA 데이터 구조 이해 등이 포함됩니다. HIRA 데이터를 처음 다루는 연구자에게 적합합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298430",
+      "question_length": 11,
+      "answer_length": 90,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01241",
+    "instruction": "데이터 다운로드 문제 신청 할 수 있나요?",
+    "input": "",
+    "output": "회원가입 및 자료신청 시 이메일 인증, 휴대폰 인증, 또는 공동인증서 인증으로 본인 확인을 진행합니다. 재직증명서 등 추가 서류가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_confirmation",
+      "created_at": "2025-11-18T06:00:07.300307",
+      "question_length": 23,
+      "answer_length": 84,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01192",
+    "instruction": "FAQ이란 무엇인가요?",
+    "input": "",
+    "output": "원격분석 승인 후 제공되는 VPN 프로그램 설치 파일을 다운로드하여 설치하세요. 설치 매뉴얼이 함께 제공되며, Windows와 Mac 버전이 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299091",
+      "question_length": 12,
+      "answer_length": 84,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00534",
+    "instruction": "자료실에서 다운로드할 수 있은 자료는?",
+    "input": "",
+    "output": "'고객지원 > 자료실' 메뉴에서 신청서 양식, 작성 가이드, 교육자료, 분석 사례집 등을 다운로드할 수 있습니다. 로그인 후 이용 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "particle",
+      "source_id": "customer_support_261",
+      "created_at": "2025-11-18T05:58:18.459696",
+      "question_length": 21,
+      "answer_length": 79,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01232",
+    "instruction": "로그인 문제 신청 되나요?",
+    "input": "",
+    "output": "회원가입 및 자료신청 시 이메일 인증, 휴대폰 인증, 또는 공동인증서 인증으로 본인 확인을 진행합니다. 재직증명서 등 추가 서류가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_confirmation",
+      "created_at": "2025-11-18T06:00:07.300070",
+      "question_length": 14,
+      "answer_length": 84,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00154",
+    "instruction": "이용 약관은 어디서 확인하나요?",
+    "input": "",
+    "output": "메인 화면 하단의 '이용 약관' 링크를 클릭하면 서비스 이용 조건, 금지 행위, 책임 사항 등을 확인할 수 있습니다. 회원가입 시 약관 동의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_278",
+      "created_at": "2025-11-18T05:58:18.424177",
+      "question_length": 17,
+      "answer_length": 86,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01222",
+    "instruction": "시스템 오류 어떻게 하나요?",
+    "input": "",
+    "output": "'고객지원 > HIRA 빅데이터 브리프'와 '자료실'에서 우수 연구 사례, 분석 방법, 활용 사례를 확인할 수 있습니다. 실제 논문 사례도 소개되어 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.299810",
+      "question_length": 15,
+      "answer_length": 88,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_00164",
+    "instruction": "분석 결과를 엑셀로 저장하려면?",
+    "input": "",
+    "output": "SAS에서 PROC EXPORT를 사용하여 결과를 CSV 또는 엑셀 형식으로 저장할 수 있습니다. 저장된 파일은 반출 심사를 거쳐 다운로드할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_302",
+      "created_at": "2025-11-18T05:58:18.424231",
+      "question_length": 17,
+      "answer_length": 86,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00563",
+    "instruction": "이용 약관은 어디서 확인합니까?",
+    "input": "",
+    "output": "메인 화면 하단의 '이용 약관' 링크를 클릭하면 서비스 이용 조건, 금지 행위, 책임 사항 등을 확인할 수 있습니다. 회원가입 시 약관 동의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_278",
+      "created_at": "2025-11-18T05:58:18.461971",
+      "question_length": 17,
+      "answer_length": 86,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01212",
+    "instruction": "전화의 의미는?",
+    "input": "",
+    "output": "'고객지원 > 교육자료' 메뉴에서 다운로드할 수 있습니다. 초급(SAS 기본 쿼리, 데이터 처리), 중급(SQL, 통계분석), 고급(분석 설계, 사례) 과정으로 구성되어 있으며, PDF 파일로 제공됩니다. 로그인 후 이용 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299617",
+      "question_length": 8,
+      "answer_length": 130,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01249",
+    "instruction": "받기실패의 의미는?",
+    "input": "",
+    "output": "로그인 후 '보건의료빅데이터 다운로드 문제 > MY분석과제 목록' 메뉴에서 신청한 과제의 진행 상황, 승인 여부, 이용 기간을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.300435",
+      "question_length": 10,
+      "answer_length": 82,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01226",
+    "instruction": "오류 뜻을 알려주세요",
+    "input": "",
+    "output": "'고객지원 > 교육자료' 메뉴에서 다운로드할 수 있습니다. 초급(SAS 기본 쿼리, 데이터 처리), 중급(SQL, 통계분석), 고급(분석 설계, 사례) 과정으로 구성되어 있으며, PDF 파일로 제공됩니다. 로그인 후 이용 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299940",
+      "question_length": 11,
+      "answer_length": 130,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00519",
+    "instruction": "데가터 다운로드가 중간에 끊겼어요",
+    "input": "",
+    "output": "네트워크가 불안정하거나 파일이 큰 경우 다운로드가 중단될 수 있습니다. 안정적인 유선 인터넷 환경에서 재시도하거나, 파일을 분할하여 다운로드하세요. 반복되면 고객센터에 파일명과 오류 상황을 알려주시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_253",
+      "created_at": "2025-11-18T05:58:18.458776",
+      "question_length": 18,
+      "answer_length": 117,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00546",
+    "instruction": "시스템 점검 일정 확인 절차",
+    "input": "",
+    "output": "시스템 점검 일정은 '고객지원 > 공지사항'에 사전 공지됩니다. 정기 점검은 통상 매월 마지막 주 일요일에 진행되며, 긴급 점검 시에도 공지사항에 안내됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_268",
+      "created_at": "2025-11-18T05:58:18.460671",
+      "question_length": 15,
+      "answer_length": 88,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01122",
+    "instruction": "안내이란 무엇인가요?",
+    "input": "",
+    "output": "HIRA 데이터는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.297388",
+      "question_length": 11,
+      "answer_length": 103,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01420",
+    "instruction": "1:1 문의와 데이터 다운로드 문제의 차이는?",
+    "input": "",
+    "output": "HIRA 1:1 문의와 데이터 다운로드 문제는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304683",
+      "question_length": 25,
+      "answer_length": 119,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01260",
+    "instruction": "사례연구가 뭔가요?",
+    "input": "",
+    "output": "HIRA 데이터는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.301355",
+      "question_length": 10,
+      "answer_length": 103,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01132",
+    "instruction": "자료실 신청 되나요?",
+    "input": "",
+    "output": "크롬 기준: 설정 > 개인정보 및 보안 > 인터넷 사용 기록 삭제 > 쿠키 및 캐시 항목 선택 후 삭제. 또는 Ctrl+Shift+Delete를 눌러 빠르게 삭제할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_confirmation",
+      "created_at": "2025-11-18T06:00:07.297752",
+      "question_length": 11,
+      "answer_length": 99,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01166",
+    "instruction": "중급 뜻을 알려주세요",
+    "input": "",
+    "output": "크롬 기준: 설정 > 개인정보 및 보안 > 인터넷 사용 기록 삭제 > 쿠키 및 캐시 항목 선택 후 삭제. 또는 Ctrl+Shift+Delete를 눌러 빠르게 삭제할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298568",
+      "question_length": 11,
+      "answer_length": 99,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01288",
+    "instruction": "질문에 대해 알려주세요",
+    "input": "",
+    "output": "로그인 후 '마이페이지 > 회원정보 수정 > 회원 탈퇴' 메뉴에서 탈퇴할 수 있습니다. 진행 중인 분석과제가 있거나 데이터 사용 중이면 탈퇴가 제한될 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.302271",
+      "question_length": 12,
+      "answer_length": 91,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01412",
+    "instruction": "교육자료 (중급)와 자주 묻는 질문의 차이는?",
+    "input": "",
+    "output": "'고객지원 > 자주 묻는 질문(FAQ)' 메뉴에서 자료신청, 데이터 활용, 시스템 사용 등에 대한 자주 묻는 질문과 답변을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304546",
+      "question_length": 25,
+      "answer_length": 80,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_00583",
+    "instruction": "본인 확인 절차은?",
+    "input": "",
+    "output": "회원가입 및 자료신청 시 이메일 인증, 휴대폰 인증, 또는 공동인증서 인증으로 본인 확인을 진행합니다. 재직증명서 등 추가 서류가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_292",
+      "created_at": "2025-11-18T05:58:18.463348",
+      "question_length": 10,
+      "answer_length": 84,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00560",
+    "instruction": "데이터 보안은 어떻게 관리되죠?",
+    "input": "",
+    "output": "HIRA 데이터는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_277",
+      "created_at": "2025-11-18T05:58:18.461875",
+      "question_length": 17,
+      "answer_length": 103,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01195",
+    "instruction": "연락가 뭔가요?",
+    "input": "",
+    "output": "SAS에서 PROC EXPORT를 사용하여 결과를 CSV 또는 엑셀 형식으로 저장할 수 있습니다. 저장된 파일은 반출 심사를 거쳐 다운로드할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299255",
+      "question_length": 8,
+      "answer_length": 86,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01261",
+    "instruction": "기초에 대해 알려주세요",
+    "input": "",
+    "output": "'고객지원 > HIRA 빅데이터 브리프'와 '자료실'에서 우수 연구 사례, 분석 방법, 활용 사례를 확인할 수 있습니다. 실제 논문 사례도 소개되어 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.301416",
+      "question_length": 12,
+      "answer_length": 88,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00168",
+    "instruction": "긴급 문의는 어떻게 하나요?",
+    "input": "",
+    "output": "고객센터(033-739-1018)로 전화 문의하시면 빠른 도움을 받을 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_310",
+      "created_at": "2025-11-18T05:58:18.424248",
+      "question_length": 15,
+      "answer_length": 46,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00570",
+    "instruction": "분석 기간 연장은 어떤 방법으로 하나요?",
+    "input": "",
+    "output": "MY분석과제 목록에서 연장을 원하는 과제를 선택하고 '연장 신청' 버튼을 클릭하세요. 연장 사유를 작성하여 제출하면 심사 후 승인됩니다. 연장은 통상 1회 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "interrogative",
+      "source_id": "customer_support_284",
+      "created_at": "2025-11-18T05:58:18.462478",
+      "question_length": 22,
+      "answer_length": 93,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01142",
+    "instruction": "브리프가 뭔가요?",
+    "input": "",
+    "output": "원격분석 승인 후 제공되는 VPN 프로그램 설치 파일을 다운로드하여 설치하세요. 설치 매뉴얼이 함께 제공되며, Windows와 Mac 버전이 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298154",
+      "question_length": 9,
+      "answer_length": 84,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00143",
+    "instruction": "초급 교육자료에는 어떤 내용이 있나요?",
+    "input": "",
+    "output": "초급 과정은 SAS 기본 문법, 데이터 읽기/쓰기, 기본 통계, HIRA 데이터 구조 이해 등이 포함됩니다. HIRA 데이터를 처음 다루는 연구자에게 적합합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_262",
+      "created_at": "2025-11-18T05:58:18.424135",
+      "question_length": 21,
+      "answer_length": 90,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00589",
+    "instruction": "상업적 이용는 가능한가요?",
+    "input": "",
+    "output": "HIRA 데이터는 공공 목적의 연구, 통계, 교육용으로만 사용 가능하며, 상업적 이용은 금지됩니다. 영리 목적 사용 시 별도 협의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "particle",
+      "source_id": "customer_support_306",
+      "created_at": "2025-11-18T05:58:18.465082",
+      "question_length": 14,
+      "answer_length": 80,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00556",
+    "instruction": "개인정보 처리방침은 어디서 확인합니까?",
+    "input": "",
+    "output": "메인 화면 하단의 '개인정보 처리방침' 링크를 클릭하면 HIRA의 개인정보 수집, 이용, 보관, 파기 정책을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_274",
+      "created_at": "2025-11-18T05:58:18.461455",
+      "question_length": 21,
+      "answer_length": 72,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_00145",
+    "instruction": "FAQ는 어디에 있나요?",
+    "input": "",
+    "output": "'고객지원 > 자주 묻는 질문(FAQ)' 메뉴에서 자료신청, 데이터 활용, 시스템 사용 등에 대한 자주 묻는 질문과 답변을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_265",
+      "created_at": "2025-11-18T05:58:18.424148",
+      "question_length": 13,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01159",
+    "instruction": "SAS기본가 뭔가요?",
+    "input": "",
+    "output": "대부분 무료이며, 일부 전문 과정은 소정의 비용이 있을 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298465",
+      "question_length": 11,
+      "answer_length": 38,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01414",
+    "instruction": "교육자료 (중급)와 로그인 문제의 차이는?",
+    "input": "",
+    "output": "'고객지원 > 자주 묻는 질문(FAQ)' 메뉴에서 자료신청, 데이터 활용, 시스템 사용 등에 대한 자주 묻는 질문과 답변을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304571",
+      "question_length": 23,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00159",
+    "instruction": "분석 사례를 참고하고 싶어요",
+    "input": "",
+    "output": "'고객지원 > HIRA 빅데이터 브리프'와 '자료실'에서 우수 연구 사례, 분석 방법, 활용 사례를 확인할 수 있습니다. 실제 논문 사례도 소개되어 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_288",
+      "created_at": "2025-11-18T05:58:18.424200",
+      "question_length": 15,
+      "answer_length": 88,
+      "quality_score": 0.8
+    }
+  },
+  {
+    "id": "hira_customer_support_01154",
+    "instruction": "SAS기본에 대해 설명해주세요",
+    "input": "",
+    "output": "마이페이지에서 회원정보 수정 메뉴를 이용하시면 됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298377",
+      "question_length": 16,
+      "answer_length": 30,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01409",
+    "instruction": "HIRA 빅데이터 브리프와 교육자료 (중급)의 차이는?",
+    "input": "",
+    "output": "크롬 기준: 설정 > 개인정보 및 보안 > 인터넷 사용 기록 삭제 > 쿠키 및 캐시 항목 선택 후 삭제. 또는 Ctrl+Shift+Delete를 눌러 빠르게 삭제할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304451",
+      "question_length": 30,
+      "answer_length": 99,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01237",
+    "instruction": "로그인 문제 어떻게 하나요?",
+    "input": "",
+    "output": "MY분석과제 목록에서 연장을 원하는 과제를 선택하고 '연장 신청' 버튼을 클릭하세요. 연장 사유를 작성하여 제출하면 심사 후 승인됩니다. 연장은 통상 1회 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.300123",
+      "question_length": 15,
+      "answer_length": 93,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01193",
+    "instruction": "문의가 뭔가요?",
+    "input": "",
+    "output": "승인 거부 사유를 확인하고, 연구계획서를 보완하여 재신청할 수 있습니다. IRB 승인서 누락, 연구 목적 불명확, 개인정보 보호 대책 미흡 등이 주요 거부 사유입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299096",
+      "question_length": 8,
+      "answer_length": 93,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01220",
+    "instruction": "시스템 오류 신청 되나요?",
+    "input": "",
+    "output": "'고객지원 > 자료실' 메뉴에서 신청서 양식, 작성 가이드, 교육자료, 분석 사례집 등을 다운로드할 수 있습니다. 로그인 후 이용 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_confirmation",
+      "created_at": "2025-11-18T06:00:07.299794",
+      "question_length": 14,
+      "answer_length": 79,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01209",
+    "instruction": "연락처가 뭔가요?",
+    "input": "",
+    "output": "메인 화면 하단의 '개인정보 처리방침' 링크를 클릭하면 HIRA의 개인정보 수집, 이용, 보관, 파기 정책을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299594",
+      "question_length": 9,
+      "answer_length": 72,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01238",
+    "instruction": "비밀번호이란 무엇인가요?",
+    "input": "",
+    "output": "'고객지원 > 공지사항' 메뉴에서 시스템 점검, 서비스 변경, 중요 안내 등을 확인할 수 있습니다. 자료신청 전 공지사항을 반드시 확인하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.300148",
+      "question_length": 13,
+      "answer_length": 84,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_00525",
+    "instruction": "HIRA 빅데이터 브리프은 무엇인가요?",
+    "input": "",
+    "output": "HIRA 빅데이터 브리프는 보건의료 빅데이터 활용 방법을 소개하는 정기 소식지입니다. 분석 사례, 활용 팁, 새로운 기능, 우수 연구 소개 등이 담겨 있으며, '고객지원 > HIRA 빅데이터 브리프' 메뉴에서 무료로 열람할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "particle",
+      "source_id": "customer_support_255",
+      "created_at": "2025-11-18T05:58:18.458977",
+      "question_length": 21,
+      "answer_length": 132,
+      "quality_score": 0.85
+    }
+  },
+  {
+    "id": "hira_customer_support_01413",
+    "instruction": "교육자료 (중급)와 1:1 문의의 차이는?",
+    "input": "",
+    "output": "로그인 후 '보건의료빅데이터 > MY분석과제 목록' 메뉴에서 신청한 과제의 진행 상황, 승인 여부, 이용 기간을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304552",
+      "question_length": 23,
+      "answer_length": 74,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00533",
+    "instruction": "공지사항은 어디서 검색하나요?",
+    "input": "",
+    "output": "'고객지원 > 공지사항' 메뉴에서 시스템 점검, 서비스 변경, 중요 안내 등을 확인할 수 있습니다. 자료신청 전 공지사항을 반드시 확인하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "synonym",
+      "source_id": "customer_support_260",
+      "created_at": "2025-11-18T05:58:18.459555",
+      "question_length": 16,
+      "answer_length": 84,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_00567",
+    "instruction": "MY분석과제 목록는 어디서 확인하나요?",
+    "input": "",
+    "output": "로그인 후 '보건의료빅데이터 > MY분석과제 목록' 메뉴에서 신청한 과제의 진행 상황, 승인 여부, 이용 기간을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_283",
+      "created_at": "2025-11-18T05:58:18.462396",
+      "question_length": 21,
+      "answer_length": 74,
+      "quality_score": 0.85
+    }
+  },
+  {
+    "id": "hira_customer_support_01253",
+    "instruction": "다운로드문제이란 무엇인가요?",
+    "input": "",
+    "output": "로그인 후 '보건의료빅데이터 다운로드 문제 > MY분석과제 목록' 메뉴에서 신청한 과제의 진행 상황, 승인 여부, 이용 기간을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.300503",
+      "question_length": 15,
+      "answer_length": 82,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_00535",
+    "instruction": "초급 교육자료에은 어떤 내용이 있나요?",
+    "input": "",
+    "output": "초급 과정은 SAS 기본 문법, 데이터 읽기/쓰기, 기본 통계, HIRA 데이터 구조 이해 등이 포함됩니다. HIRA 데이터를 처음 다루는 연구자에게 적합합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_262",
+      "created_at": "2025-11-18T05:58:18.459788",
+      "question_length": 21,
+      "answer_length": 90,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01284",
+    "instruction": "연락에 대해 알려주세요",
+    "input": "",
+    "output": "이메일 문의는 고객지원 게시판을 이용하시거나, 1:1 문의 메뉴를 통해 접수할 수 있습니다. 직접 이메일 주소는 공개되지 않으므로 포털 내 문의 시스템을 이용해주세요.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.302143",
+      "question_length": 12,
+      "answer_length": 93,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01235",
+    "instruction": "로그인이란 무엇인가요?",
+    "input": "",
+    "output": "메인 화면 하단의 '개인정보 처리방침' 링크를 클릭하면 HIRA의 개인정보 수집, 이용, 보관, 파기 정책을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.300098",
+      "question_length": 12,
+      "answer_length": 72,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01187",
+    "instruction": "자주 묻는 질문 방법은?",
+    "input": "",
+    "output": "마이페이지에서 회원정보 수정 메뉴를 이용하시면 됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.298993",
+      "question_length": 13,
+      "answer_length": 30,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01149",
+    "instruction": "교육자료 (초급) 어떻게 해요?",
+    "input": "",
+    "output": "'고객지원 > 교육자료' 메뉴에서 다운로드할 수 있습니다. 초급(SAS 기본 쿼리, 데이터 처리), 중급(SQL, 통계분석), 고급(분석 설계, 사례) 과정으로 구성되어 있으며, PDF 파일로 제공됩니다. 로그인 후 이용 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.298322",
+      "question_length": 17,
+      "answer_length": 130,
+      "quality_score": 0.85
+    }
+  },
+  {
+    "id": "hira_customer_support_00147",
+    "instruction": "시스템 점검 일정 확인 방법",
+    "input": "",
+    "output": "시스템 점검 일정은 '고객지원 > 공지사항'에 사전 공지됩니다. 정기 점검은 통상 매월 마지막 주 일요일에 진행되며, 긴급 점검 시에도 공지사항에 안내됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_268",
+      "created_at": "2025-11-18T05:58:18.424154",
+      "question_length": 15,
+      "answer_length": 88,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01184",
+    "instruction": "분석설계의 의미는?",
+    "input": "",
+    "output": "'고객지원 > HIRA 빅데이터 브리프'와 '자료실'에서 우수 연구 사례, 분석 방법, 활용 사례를 확인할 수 있습니다. 실제 논문 사례도 소개되어 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298862",
+      "question_length": 10,
+      "answer_length": 88,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01169",
+    "instruction": "통계분석이란 무엇인가요?",
+    "input": "",
+    "output": "고객센터는 평일 09:00-18:00 운영되며, 점심시간(12:00-13:00)에는 상담이 제한될 수 있습니다. 긴급하지 않은 문의는 게시판을 이용해주세요. 전화: 033-739-1018",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298589",
+      "question_length": 13,
+      "answer_length": 104,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01248",
+    "instruction": "데이터 다운로드 문제 신청은 어디서 하나요?",
+    "input": "",
+    "output": "'고객지원 > 교육자료'에서 SAS 기초 교육자료를 다운로드하여 학습하세요. 또한 SAS 공식 문서와 HIRA 브리프에서 사용 팁을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.300429",
+      "question_length": 24,
+      "answer_length": 85,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01224",
+    "instruction": "시스템 오류 신청은 어디서 하나요?",
+    "input": "",
+    "output": "opendata.hira.or.kr 메인 화면에서 '회원가입' 버튼을 클릭하고, 이메일 또는 공동인증서로 가입할 수 있습니다. 기본 정보 입력 후 이메일 인증을 완료하면 회원가입이 완료됩니다. 가입 후 자료신청 및 SAS Studio 등의 서비스를 이용할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.299857",
+      "question_length": 19,
+      "answer_length": 150,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_00547",
+    "instruction": "쿠키 및 캐시 삭제 과정",
+    "input": "",
+    "output": "크롬 기준: 설정 > 개인정보 및 보안 > 인터넷 사용 기록 삭제 > 쿠키 및 캐시 항목 선택 후 삭제. 또는 Ctrl+Shift+Delete를 눌러 빠르게 삭제할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "synonym",
+      "source_id": "customer_support_271",
+      "created_at": "2025-11-18T05:58:18.461178",
+      "question_length": 13,
+      "answer_length": 99,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00578",
+    "instruction": "교육 프로그램 일정는?",
+    "input": "",
+    "output": "HIRA는 정기적으로 빅데이터 활용 교육을 진행합니다. '고객지원 > 공지사항'에서 교육 일정, 신청 방법, 대상을 확인할 수 있습니다. 온라인 교육과 오프라인 교육이 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "particle",
+      "source_id": "customer_support_287",
+      "created_at": "2025-11-18T05:58:18.462770",
+      "question_length": 12,
+      "answer_length": 99,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01416",
+    "instruction": "자주 묻는 질문와 시스템 오류의 차이는?",
+    "input": "",
+    "output": "마이페이지에서 회원정보 수정 메뉴를 이용하시면 됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304640",
+      "question_length": 22,
+      "answer_length": 30,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00140",
+    "instruction": "연구 관련 통계 상담을 받고 싶어요",
+    "input": "",
+    "output": "HIRA는 빅데이터 활용 상담을 제공합니다. 연구 설계, 변수 선택, 통계 방법 등에 대한 기술적 상담이 필요하면 고객센터(033-739-1018)로 문의하거나, 교육 프로그램에 참여하시기 바랍니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_259",
+      "created_at": "2025-11-18T05:58:18.424129",
+      "question_length": 19,
+      "answer_length": 111,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01418",
+    "instruction": "자주 묻는 질문와 데이터 다운로드 문제의 차이는?",
+    "input": "",
+    "output": "초급 과정은 SAS 기본 문법, 자주 묻는 질문와 데이터 다운로드 문제 읽기/쓰기, 기본 통계, HIRA 데이터 구조 이해 등이 포함됩니다. HIRA 데이터를 처음 다루는 연구자에게 적합합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304656",
+      "question_length": 27,
+      "answer_length": 108,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01173",
+    "instruction": "SQL의 의미는?",
+    "input": "",
+    "output": "'고객지원 > 교육자료' 메뉴에서 다운로드할 수 있습니다. 초급(SAS 기본 쿼리, 데이터 처리), 중급(SQL, 통계분석), 고급(분석 설계, 사례) 과정으로 구성되어 있으며, PDF 파일로 제공됩니다. 로그인 후 이용 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298656",
+      "question_length": 9,
+      "answer_length": 130,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00552",
+    "instruction": "회원 탈퇴는 어떻게 할까요?",
+    "input": "",
+    "output": "로그인 후 '마이페이지 > 회원정보 수정 > 회원 탈퇴' 메뉴에서 탈퇴할 수 있습니다. 진행 중인 분석과제가 있거나 데이터 사용 중이면 탈퇴가 제한될 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_273",
+      "created_at": "2025-11-18T05:58:18.461349",
+      "question_length": 15,
+      "answer_length": 91,
+      "quality_score": 0.7999999999999999
+    }
+  },
+  {
+    "id": "hira_customer_support_01407",
+    "instruction": "공지사항와 데이터 다운로드 문제의 차이는?",
+    "input": "",
+    "output": "SAS 로그를 확인하여 에러 메시지를 파악하세요. 흔한 에러는 변수명 오타, 공지사항와 데이터 다운로드 문제셋 경로 오류, 문법 오류 등입니다. 교육자료의 에러 해결 섹션을 참고하거나 고객센터에 문의하세요.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304388",
+      "question_length": 23,
+      "answer_length": 115,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00568",
+    "instruction": "MY분석과제 목록은 어디서 확인하죠?",
+    "input": "",
+    "output": "로그인 후 '보건의료빅데이터 > MY분석과제 목록' 메뉴에서 신청한 과제의 진행 상황, 승인 여부, 이용 기간을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_283",
+      "created_at": "2025-11-18T05:58:18.462400",
+      "question_length": 20,
+      "answer_length": 74,
+      "quality_score": 0.85
+    }
+  },
+  {
+    "id": "hira_customer_support_01140",
+    "instruction": "활용법가 뭔가요?",
+    "input": "",
+    "output": "MY분석과제 목록에서 연장을 원하는 과제를 선택하고 '연장 신청' 버튼을 클릭하세요. 연장 사유를 작성하여 제출하면 심사 후 승인됩니다. 연장은 통상 1회 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.298112",
+      "question_length": 9,
+      "answer_length": 93,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01239",
+    "instruction": "인증이란 무엇인가요?",
+    "input": "",
+    "output": "메인 화면 하단의 '개인정보 처리방침' 링크를 클릭하면 HIRA의 개인정보 수집, 이용, 보관, 파기 정책을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.300216",
+      "question_length": 11,
+      "answer_length": 72,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00537",
+    "instruction": "초급 교육자료에는 어떤 내용이 있습니까?",
+    "input": "",
+    "output": "초급 과정은 SAS 기본 문법, 데이터 읽기/쓰기, 기본 통계, HIRA 데이터 구조 이해 등이 포함됩니다. HIRA 데이터를 처음 다루는 연구자에게 적합합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_262",
+      "created_at": "2025-11-18T05:58:18.459793",
+      "question_length": 22,
+      "answer_length": 90,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00162",
+    "instruction": "SAS 프로그램 사용법을 모르겠어요",
+    "input": "",
+    "output": "'고객지원 > 교육자료'에서 SAS 기초 교육자료를 다운로드하여 학습하세요. 또한 SAS 공식 문서와 HIRA 브리프에서 사용 팁을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_298",
+      "created_at": "2025-11-18T05:58:18.424223",
+      "question_length": 19,
+      "answer_length": 85,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00600",
+    "instruction": "게시판에 올린 질문는 언제 답변되나요?",
+    "input": "",
+    "output": "보통 1-3일 내에 답변되며, 복잡한 문의는 더 걸릴 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "particle",
+      "source_id": "customer_support_317",
+      "created_at": "2025-11-18T05:58:18.466298",
+      "question_length": 21,
+      "answer_length": 37,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_00575",
+    "instruction": "승인 거부된 경우 어떤 방법으로 하나요?",
+    "input": "",
+    "output": "승인 거부 사유를 확인하고, 연구계획서를 보완하여 재신청할 수 있습니다. IRB 승인서 누락, 연구 목적 불명확, 개인정보 보호 대책 미흡 등이 주요 거부 사유입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "interrogative",
+      "source_id": "customer_support_285",
+      "created_at": "2025-11-18T05:58:18.462567",
+      "question_length": 22,
+      "answer_length": 93,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01296",
+    "instruction": "033-739-1018가 뭔가요?",
+    "input": "",
+    "output": "'고객지원 > 교육자료' 메뉴에서 다운로드할 수 있습니다. 초급(SAS 기본 쿼리, 데이터 처리), 중급(SQL, 통계분석), 고급(분석 설계, 사례) 과정으로 구성되어 있으며, PDF 파일로 제공됩니다. 로그인 후 이용 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.302391",
+      "question_length": 18,
+      "answer_length": 130,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_00554",
+    "instruction": "개인정보 처리방침는 어디서 확인하나요?",
+    "input": "",
+    "output": "메인 화면 하단의 '개인정보 처리방침' 링크를 클릭하면 HIRA의 개인정보 수집, 이용, 보관, 파기 정책을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "particle",
+      "source_id": "customer_support_274",
+      "created_at": "2025-11-18T05:58:18.461449",
+      "question_length": 21,
+      "answer_length": 72,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_01415",
+    "instruction": "교육자료 (고급)와 데이터 다운로드 문제의 차이는?",
+    "input": "",
+    "output": "HIRA 빅교육자료 (고급)와 데이터 다운로드 문제 브리프는 보건의료 빅데이터 활용 방법을 소개하는 정기 소식지입니다. 분석 사례, 활용 팁, 새로운 기능, 우수 연구 소개 등이 담겨 있으며, '고객지원 > HIRA 빅데이터 브리프' 메뉴에서 무료로 열람할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304621",
+      "question_length": 28,
+      "answer_length": 151,
+      "quality_score": 0.8
+    }
+  },
+  {
+    "id": "hira_customer_support_00541",
+    "instruction": "FAQ는 어디에 있어요?",
+    "input": "",
+    "output": "'고객지원 > 자주 묻는 질문(FAQ)' 메뉴에서 자료신청, 데이터 활용, 시스템 사용 등에 대한 자주 묻는 질문과 답변을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_265",
+      "created_at": "2025-11-18T05:58:18.460156",
+      "question_length": 13,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01170",
+    "instruction": "교육자료 (중급) 신청 어느 곳에서 할 수 있나요?",
+    "input": "",
+    "output": "opendata.hira.or.kr 메인 화면에서 '회원가입' 버튼을 클릭하고, 이메일 또는 공동인증서로 가입할 수 있습니다. 기본 정보 입력 후 이메일 인증을 완료하면 회원가입이 완료됩니다. 가입 후 자료신청 및 SAS Studio 등의 서비스를 이용할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.298622",
+      "question_length": 28,
+      "answer_length": 150,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00585",
+    "instruction": "연구 결과를 엑셀로 저장하려면?",
+    "input": "",
+    "output": "SAS에서 PROC EXPORT를 사용하여 결과를 CSV 또는 엑셀 형식으로 저장할 수 있습니다. 저장된 파일은 반출 심사를 거쳐 다운로드할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "synonym",
+      "source_id": "customer_support_302",
+      "created_at": "2025-11-18T05:58:18.464724",
+      "question_length": 17,
+      "answer_length": 86,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01229",
+    "instruction": "접속불가이란 무엇인가요?",
+    "input": "",
+    "output": "HIRA 보건의료빅데이터개방시스템은 PC 웹 환경에 최적화되어 있습니다. 모바일에서는 공지사항, 통계 조회 등 일부 기능만 이용 가능하며, 자료신청과 분석은 PC 사용을 권장합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.299984",
+      "question_length": 13,
+      "answer_length": 101,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00553",
+    "instruction": "개인정보 처리방침은 어느 곳에서 확인하나요?",
+    "input": "",
+    "output": "메인 화면 하단의 '개인정보 처리방침' 링크를 클릭하면 HIRA의 개인정보 수집, 이용, 보관, 파기 정책을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "interrogative",
+      "source_id": "customer_support_274",
+      "created_at": "2025-11-18T05:58:18.461444",
+      "question_length": 24,
+      "answer_length": 72,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_01257",
+    "instruction": "문의에 대해 알려주세요",
+    "input": "",
+    "output": "'고객지원 > 자주 묻는 질문(FAQ)' 메뉴에서 자료신청, 데이터 활용, 시스템 사용 등에 대한 자주 묻는 질문과 답변을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.301191",
+      "question_length": 12,
+      "answer_length": 80,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00565",
+    "instruction": "이용 약관은 어디서 확인할까요?",
+    "input": "",
+    "output": "메인 화면 하단의 '이용 약관' 링크를 클릭하면 서비스 이용 조건, 금지 행위, 책임 사항 등을 확인할 수 있습니다. 회원가입 시 약관 동의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_278",
+      "created_at": "2025-11-18T05:58:18.461976",
+      "question_length": 17,
+      "answer_length": 86,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_00590",
+    "instruction": "해외 연구자도 신청 가능해요?",
+    "input": "",
+    "output": "한국 소속 기관이 있는 경우 신청 가능하며, IRB 승인과 재직증명서가 필요합니다. 순수 해외 연구자는 국내 공동연구자와 함께 신청해야 합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_307",
+      "created_at": "2025-11-18T05:58:18.465176",
+      "question_length": 16,
+      "answer_length": 80,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01411",
+    "instruction": "교육자료 (초급)와 데이터 다운로드 문제의 차이는?",
+    "input": "",
+    "output": "HIRA 교육자료 (초급)와 데이터 다운로드 문제는 공공 목적의 연구, 통계, 교육용으로만 사용 가능하며, 상업적 이용은 금지됩니다. 영리 목적 사용 시 별도 협의가 필요합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304533",
+      "question_length": 28,
+      "answer_length": 99,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_customer_support_00517",
+    "instruction": "회원가입은 어떻게 할까요?",
+    "input": "",
+    "output": "opendata.hira.or.kr 메인 화면에서 '회원가입' 버튼을 클릭하고, 이메일 또는 공동인증서로 가입할 수 있습니다. 기본 정보 입력 후 이메일 인증을 완료하면 회원가입이 완료됩니다. 가입 후 자료신청 및 SAS Studio 등의 서비스를 이용할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_252",
+      "created_at": "2025-11-18T05:58:18.458625",
+      "question_length": 14,
+      "answer_length": 150,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01133",
+    "instruction": "자료실 어떻게 해요?",
+    "input": "",
+    "output": "HIRA 보건의료빅데이터개방시스템은 PC 웹 환경에 최적화되어 있습니다. 모바일에서는 공지사항, 통계 조회 등 일부 기능만 이용 가능하며, 자료신청과 분석은 PC 사용을 권장합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.297756",
+      "question_length": 11,
+      "answer_length": 101,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_01419",
+    "instruction": "1:1 문의와 연락처의 차이는?",
+    "input": "",
+    "output": "시스템 점검 일정은 '고객지원 > 공지사항'에 사전 공지됩니다. 정기 점검은 통상 매월 마지막 주 일요일에 진행되며, 긴급 점검 시에도 공지사항에 안내됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304663",
+      "question_length": 17,
+      "answer_length": 88,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_customer_support_00550",
+    "instruction": "모바일에서도 이용 가능할까요?",
+    "input": "",
+    "output": "HIRA 보건의료빅데이터개방시스템은 PC 웹 환경에 최적화되어 있습니다. 모바일에서는 공지사항, 통계 조회 등 일부 기능만 이용 가능하며, 자료신청과 분석은 PC 사용을 권장합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "ending",
+      "source_id": "customer_support_272",
+      "created_at": "2025-11-18T05:58:18.461287",
+      "question_length": 16,
+      "answer_length": 101,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_customer_support_00596",
+    "instruction": "교육 프로그램은 언제 진행됩니까?",
+    "input": "",
+    "output": "정기적으로 진행되며, 공지사항에서 일정을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_311",
+      "created_at": "2025-11-18T05:58:18.465616",
+      "question_length": 18,
+      "answer_length": 34,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_customer_support_01199",
+    "instruction": "1:1 문의 어떻게 해요?",
+    "input": "",
+    "output": "'고객지원 > 교육자료' 메뉴에서 다운로드할 수 있습니다. 초급(SAS 기본 쿼리, 데이터 처리), 중급(SQL, 통계분석), 고급(분석 설계, 사례) 과정으로 구성되어 있으며, PDF 파일로 제공됩니다. 로그인 후 이용 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.299282",
+      "question_length": 14,
+      "answer_length": 130,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_00137",
+    "instruction": "교육자료는 어디서 받나요?",
+    "input": "",
+    "output": "'고객지원 > 교육자료' 메뉴에서 다운로드할 수 있습니다. 초급(SAS 기본 쿼리, 데이터 처리), 중급(SQL, 통계분석), 고급(분석 설계, 사례) 과정으로 구성되어 있으며, PDF 파일로 제공됩니다. 로그인 후 이용 가능합니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "original",
+      "source_id": "customer_support_254",
+      "created_at": "2025-11-18T05:58:18.424117",
+      "question_length": 14,
+      "answer_length": 130,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_customer_support_01164",
+    "instruction": "교육자료 (중급) 신청 어느 메뉴에서 하나요?",
+    "input": "",
+    "output": "로그인 후 '보건의료빅데이터 > MY분석과제 목록' 메뉴에서 신청한 과제의 진행 상황, 승인 여부, 이용 기간을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.298543",
+      "question_length": 25,
+      "answer_length": 74,
+      "quality_score": 0.75
+    }
+  }
+]
