@@ -1,0 +1,478 @@
+[
+  {
+    "id": "hira_medical_statistics_00921",
+    "instruction": "자보가 뭔가요?",
+    "input": "",
+    "output": "'의료통계정보 > 총진료비 현황' 메뉴에서 조회할 수 있습니다. 연도별, 진료과목별, 지역별, 연령대별 진료비를 확인할 수 있으며, OLAP 서비스를 통해 다차원 분석과 시각화가 가능합니다. 엑셀 다운로드도 지원됩니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.292442",
+      "question_length": 8,
+      "answer_length": 122,
+      "quality_score": 0.7000000000000001
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00407",
+    "instruction": "OLAP에서 내가 원하는 조합으로 분석할 수 있어요?",
+    "input": "",
+    "output": "네, 원하는 차원을 자유롭게 조합하여 분석할 수 있습니다. 예: 서울지역 60대 남성의 당뇨 진료비 추이. 최대 5개 차원까지 동시 분석 가능합니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "combo",
+      "source_id": "medical_statistics_158",
+      "created_at": "2025-11-18T05:58:18.446367",
+      "question_length": 29,
+      "answer_length": 83,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00439",
+    "instruction": "과거 10년 추이를 볼 수 있을까요?",
+    "input": "",
+    "output": "네, 연도 범위를 선택하면 과거 통계와 비교하여 추이를 분석할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "combo",
+      "source_id": "medical_statistics_185",
+      "created_at": "2025-11-18T05:58:18.449886",
+      "question_length": 20,
+      "answer_length": 42,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00998",
+    "instruction": "요양기관 통계 방법은?",
+    "input": "",
+    "output": "교통사고로 인한 진료 통계로, 자동차보험으로 청구된 진료비를 분석할 수 있습니다. 사고 유형별, 상해 부위별 진료비와 진료 패턴을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.293697",
+      "question_length": 12,
+      "answer_length": 84,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00104",
+    "instruction": "연령대별 통계는 어떻게 보나요?",
+    "input": "",
+    "output": "통계 조회 시 연령 조건을 10세 단위로 선택하여 연령대별로 비교할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "original",
+      "source_id": "medical_statistics_187",
+      "created_at": "2025-11-18T05:58:18.423870",
+      "question_length": 17,
+      "answer_length": 45,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00087",
+    "instruction": "OLAP에서 내가 원하는 조합으로 분석할 수 있나요?",
+    "input": "",
+    "output": "네, 원하는 차원을 자유롭게 조합하여 분석할 수 있습니다. 예: 서울지역 60대 남성의 당뇨 진료비 추이. 최대 5개 차원까지 동시 분석 가능합니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "original",
+      "source_id": "medical_statistics_158",
+      "created_at": "2025-11-18T05:58:18.423808",
+      "question_length": 29,
+      "answer_length": 83,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00995",
+    "instruction": "병원이란 무엇인가요?",
+    "input": "",
+    "output": "교통사고로 인한 진료 통계로, 자동차보험으로 청구된 진료비를 분석할 수 있습니다. 사고 유형별, 상해 부위별 진료비와 진료 패턴을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.293658",
+      "question_length": 11,
+      "answer_length": 84,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00391",
+    "instruction": "치료재료 통계 조회 절차",
+    "input": "",
+    "output": "'의료통계정보 > 치료재료 청구 정보' 메뉴에서 조회할 수 있습니다. 치료재료 코드별 사용 건수, 금액, 주요 사용 의료기관 등을 확인할 수 있습니다. 의료기기 및 소모품 사용 현황 파악에 유용합니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "synonym",
+      "source_id": "medical_statistics_147",
+      "created_at": "2025-11-18T05:58:18.444789",
+      "question_length": 13,
+      "answer_length": 112,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00884",
+    "instruction": "건강보험 진료 통계 어떻게 하나요?",
+    "input": "",
+    "output": "HIRA 통계는 전 국민 청구 데이터를 기반으로 하므로 높은 신뢰성을 가집니다. 다만 비급여 진료는 포함되지 않아, 전체 의료비와 차이가 있을 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.291850",
+      "question_length": 19,
+      "answer_length": 87,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_medical_statistics_01384",
+    "instruction": "질병 세분류(4단 상병) 통계와 OLAP 서비스의 차이는?",
+    "input": "",
+    "output": "네, 연도를 범위로 선택하면 과거 통계와 비교할 수 있습니다. 추세 분석, 증가율 계산 등이 가능하며, 시계열 그래프로 시각화할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304049",
+      "question_length": 32,
+      "answer_length": 79,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00897",
+    "instruction": "의료급여 진료 통계 신청 가능한가요?",
+    "input": "",
+    "output": "HIRA는 진료비 청구 데이터를 다루므로, 국민건강보험공단의 건강검진 통계는 제공되지 않습니다. 검진 후 진료로 이어진 경우만 데이터에 포함됩니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_confirmation",
+      "created_at": "2025-11-18T06:00:07.292100",
+      "question_length": 20,
+      "answer_length": 82,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_medical_statistics_01023",
+    "instruction": "대시보드가 뭔가요?",
+    "input": "",
+    "output": "고혈압, 당뇨, 고지혈증, 만성신장질환 등을 상병코드로 조회할 수 있습니다. 적정성평가 통계에서 만성질환 관리 수준도 확인 가능합니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.294056",
+      "question_length": 10,
+      "answer_length": 75,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_medical_statistics_01362",
+    "instruction": "총진료비 현황와 의료급여 진료 통계의 차이는?",
+    "input": "",
+    "output": "진료과목을 치과로 선택하면 치과 진료 통계를 조회할 수 있습니다. 보존, 보철, 임플란트, 교정 등 치과 세부 진료별 통계도 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.303823",
+      "question_length": 25,
+      "answer_length": 75,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_medical_statistics_01022",
+    "instruction": "시각화 뜻을 알려주세요",
+    "input": "",
+    "output": "네, 원하는 차원을 자유롭게 조합하여 분석할 수 있습니다. 예: 서울지역 60대 남성의 당뇨 진료비 추이. 최대 5개 차원까지 동시 분석 가능합니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.294048",
+      "question_length": 12,
+      "answer_length": 83,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00987",
+    "instruction": "처방건수이란 무엇인가요?",
+    "input": "",
+    "output": "총진료비 현황 또는 건강보험 진료통계 메뉴에서 진료과목(내과, 외과, 정형외과 등)을 선택하여 조회할 수 있습니다. 진료과목별 진료비, 진료건수, 환자 수를 비교할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.293478",
+      "question_length": 13,
+      "answer_length": 99,
+      "quality_score": 0.75
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00863",
+    "instruction": "총진료비 현황 신청은 어디에서 가능한가요?",
+    "input": "",
+    "output": "네, 원하는 차원을 자유롭게 조합하여 분석할 수 있습니다. 예: 서울지역 60대 남성의 당뇨 진료비 추이. 최대 5개 차원까지 동시 분석 가능합니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.291568",
+      "question_length": 23,
+      "answer_length": 83,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00922",
+    "instruction": "자동차보험의 의미는?",
+    "input": "",
+    "output": "총진료비 현황 또는 건강보험 진료통계 메뉴에서 진료과목(내과, 외과, 정형외과 등)을 선택하여 조회할 수 있습니다. 진료과목별 진료비, 진료건수, 환자 수를 비교할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.292475",
+      "question_length": 11,
+      "answer_length": 99,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_medical_statistics_01379",
+    "instruction": "자동차보험 진료비 통계와 처방전 통계의 차이는?",
+    "input": "",
+    "output": "건강보험 진료통계에서 입원/외래 구분을 선택하여 입원 통계를 조회할 수 있습니다. 평균 재원일수, 입원 진료비, 입원 다빈도 질환을 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304014",
+      "question_length": 26,
+      "answer_length": 85,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00888",
+    "instruction": "건강보험의 의미는?",
+    "input": "",
+    "output": "질병 세분류 통계 메뉴에서 '진료인원순' 또는 '진료건수순'으로 정렬하면 다빈도 질병을 확인할 수 있습니다. TOP 10, TOP 20, TOP 50 등으로 제공됩니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.291915",
+      "question_length": 10,
+      "answer_length": 94,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00103",
+    "instruction": "과거 10년 추이를 볼 수 있나요?",
+    "input": "",
+    "output": "네, 연도 범위를 선택하면 과거 통계와 비교하여 추이를 분석할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "original",
+      "source_id": "medical_statistics_185",
+      "created_at": "2025-11-18T05:58:18.423867",
+      "question_length": 19,
+      "answer_length": 42,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00443",
+    "instruction": "병원 종별 통계은?",
+    "input": "",
+    "output": "요양기관 통계에서 상급종합, 종합병원, 병원, 의원별 통계를 비교할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "combo",
+      "source_id": "medical_statistics_191",
+      "created_at": "2025-11-18T05:58:18.450671",
+      "question_length": 10,
+      "answer_length": 45,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00991",
+    "instruction": "처방가 뭔가요?",
+    "input": "",
+    "output": "총진료비 현황 또는 건강보험 통계에서 응급의학과 진료를 필터링하면 응급실 이용 통계를 확인할 수 있습니다. 응급 질환, 방문 시간대 등을 분석할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.293584",
+      "question_length": 8,
+      "answer_length": 88,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00419",
+    "instruction": "암 통계는 별도로 있죠?",
+    "input": "",
+    "output": "질병 세분류 통계에서 암 상병코드(C코드)를 검색하거나, 산정특례 통계에서 암환자 통계를 확인할 수 있습니다. 암 종류별, 성별, 연령별 통계가 제공됩니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "ending",
+      "source_id": "medical_statistics_162",
+      "created_at": "2025-11-18T05:58:18.446814",
+      "question_length": 13,
+      "answer_length": 87,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00974",
+    "instruction": "평가결과 통계 어떻게 하나요?",
+    "input": "",
+    "output": "건강보험 진료통계는 전 국민 대상 건강보험 진료 내역이고, 의료급여 통계는 저소득층 수급자 대상 의료급여 내역입니다. 각각 별도 메뉴에서 조회 가능하며, 대상자 특성 차이를 고려한 분석이 필요합니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.293288",
+      "question_length": 16,
+      "answer_length": 111,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00392",
+    "instruction": "진료과목별 통계자료는 어떻게 보나요?",
+    "input": "",
+    "output": "총진료비 현황 또는 건강보험 진료통계 메뉴에서 진료과목(내과, 외과, 정형외과 등)을 선택하여 조회할 수 있습니다. 진료과목별 진료비, 진료건수, 환자 수를 비교할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "synonym",
+      "source_id": "medical_statistics_150",
+      "created_at": "2025-11-18T05:58:18.445221",
+      "question_length": 20,
+      "answer_length": 99,
+      "quality_score": 0.85
+    }
+  },
+  {
+    "id": "hira_medical_statistics_01274",
+    "instruction": "통계에 대해 알려주세요",
+    "input": "",
+    "output": "의약품 통계에서 항생제로 필터링하거나, 평가결과 통계에서 항생제 적정성 평가를 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.301854",
+      "question_length": 12,
+      "answer_length": 55,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00956",
+    "instruction": "소모품이란 무엇인가요?",
+    "input": "",
+    "output": "질병 세분류 통계에서 암 상병코드(C코드)를 검색하거나, 산정특례 통계에서 암환자 통계를 확인할 수 있습니다. 암 종류별, 성별, 연령별 통계가 제공됩니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.293020",
+      "question_length": 12,
+      "answer_length": 87,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00091",
+    "instruction": "감염병 통계는?",
+    "input": "",
+    "output": "질병 세분류 통계에서 감염병 상병코드(A, B코드)로 조회할 수 있습니다. 최근 유행하는 감염병, 계절별 감염병 통계를 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "original",
+      "source_id": "medical_statistics_164",
+      "created_at": "2025-11-18T05:58:18.423823",
+      "question_length": 8,
+      "answer_length": 78,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_medical_statistics_01262",
+    "instruction": "진단에 대해 알려주세요",
+    "input": "",
+    "output": "'의료통계정보 > 총진료비 현황' 메뉴에서 조회할 수 있습니다. 연도별, 진료과목별, 지역별, 연령대별 진료비를 확인할 수 있으며, OLAP 서비스를 통해 다차원 분석과 시각화가 가능합니다. 엑셀 다운로드도 지원됩니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.301422",
+      "question_length": 12,
+      "answer_length": 122,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00415",
+    "instruction": "다빈도 질병 순위은 어디서 보나요?",
+    "input": "",
+    "output": "질병 세분류 통계 메뉴에서 '진료인원순' 또는 '진료건수순'으로 정렬하면 다빈도 질병을 확인할 수 있습니다. TOP 10, TOP 20, TOP 50 등으로 제공됩니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "particle",
+      "source_id": "medical_statistics_161",
+      "created_at": "2025-11-18T05:58:18.446712",
+      "question_length": 19,
+      "answer_length": 94,
+      "quality_score": 0.85
+    }
+  },
+  {
+    "id": "hira_medical_statistics_00994",
+    "instruction": "의약품 뜻을 알려주세요",
+    "input": "",
+    "output": "'의료통계정보 > 질병 세분류(4단 상병) 통계' 메뉴에서 조회 가능합니다. 상병코드를 입력하거나 질병명으로 검색하면 해당 질병의 진료인원, 진료비, 진료건수를 확인할 수 있습니다. 연도별 추이 분석도 가능합니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.293632",
+      "question_length": 12,
+      "answer_length": 119,
+      "quality_score": 0.65
+    }
+  }
+]

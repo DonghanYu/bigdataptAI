@@ -1,0 +1,560 @@
+[
+  {
+    "id": "hira_healthcare_bigdata_00813",
+    "instruction": "중급가 뭔가요?",
+    "input": "",
+    "output": "연구에 필요한 참고 데이터(코드북, 매핑 테이블 등)는 승인 후 반입 가능합니다. 개인정보나 상업 데이터는 반입이 제한됩니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.290205",
+      "question_length": 8,
+      "answer_length": 70,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_01295",
+    "instruction": "연구가 뭔가요?",
+    "input": "",
+    "output": "원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 USB로 가져갈 수 있습니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.302381",
+      "question_length": 8,
+      "answer_length": 50,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_01360",
+    "instruction": "승인 절차와 데이터 보안의 차이는?",
+    "input": "",
+    "output": "'보건의료빅승인 절차와 데이터 보안 > 교육자료' 메뉴에서 초급, 중급, 고급 과정 자료를 PDF로 다운로드할 수 있습니다. 로그인 후 무료로 이용 가능합니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.303521",
+      "question_length": 19,
+      "answer_length": 89,
+      "quality_score": 0.8
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_01333",
+    "instruction": "의료영상 데이터와 빅데이터분석 연습의 차이는?",
+    "input": "",
+    "output": "환자표본 의료영상 데이터와 빅데이터분석 연습는 무료로 제공됩니다. 맞춤형 연구분석 데이터는 데이터 추출 규모, 분석 기간에 따라 비용이 발생할 수 있습니다. 정확한 비용은 자료신청 시 안내받을 수 있으며, 학술 연구 목적은 감면될 수 있습니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.303192",
+      "question_length": 25,
+      "answer_length": 136,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00383",
+    "instruction": "3인 미만 셀은 왜 반출이 안 돼요?",
+    "input": "",
+    "output": "통계법에 따라 개인 식별 위험이 높아 3인 미만 셀은 반출이 금지됩니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "ending",
+      "source_id": "healthcare_bigdata_143",
+      "created_at": "2025-11-18T05:58:18.444302",
+      "question_length": 20,
+      "answer_length": 40,
+      "quality_score": 0.7000000000000001
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00067",
+    "instruction": "변수 선택은 어떻게 하나요?",
+    "input": "",
+    "output": "자료실의 '데이터 구조 설명서'를 참고하여 필요한 변수를 선택하세요. 모든 변수를 신청하면 용량이 커지므로, 연구에 필수적인 변수만 선택하는 것이 좋습니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "original",
+      "source_id": "healthcare_bigdata_118",
+      "created_at": "2025-11-18T05:58:18.423717",
+      "question_length": 15,
+      "answer_length": 87,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00846",
+    "instruction": "승인 뜻을 알려주세요",
+    "input": "",
+    "output": "CDM(Common Data Model) 데이터는 국제 표준 형식으로 변환된 데이터입니다. '보건의료빅데이터 > CDM 데이터' 메뉴에서 신청하며, OMOP CDM 형식으로 제공됩니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.291219",
+      "question_length": 11,
+      "answer_length": 103,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_01289",
+    "instruction": "표본에 대해 알려주세요",
+    "input": "",
+    "output": "기존 과제에 데이터를 추가하려면 '데이터 추가 신청' 메뉴를 이용하세요. 추가 사유와 필요한 데이터를 명시하면 검토 후 승인됩니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.302277",
+      "question_length": 12,
+      "answer_length": 73,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00065",
+    "instruction": "맞춤형 데이터 비용은 얼마나 되나요?",
+    "input": "",
+    "output": "데이터 추출 규모(건수, 기간), 분석 기간(개월)에 따라 차등 적용됩니다. 학술 연구는 감면되며, 정확한 비용은 신청 시 견적을 받을 수 있습니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "original",
+      "source_id": "healthcare_bigdata_116",
+      "created_at": "2025-11-18T05:58:18.423714",
+      "question_length": 20,
+      "answer_length": 83,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00334",
+    "instruction": "분석 결과 반출 절차은?",
+    "input": "",
+    "output": "1) SAS에서 분석 결과 저장, 2) '반출 신청' 메뉴에서 파일 선택 및 사유 작성, 3) 담당자 심사(1-3일), 4) 승인 시 다운로드 가능. 개인 식별 정보가 없어야 승인됩니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "particle",
+      "source_id": "healthcare_bigdata_106",
+      "created_at": "2025-11-18T05:58:18.440112",
+      "question_length": 13,
+      "answer_length": 104,
+      "quality_score": 0.8
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00374",
+    "instruction": "여러 연도 데가터를 한번에 신청할 수 있나요?",
+    "input": "",
+    "output": "네, 필요한 연도를 모두 선택하여 한번에 신청할 수 있습니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "particle",
+      "source_id": "healthcare_bigdata_133",
+      "created_at": "2025-11-18T05:58:18.443133",
+      "question_length": 25,
+      "answer_length": 34,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00320",
+    "instruction": "연구과제 변경은 하나요?",
+    "input": "",
+    "output": "MY분석과제 목록에서 '과제 변경 신청'을 선택하고, 변경 사유와 새로운 연구 계획을 제출하세요. 중대한 변경은 재심사가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "abbreviation",
+      "source_id": "healthcare_bigdata_101",
+      "created_at": "2025-11-18T05:58:18.439588",
+      "question_length": 13,
+      "answer_length": 79,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00302",
+    "instruction": "연습용 데이터은 어떤 것인가요?",
+    "input": "",
+    "output": "연습용 데이터는 소규모 가상 데이터로, 실제 HIRA 데이터 구조와 동일하게 구성되어 있습니다. 분석 쿼리 작성, SAS 문법 학습 등에 활용할 수 있습니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "particle",
+      "source_id": "healthcare_bigdata_88",
+      "created_at": "2025-11-18T05:58:18.438065",
+      "question_length": 17,
+      "answer_length": 88,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00818",
+    "instruction": "신청 및 활용현황 절차를 알려주세요",
+    "input": "",
+    "output": "네, 2009-2018년 중 필요한 연도를 모두 신청할 수 있습니다. 단, 각 연도는 독립 추출되어 동일 환자를 추적하기 어려우므로, 코호트 연구는 맞춤형 데이터를 권장합니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.290531",
+      "question_length": 19,
+      "answer_length": 98,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00853",
+    "instruction": "데이터 보안 신청 가능한가요?",
+    "input": "",
+    "output": "SAS Studio 신청: 1) '보건의료빅데이터 보안 > SAS Studio 신청' 메뉴 접속, 2) 신청서 작성(이용 목적, 기간), 3) 제출 후 승인 대기(3-5일), 4) 승인 후 웹 접속 계정 발급, 5) 브라우저에서 SAS Studio 접속하여 분석. 별도 설치 없이 웹에서 바로 사용 가능합니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_confirmation",
+      "created_at": "2025-11-18T06:00:07.291343",
+      "question_length": 16,
+      "answer_length": 173,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00785",
+    "instruction": "MY분석과제 목록 신청은 어디서 하나요?",
+    "input": "",
+    "output": "MY분석과제 목록에서 '과제 중단 신청'을 선택하고 사유를 입력하세요. 중단 후 데이터는 즉시 삭제되며, 재개는 재신청이 필요합니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.289417",
+      "question_length": 22,
+      "answer_length": 74,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00369",
+    "instruction": "데이터 신청은 무료입니까?",
+    "input": "",
+    "output": "환자표본은 무료이고, 맞춤형 데이터는 규모에 따라 비용이 발생할 수 있으나 학술 연구는 감면됩니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "ending",
+      "source_id": "healthcare_bigdata_129",
+      "created_at": "2025-11-18T05:58:18.442709",
+      "question_length": 14,
+      "answer_length": 55,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00801",
+    "instruction": "빅데이터분석 연습 신청은 어디서 하나요?",
+    "input": "",
+    "output": "SAS Studio는 웹 기반 SAS 분석 환경으로, SAS 프로그래밍, 빅데이터분석 연습 탐색, 통계분석, 그래프 생성이 가능합니다. 환자표본 데이터를 업로드하여 분석하거나, 교육자료를 참고하여 학습할 수 있습니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.289825",
+      "question_length": 22,
+      "answer_length": 121,
+      "quality_score": 0.8
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00358",
+    "instruction": "작업 파일은 어디에 저장될까요?",
+    "input": "",
+    "output": "작업 파일은 HIRA 서버의 개인 작업 공간에 저장됩니다. 로컬 PC에 저장되지 않으며, 승인 기간 만료 시 자동 삭제되므로 중요 파일은 반출하세요.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "ending",
+      "source_id": "healthcare_bigdata_122",
+      "created_at": "2025-11-18T05:58:18.442035",
+      "question_length": 17,
+      "answer_length": 83,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00768",
+    "instruction": "이미지이란 무엇인가요?",
+    "input": "",
+    "output": "자료실의 '의료영상 데이터 구조 설명서'를 참고하여 필요한 변수를 선택하세요. 모든 변수를 신청하면 용량이 커지므로, 연구에 필수적인 변수만 선택하는 것이 좋습니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.289029",
+      "question_length": 12,
+      "answer_length": 92,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00037",
+    "instruction": "SAS Studio는 어떻게 신청하나요?",
+    "input": "",
+    "output": "SAS Studio 신청: 1) '보건의료빅데이터 > SAS Studio 신청' 메뉴 접속, 2) 신청서 작성(이용 목적, 기간), 3) 제출 후 승인 대기(3-5일), 4) 승인 후 웹 접속 계정 발급, 5) 브라우저에서 SAS Studio 접속하여 분석. 별도 설치 없이 웹에서 바로 사용 가능합니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "original",
+      "source_id": "healthcare_bigdata_71",
+      "created_at": "2025-11-18T05:58:18.423076",
+      "question_length": 22,
+      "answer_length": 170,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00763",
+    "instruction": "의료영상 데이터 신청은 어디에서 가능한가요?",
+    "input": "",
+    "output": "연구에 필요한 참고 의료영상 데이터(코드북, 매핑 테이블 등)는 승인 후 반입 가능합니다. 개인정보나 상업 데이터는 반입이 제한됩니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.288981",
+      "question_length": 24,
+      "answer_length": 75,
+      "quality_score": 0.7
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00307",
+    "instruction": "신청 현황은 어디서 확인할까요?",
+    "input": "",
+    "output": "'보건의료빅데이터 > 신청 및 활용현황' 메뉴에서 월별, 연도별 자료신청 통계, 주요 연구 주제, 활용 사례를 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "combo",
+      "source_id": "healthcare_bigdata_90",
+      "created_at": "2025-11-18T05:58:18.438335",
+      "question_length": 17,
+      "answer_length": 73,
+      "quality_score": 0.85
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00066",
+    "instruction": "데이터 추출은 직접 할 수 있나요?",
+    "input": "",
+    "output": "아니요, 데이터 추출은 HIRA 담당자가 연구 계획서에 따라 진행합니다. 연구자는 필요한 변수, 기간, 대상을 연구 계획서에 명확히 기재해야 합니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "original",
+      "source_id": "healthcare_bigdata_117",
+      "created_at": "2025-11-18T05:58:18.423716",
+      "question_length": 19,
+      "answer_length": 83,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00774",
+    "instruction": "CDM 데이터 신청 되나요?",
+    "input": "",
+    "output": "보안상 외부 패키지 설치는 제한됩니다. 필요한 SAS 매크로나 Python 패키지는 신청 시 미리 요청하면 검토 후 설치됩니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_confirmation",
+      "created_at": "2025-11-18T06:00:07.289212",
+      "question_length": 15,
+      "answer_length": 71,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00332",
+    "instruction": "과제 중단는 어떻게 하나요?",
+    "input": "",
+    "output": "MY분석과제 목록에서 '과제 중단 신청'을 선택하고 사유를 입력하세요. 중단 후 데이터는 즉시 삭제되며, 재개는 재신청이 필요합니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "combo",
+      "source_id": "healthcare_bigdata_105",
+      "created_at": "2025-11-18T05:58:18.439966",
+      "question_length": 15,
+      "answer_length": 74,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00815",
+    "instruction": "현황이란 무엇인가요?",
+    "input": "",
+    "output": "일반적으로 2-4주 소요되며, 서류 보완 요청이 있으면 더 걸릴 수 있습니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.290303",
+      "question_length": 11,
+      "answer_length": 43,
+      "quality_score": 0.6000000000000001
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00817",
+    "instruction": "신청 및 활용현황 어떻게 하나요?",
+    "input": "",
+    "output": "데이터 보안 서약서는 데이터를 연구 목적으로만 사용하고, 제3자에게 제공하지 않으며, 개인 식별을 시도하지 않겠다는 서약입니다. 신청 시 필수 제출 서류입니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.290334",
+      "question_length": 18,
+      "answer_length": 89,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00777",
+    "instruction": "표준데이터가 뭔가요?",
+    "input": "",
+    "output": "맞춤형 CDM 데이터 신청: 1) 자료신청서 및 연구계획서 작성, 2) IRB 승인서, 재직증명서, 개인정보 보호 서약서 제출, 3) 심사평가원 검토(2-4주), 4) 승인 시 분석 방법 선택(현장/원격), 5) 현장분석센터 방문 또는 원격 계정 발급, 6) 데이터 분석 수행, 7) 결과 반출 심사 후 자료 수령.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.289233",
+      "question_length": 11,
+      "answer_length": 176,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00308",
+    "instruction": "원격연구 이용 시간 제한이 있나요?",
+    "input": "",
+    "output": "원격분석은 24시간 이용 가능하나, 시스템 점검 시간(매월 마지막 주 일요일)에는 접속이 제한됩니다. 세션 타임아웃은 4시간이며, 연장 가능합니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "synonym",
+      "source_id": "healthcare_bigdata_92",
+      "created_at": "2025-11-18T05:58:18.438516",
+      "question_length": 19,
+      "answer_length": 82,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00344",
+    "instruction": "로그 파일도 반출돼요?",
+    "input": "",
+    "output": "SAS 로그 파일은 원시 데이터 경로, 변수명 등이 포함되어 반출이 제한될 수 있습니다. 필요 시 민감 정보를 삭제한 후 반출 신청하세요.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "combo",
+      "source_id": "healthcare_bigdata_111",
+      "created_at": "2025-11-18T05:58:18.440720",
+      "question_length": 12,
+      "answer_length": 77,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00270",
+    "instruction": "SAS Studio는 어떤 식으로 신청하나요?",
+    "input": "",
+    "output": "SAS Studio 신청: 1) '보건의료빅데이터 > SAS Studio 신청' 메뉴 접속, 2) 신청서 작성(이용 목적, 기간), 3) 제출 후 승인 대기(3-5일), 4) 승인 후 웹 접속 계정 발급, 5) 브라우저에서 SAS Studio 접속하여 분석. 별도 설치 없이 웹에서 바로 사용 가능합니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "synonym",
+      "source_id": "healthcare_bigdata_71",
+      "created_at": "2025-11-18T05:58:18.436316",
+      "question_length": 25,
+      "answer_length": 170,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00043",
+    "instruction": "환자표본을 여러 연도 신청할 수 있나요?",
+    "input": "",
+    "output": "네, 2009-2018년 중 필요한 연도를 모두 신청할 수 있습니다. 단, 각 연도는 독립 추출되어 동일 환자를 추적하기 어려우므로, 코호트 연구는 맞춤형 데이터를 권장합니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "original",
+      "source_id": "healthcare_bigdata_80",
+      "created_at": "2025-11-18T05:58:18.423634",
+      "question_length": 22,
+      "answer_length": 98,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00845",
+    "instruction": "승인이란 무엇인가요?",
+    "input": "",
+    "output": "연습용 데이터는 소규모 가상 데이터로, 실제 HIRA 데이터 구조와 동일하게 구성되어 있습니다. 분석 쿼리 작성, SAS 문법 학습 등에 활용할 수 있습니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.291213",
+      "question_length": 11,
+      "answer_length": 88,
+      "quality_score": 0.65
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_01347",
+    "instruction": "SAS Studio 신청와 승인 절차의 차이는?",
+    "input": "",
+    "output": "승인 기간 내 횟수 제한 없이 접속 가능합니다. 단, 동시 접속은 1개 세션만 가능하며, 다중 접속은 차단됩니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.303379",
+      "question_length": 26,
+      "answer_length": 63,
+      "quality_score": 0.6
+    }
+  },
+  {
+    "id": "hira_healthcare_bigdata_00061",
+    "instruction": "그래프도 반출 심사 대상인가요?",
+    "input": "",
+    "output": "네, 그래프도 반출 심사 대상입니다. 그래프에서 개인 식별 가능 정보나 3인 미만 데이터 포인트가 없는지 확인됩니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "original",
+      "source_id": "healthcare_bigdata_110",
+      "created_at": "2025-11-18T05:58:18.423702",
+      "question_length": 17,
+      "answer_length": 65,
+      "quality_score": 0.65
+    }
+  }
+]
