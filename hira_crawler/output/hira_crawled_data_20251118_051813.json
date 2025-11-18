@@ -1,0 +1,79 @@
+{
+  "site_info": {
+    "url": "https://opendata.hira.or.kr",
+    "crawled_at": "2025-11-18T05:18:11.685334",
+    "crawler_version": "1.0.0",
+    "engine": "Playwright",
+    "completed_at": "2025-11-18T05:18:13.751198"
+  },
+  "menus": [],
+  "pages": [
+    {
+      "name": "홈",
+      "url": "https://opendata.hira.or.kr/home.do",
+      "title": "",
+      "content_preview": "",
+      "content_length": 0,
+      "tables_count": 0,
+      "tables": [],
+      "links_count": 0,
+      "links": [],
+      "crawled_at": "2025-11-18T05:18:13.479533"
+    },
+    {
+      "name": "데이터 목록",
+      "url": "https://opendata.hira.or.kr/op/opc/selectOpenData.do",
+      "title": "",
+      "content_preview": "",
+      "content_length": 0,
+      "tables_count": 0,
+      "tables": [],
+      "links_count": 0,
+      "links": [],
+      "crawled_at": "2025-11-18T05:18:13.664281"
+    },
+    {
+      "name": "통계 목록",
+      "url": "https://opendata.hira.or.kr/st/stc/selectStcList.do",
+      "title": "",
+      "content_preview": "",
+      "content_length": 0,
+      "tables_count": 0,
+      "tables": [],
+      "links_count": 0,
+      "links": [],
+      "crawled_at": "2025-11-18T05:18:13.691543"
+    },
+    {
+      "name": "Open API",
+      "url": "https://opendata.hira.or.kr/op/opi/selectOpenApiList.do",
+      "title": "",
+      "content_preview": "",
+      "content_length": 0,
+      "tables_count": 0,
+      "tables": [],
+      "links_count": 0,
+      "links": [],
+      "crawled_at": "2025-11-18T05:18:13.720288"
+    },
+    {
+      "name": "서비스 소개",
+      "url": "https://opendata.hira.or.kr/cm/cm_info.do?pgmId=HIRAA010000000000",
+      "title": "",
+      "content_preview": "",
+      "content_length": 0,
+      "tables_count": 0,
+      "tables": [],
+      "links_count": 0,
+      "links": [],
+      "crawled_at": "2025-11-18T05:18:13.751014"
+    }
+  ],
+  "statistics": {
+    "total_menus": 0,
+    "total_pages": 5,
+    "total_links": 0,
+    "total_tables": 0,
+    "total_menu_links": 0
+  }
+}

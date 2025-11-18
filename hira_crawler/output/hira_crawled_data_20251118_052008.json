@@ -1,0 +1,19 @@
+{
+  "site_info": {
+    "url": "https://opendata.hira.or.kr",
+    "crawled_at": "2025-11-18T05:20:04.516561",
+    "crawler_version": "1.0.0",
+    "engine": "Requests",
+    "completed_at": "2025-11-18T05:20:08.132844"
+  },
+  "menus": [],
+  "pages": [],
+  "statistics": {
+    "total_menus": 0,
+    "total_pages": 0,
+    "total_links": 0,
+    "total_tables": 0,
+    "total_menu_links": 0,
+    "total_content_length": 0
+  }
+}
