@@ -1,0 +1,556 @@
+[
+  {
+    "id": "hira_healthcare_bigdata_00771",
+    "instruction": "CDM 데이터 어떻게 하나요?",
+    "input": "건강보험 및 의료 빅데이터 분석 서비스 관련 정보입니다.",
+    "output": "HIRA 빅CDM 데이터분석센터는 강원도 원주시에 위치하고 있습니다. 사전 예약 후 신분증을 지참하고 방문하면 전용 분석 PC를 이용하여 데이터 분석을 할 수 있습니다. 문의: 033-739-1018",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.289175",
+      "question_length": 16,
+      "answer_length": 111,
+      "quality_score": 0.75,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687654"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_customer_support_00594",
+    "instruction": "긴급 문의은 어떻게 하나요?",
+    "input": "HIRA 빅데이터 서비스 이용 관련 고객 지원 정보입니다.",
+    "output": "고객센터(033-739-1018)로 전화 문의하시면 빠른 도움을 받을 수 있습니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "particle",
+      "source_id": "customer_support_310",
+      "created_at": "2025-11-18T05:58:18.465519",
+      "question_length": 15,
+      "answer_length": 46,
+      "quality_score": 0.6000000000000001,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687688"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_healthcare_bigdata_00077",
+    "instruction": "3인 미만 셀은 왜 반출이 안 되나요?",
+    "input": "건강보험 및 의료 빅데이터 분석 서비스 관련 정보입니다.",
+    "output": "통계법에 따라 개인 식별 위험이 높아 3인 미만 셀은 반출이 금지됩니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "original",
+      "source_id": "healthcare_bigdata_143",
+      "created_at": "2025-11-18T05:58:18.423775",
+      "question_length": 21,
+      "answer_length": 40,
+      "quality_score": 0.7000000000000001,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687691"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_healthcare_bigdata_00858",
+    "instruction": "망분리이란 무엇인가요?",
+    "input": "건강보험 및 의료 빅데이터 분석 서비스 관련 정보입니다.",
+    "output": "HIRA 빅데이터 보안분석센터는 강원도 원주시에 위치하고 있습니다. 사전 예약 후 신분증을 지참하고 방문하면 전용 분석 PC를 이용하여 데이터 분석을 할 수 있습니다. 문의: 033-739-1018",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.291481",
+      "question_length": 12,
+      "answer_length": 110,
+      "quality_score": 0.65,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687701"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_public_data_01081",
+    "instruction": "파일이란 무엇인가요?",
+    "input": "공공데이터 포털 및 개방 데이터 관련 안내사항입니다.",
+    "output": "HIRA API는 버전이 URL에 포함되어 있습니다(예: /v1/, /v2/). 신규 버전 출시 시 공지되며, 구 버전은 일정 기간 호환됩니다. 최신 버전 사용을 권장합니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.296122",
+      "question_length": 11,
+      "answer_length": 97,
+      "quality_score": 0.7,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687703"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_medical_statistics_00104",
+    "instruction": "연령대별 통계는 어떻게 보나요?",
+    "input": "의료 통계 정보 조회 및 분석 서비스에 대한 내용입니다.",
+    "output": "통계 조회 시 연령 조건을 10세 단위로 선택하여 연령대별로 비교할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "original",
+      "source_id": "medical_statistics_187",
+      "created_at": "2025-11-18T05:58:18.423870",
+      "question_length": 17,
+      "answer_length": 45,
+      "quality_score": 0.65,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687727"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_customer_support_01404",
+    "instruction": "공지사항와 HIRA 빅데이터 브리프의 차이는?",
+    "input": "HIRA 빅데이터 서비스 이용 관련 고객 지원 정보입니다.",
+    "output": "HIRA 공지사항와 HIRA 빅데이터 브리프는 비식별 처리되어 제공되며, 망분리 환경에서만 분석 가능합니다. 원시 데이터 반출은 불가하고, 분석 결과만 반출 심사를 거쳐 제공됩니다. 보안 서약서 제출이 필수입니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.304344",
+      "question_length": 25,
+      "answer_length": 119,
+      "quality_score": 0.7,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687729"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_medical_statistics_01274",
+    "instruction": "통계에 대해 알려주세요",
+    "input": "의료 통계 정보 조회 및 분석 서비스에 대한 내용입니다.",
+    "output": "의약품 통계에서 항생제로 필터링하거나, 평가결과 통계에서 항생제 적정성 평가를 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_keyword_based",
+      "created_at": "2025-11-18T06:00:07.301854",
+      "question_length": 12,
+      "answer_length": 55,
+      "quality_score": 0.6,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687737"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_public_data_01097",
+    "instruction": "PDF이란 무엇인가요?",
+    "input": "공공데이터 포털 및 개방 데이터 관련 안내사항입니다.",
+    "output": "공지사항에서 시스템 점검 여부를 확인하고, 계속되면 공공데이터포털 고객센터(1577-0133)로 문의하세요. 장애 시 대체 서비스나 데이터셋을 활용할 수 있습니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.296538",
+      "question_length": 12,
+      "answer_length": 91,
+      "quality_score": 0.65,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687749"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_service_intro_00638",
+    "instruction": "빅데이터분석센터 신청 어느 메뉴에서 하나요?",
+    "input": "HIRA 건강보험심사평가원의 빅데이터 개방 서비스에 대한 안내입니다.",
+    "output": "환자표본은 연 1회 갱신되며, 통계정보는 분기별 또는 월별로 업데이트됩니다. 맞춤형 빅데이터분석센터는 신청 시점 기준 최신 데이터를 제공합니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.286199",
+      "question_length": 24,
+      "answer_length": 80,
+      "quality_score": 0.65,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687754"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_healthcare_bigdata_00783",
+    "instruction": "MY분석과제 목록 어떻게 해요?",
+    "input": "건강보험 및 의료 빅데이터 분석 서비스 관련 정보입니다.",
+    "output": "CDM 데이터는 국제 표준 용어(SNOMED, LOINC 등)로 변환되어 있어, 해외 데이터와 통합 분석이 가능합니다. 다기관 연구나 국제 협력 연구에 유리합니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_how_to",
+      "created_at": "2025-11-18T06:00:07.289408",
+      "question_length": 17,
+      "answer_length": 91,
+      "quality_score": 0.6,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687773"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_medical_statistics_00103",
+    "instruction": "과거 10년 추이를 볼 수 있나요?",
+    "input": "의료 통계 정보 조회 및 분석 서비스에 대한 내용입니다.",
+    "output": "네, 연도 범위를 선택하면 과거 통계와 비교하여 추이를 분석할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "original",
+      "source_id": "medical_statistics_185",
+      "created_at": "2025-11-18T05:58:18.423867",
+      "question_length": 19,
+      "answer_length": 42,
+      "quality_score": 0.6,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687845"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_public_data_01062",
+    "instruction": "병원정보이란 무엇인가요?",
+    "input": "공공데이터 포털 및 개방 데이터 관련 안내사항입니다.",
+    "output": "네, 운영계정으로 전환하고 이용 약관을 준수하면 상용 서비스에 사용 가능합니다. 다만 과도한 트래픽은 사전 협의가 필요할 수 있습니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.295311",
+      "question_length": 13,
+      "answer_length": 75,
+      "quality_score": 0.65,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687912"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_service_intro_00226",
+    "instruction": "명세서 번호의 의미은?",
+    "input": "HIRA 건강보험심사평가원의 빅데이터 개방 서비스에 대한 안내입니다.",
+    "output": "명세서 번호는 각 청구 건을 식별하는 고유 번호입니다. 같은 환자가 다른 날짜에 진료받으면 다른 명세서 번호가 부여됩니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "combo",
+      "source_id": "service_intro_32",
+      "created_at": "2025-11-18T05:58:18.432017",
+      "question_length": 12,
+      "answer_length": 68,
+      "quality_score": 0.6,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687928"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_medical_statistics_01023",
+    "instruction": "대시보드가 뭔가요?",
+    "input": "의료 통계 정보 조회 및 분석 서비스에 대한 내용입니다.",
+    "output": "고혈압, 당뇨, 고지혈증, 만성신장질환 등을 상병코드로 조회할 수 있습니다. 적정성평가 통계에서 만성질환 관리 수준도 확인 가능합니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.294056",
+      "question_length": 10,
+      "answer_length": 75,
+      "quality_score": 0.65,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687930"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_customer_support_00604",
+    "instruction": "탈퇴하려면 어떻게 하죠?",
+    "input": "HIRA 빅데이터 서비스 이용 관련 고객 지원 정보입니다.",
+    "output": "마이페이지에서 회원 탈퇴를 신청할 수 있으나, 진행 중인 과제가 있으면 제한됩니다.",
+    "metadata": {
+      "menu": "customer_support",
+      "menu_name": "고객지원",
+      "generation_method": "combo",
+      "source_id": "customer_support_322",
+      "created_at": "2025-11-18T05:58:18.466760",
+      "question_length": 13,
+      "answer_length": 46,
+      "quality_score": 0.6000000000000001,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687955"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_healthcare_bigdata_00803",
+    "instruction": "빅데이터분석 연습 신청은 어디에서 가능한가요?",
+    "input": "건강보험 및 의료 빅데이터 분석 서비스 관련 정보입니다.",
+    "output": "맞춤형 빅데이터분석 연습 신청: 1) 자료신청서 및 연구계획서 작성, 2) IRB 승인서, 재직증명서, 개인정보 보호 서약서 제출, 3) 심사평가원 검토(2-4주), 4) 승인 시 분석 방법 선택(현장/원격), 5) 현장분석센터 방문 또는 원격 계정 발급, 6) 데이터 분석 수행, 7) 결과 반출 심사 후 자료 수령.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_where",
+      "created_at": "2025-11-18T06:00:07.289840",
+      "question_length": 25,
+      "answer_length": 178,
+      "quality_score": 0.6000000000000001,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687986"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_healthcare_bigdata_00071",
+    "instruction": "외부 데이터 반입 가능한가요?",
+    "input": "건강보험 및 의료 빅데이터 분석 서비스 관련 정보입니다.",
+    "output": "연구에 필요한 참고 데이터(코드북, 매핑 테이블 등)는 승인 후 반입 가능합니다. 개인정보나 상업 데이터는 반입이 제한됩니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "original",
+      "source_id": "healthcare_bigdata_128",
+      "created_at": "2025-11-18T05:58:18.423740",
+      "question_length": 16,
+      "answer_length": 70,
+      "quality_score": 0.7,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687993"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_public_data_00132",
+    "instruction": "API 사용에 비용이 드나요?",
+    "input": "공공데이터 포털 및 개방 데이터 관련 안내사항입니다.",
+    "output": "기본 API는 무료이며, 일일 트래픽 한도가 있습니다. 대량 사용은 별도 협의가 필요합니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "original",
+      "source_id": "public_data_235",
+      "created_at": "2025-11-18T05:58:18.423989",
+      "question_length": 16,
+      "answer_length": 51,
+      "quality_score": 0.6,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.687995"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_service_intro_00023",
+    "instruction": "데이터 활용 사례는?",
+    "input": "HIRA 건강보험심사평가원의 빅데이터 개방 서비스에 대한 안내입니다.",
+    "output": "HIRA 데이터는 질병 역학 연구, 약물 안전성 연구, 의료이용 패턴 분석, 의료비 추이 분석, 정책 평가 등 다양한 분야에 활용됩니다. 고객지원 메뉴에서 우수 사례를 확인할 수 있습니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "original",
+      "source_id": "service_intro_44",
+      "created_at": "2025-11-18T05:58:18.423016",
+      "question_length": 11,
+      "answer_length": 105,
+      "quality_score": 0.7,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.688003"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_service_intro_00024",
+    "instruction": "빅데이터분석센터 위치는?",
+    "input": "HIRA 건강보험심사평가원의 빅데이터 개방 서비스에 대한 안내입니다.",
+    "output": "HIRA 빅데이터분석센터는 강원도 원주시 HIRA 본원 내에 있습니다. 현장분석을 원하면 사전 예약 후 방문하시기 바랍니다. 문의: 033-739-1018",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "original",
+      "source_id": "service_intro_46",
+      "created_at": "2025-11-18T05:58:18.423022",
+      "question_length": 13,
+      "answer_length": 86,
+      "quality_score": 0.6,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.688006"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_public_data_00122",
+    "instruction": "API 버전 관리는?",
+    "input": "공공데이터 포털 및 개방 데이터 관련 안내사항입니다.",
+    "output": "HIRA API는 버전이 URL에 포함되어 있습니다(예: /v1/, /v2/). 신규 버전 출시 시 공지되며, 구 버전은 일정 기간 호환됩니다. 최신 버전 사용을 권장합니다.",
+    "metadata": {
+      "menu": "public_data",
+      "menu_name": "공공데이터",
+      "generation_method": "original",
+      "source_id": "public_data_219",
+      "created_at": "2025-11-18T05:58:18.423950",
+      "question_length": 11,
+      "answer_length": 97,
+      "quality_score": 0.7000000000000001,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.688007"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_healthcare_bigdata_01329",
+    "instruction": "환자표본와 현장분석의 차이는?",
+    "input": "건강보험 및 의료 빅데이터 분석 서비스 관련 정보입니다.",
+    "output": "환자표본와 현장분석은 무료이고, 맞춤형 데이터는 규모에 따라 비용이 발생할 수 있으나 학술 연구는 감면됩니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.303153",
+      "question_length": 16,
+      "answer_length": 61,
+      "quality_score": 0.65,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.688023"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_medical_statistics_00443",
+    "instruction": "병원 종별 통계은?",
+    "input": "의료 통계 정보 조회 및 분석 서비스에 대한 내용입니다.",
+    "output": "요양기관 통계에서 상급종합, 종합병원, 병원, 의원별 통계를 비교할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "combo",
+      "source_id": "medical_statistics_191",
+      "created_at": "2025-11-18T05:58:18.450671",
+      "question_length": 10,
+      "answer_length": 45,
+      "quality_score": 0.6000000000000001,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.688025"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_service_intro_00026",
+    "instruction": "데이터 갱신 주기는?",
+    "input": "HIRA 건강보험심사평가원의 빅데이터 개방 서비스에 대한 안내입니다.",
+    "output": "환자표본은 연 1회 갱신되며, 통계정보는 분기별 또는 월별로 업데이트됩니다. 맞춤형 데이터는 신청 시점 기준 최신 데이터를 제공합니다.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "original",
+      "source_id": "service_intro_50",
+      "created_at": "2025-11-18T05:58:18.423029",
+      "question_length": 11,
+      "answer_length": 75,
+      "quality_score": 0.6,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.688068"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_service_intro_01306",
+    "instruction": "데이터 소개와 코드조회의 차이는?",
+    "input": "HIRA 건강보험심사평가원의 빅데이터 개방 서비스에 대한 안내입니다.",
+    "output": "데이터 소개와 코드조회(KCD 코드)는 '서비스 소개 > 용어설명 > 코드조회' 메뉴에서 확인할 수 있습니다. 질병명이나 코드로 검색 가능하며, 4단 상병코드까지 조회됩니다. 예: A00.0 콜레라 균에 의한 콜레라.",
+    "metadata": {
+      "menu": "service_intro",
+      "menu_name": "서비스 소개",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.302794",
+      "question_length": 18,
+      "answer_length": 121,
+      "quality_score": 0.8499999999999999,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.688091"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_healthcare_bigdata_00859",
+    "instruction": "보안 뜻을 알려주세요",
+    "input": "건강보험 및 의료 빅데이터 분석 서비스 관련 정보입니다.",
+    "output": "SAS 로그 파일은 원시 데이터 보안 경로, 변수명 등이 포함되어 반출이 제한될 수 있습니다. 필요 시 민감 정보를 삭제한 후 반출 신청하세요.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_topic_what_is",
+      "created_at": "2025-11-18T06:00:07.291507",
+      "question_length": 11,
+      "answer_length": 80,
+      "quality_score": 0.6,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.688099"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_healthcare_bigdata_01332",
+    "instruction": "의료영상 데이터와 SAS Studio 신청의 차이는?",
+    "input": "건강보험 및 의료 빅데이터 분석 서비스 관련 정보입니다.",
+    "output": "CDM 의료영상 데이터와 SAS Studio 신청는 국제 표준 용어(SNOMED, LOINC 등)로 변환되어 있어, 해외 데이터와 통합 분석이 가능합니다. 다기관 연구나 국제 협력 연구에 유리합니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.303185",
+      "question_length": 29,
+      "answer_length": 111,
+      "quality_score": 0.6000000000000001,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.688128"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_medical_statistics_00439",
+    "instruction": "과거 10년 추이를 볼 수 있을까요?",
+    "input": "의료 통계 정보 조회 및 분석 서비스에 대한 내용입니다.",
+    "output": "네, 연도 범위를 선택하면 과거 통계와 비교하여 추이를 분석할 수 있습니다.",
+    "metadata": {
+      "menu": "medical_statistics",
+      "menu_name": "의료통계정보",
+      "generation_method": "combo",
+      "source_id": "medical_statistics_185",
+      "created_at": "2025-11-18T05:58:18.449886",
+      "question_length": 20,
+      "answer_length": 42,
+      "quality_score": 0.6,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.688240"
+    },
+    "split": "val"
+  },
+  {
+    "id": "hira_healthcare_bigdata_01343",
+    "instruction": "MY분석과제 목록와 교육자료의 차이는?",
+    "input": "건강보험 및 의료 빅데이터 분석 서비스 관련 정보입니다.",
+    "output": "SAS Studio는 웹 기반 SAS 분석 환경으로, SAS 프로그래밍, 데이터 탐색, 통계분석, 그래프 생성이 가능합니다. 환자표본 데이터를 업로드하여 분석하거나, 교육자료를 참고하여 학습할 수 있습니다.",
+    "metadata": {
+      "menu": "healthcare_bigdata",
+      "menu_name": "보건의료빅데이터",
+      "generation_method": "template_combination",
+      "created_at": "2025-11-18T06:00:07.303307",
+      "question_length": 21,
+      "answer_length": 115,
+      "quality_score": 0.6,
+      "improved": true,
+      "improvement_date": "2025-11-19T08:54:09.688264"
+    },
+    "split": "val"
+  }
+]

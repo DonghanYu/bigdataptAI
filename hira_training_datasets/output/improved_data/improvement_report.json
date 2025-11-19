@@ -1,0 +1,27 @@
+{
+  "improvement_date": "2025-11-19T08:54:09.719476",
+  "original_count": 1423,
+  "improved_count": 444,
+  "removed_count": 979,
+  "retention_rate": 31.201686577652847,
+  "issues_detected": {
+    "qa_mismatches": 341,
+    "duplicate_answers": 219,
+    "empty_inputs": 1423
+  },
+  "improvements_made": {
+    "filtered_mismatches": 341,
+    "diversified_answers": 638,
+    "added_contexts": 444,
+    "expanded_texts": 0
+  },
+  "final_statistics": {
+    "train": 372,
+    "val": 30,
+    "test": 42,
+    "total": 444,
+    "avg_question_length": 15.27027027027027,
+    "avg_answer_length": 84.80405405405405,
+    "with_context": 444
+  }
+}
